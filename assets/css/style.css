@@ -1164,3 +1164,50 @@ section {
 .btn:hover i {
   font-size: 26px;
 }
+
+.btn1 {
+  position: relative;
+  height: 40px;
+  width: 95px;
+  margin: 5px;
+  background: rgb(255, 255, 255);
+  border-radius: 5%;
+  box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.9),
+    7px 7px 20px 0 rgba(0, 0, 0, 0.3);
+  transition: 0.2s;
+}
+
+.btn1:hover {
+  transform: scale(1.1);
+}
+
+.btn1::before {
+  content: "";
+  position: absolute;
+  height: 70%;
+  width: 80%;
+  background: rgb(255, 255, 255);
+  border-radius: 5%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn1:hover::before {
+  box-shadow: inset -7px -7px 20px 0 rgba(255, 255, 255, 1),
+    inset 7px 7px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.btn1 i {
+  position: absolute;
+  color: rgb(73, 192, 192);
+  font-size: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.2s;
+}
+
+.btn1:hover i {
+  font-size: 26px;
+}
