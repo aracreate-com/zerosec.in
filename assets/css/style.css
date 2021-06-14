@@ -61,96 +61,92 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 72px;
+  background: rgb(255,255,255);
   transition: all 0.5s;
   z-index: 997;
-  transition: all 0.5s;
-  padding: 15px 0;
-  background: #fff;
+  top: 0;
 }
 
 #header.header-scrolled {
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  top: 0;
+  background: rgb(255,255,255);
 }
 
-#header .logo h1 {
-  font-size: 28px;
+#header .logo {
+  font-size: 32px;
   margin: 0;
-  padding: 6px 0;
+  padding: 0;
   line-height: 1;
-  font-weight: 600;
-  letter-spacing: 1px;
-  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
-#header .logo h1 a, #header .logo h1 a:hover {
-  color: #576971;
-  text-decoration: none;
+#header .logo a {
+  color: #fff;
 }
 
 #header .logo img {
-  padding: 0;
-  margin: 0;
   max-height: 40px;
 }
 
-@media (max-width: 768px) {
-  #header .logo h1 {
+@media (max-width: 992px) {
+  #header {
+    top: 0;
+    padding: 15px 0;
+    background: transparent;
+  }
+  #header .logo {
     font-size: 28px;
-    padding: 8px 0;
   }
 }
 
-/*--------------------------------------------------------------
-# Header Social Links
---------------------------------------------------------------*/
-.header-social-links a {
-  color: #7b909a;
-  padding: 12px 0 12px 6px;
-  display: inline-block;
-  line-height: 1px;
-  transition: 0.3s;
-}
-
-.header-social-links a:hover {
-  color: #009cea;
-}
-
-@media (max-width: 768px) {
-  .header-social-links {
-    padding-right: 48px;
-  }
+.header-inner-pages {
+  background: rgba(0, 0, 0, 0.9) !important;
 }
 
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
-.nav-menu, .nav-menu * {
+.nav-menu ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
+.nav-menu > ul {
+  display: flex;
+}
+
 .nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
-  float: left;
+  padding: 18px 15px;
+  margin-left: 5px;
+  transition: 0.3s;
+}
+
+.nav-menu i{
+font-size: 30px;
 }
 
 .nav-menu a {
   display: block;
   position: relative;
-  color: #7b909a;
-  padding: 10px 15px;
+  color: #14b1ff;
   transition: 0.3s;
-  font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #009cea;
-  text-decoration: none;
+.nav-menu > ul > li:hover, .nav-menu .active{
+  background: #ffbf00;
+}
+
+.nav-menu li.active a, .nav-menu > ul > li:hover > a{
+  color: #fff;
 }
 
 .nav-menu .drop-down ul {
@@ -164,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 0;
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  transition: ease all 0.3s;
+  transition: 0.3s;
 }
 
 .nav-menu .drop-down:hover > ul {
@@ -181,12 +177,15 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu .drop-down ul a {
   padding: 10px 20px;
   font-size: 14px;
+  font-weight: 500;
   text-transform: none;
-  color: #003651;
+  color: #14b1ff;
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #009cea;
+  color: #fff;
+  background: #ffbf00;
+  height: 100%;
 }
 
 .nav-menu .drop-down > a:after {
@@ -233,7 +232,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-toggle {
   position: fixed;
   right: 15px;
-  top: 21px;
+  top: 15px;
   z-index: 9998;
   border: 0;
   background: none;
@@ -246,7 +245,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #009cea;
+  color: #14b1ff;;
 }
 
 .mobile-nav {
@@ -274,14 +273,14 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #364146;
+  color: #14b1ff;;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #009cea;
+  color: #ffbf00;
   text-decoration: none;
 }
 
@@ -317,7 +316,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(32, 38, 41, 0.6);
+  background: rgba(0, 0, 0, 0.6);
   overflow: hidden;
   display: none;
   transition: ease-in-out 0.2s;
