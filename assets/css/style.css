@@ -458,31 +458,42 @@ font-size: 30px;
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 100px 0;
+  padding: 50px 0;
   overflow: hidden;
 }
 
-.section-bg {
-  background-color: #f7f8f9;
-}
-
-.section-title {
+.section-heading {
+  margin-bottom: 50px;
   text-align: center;
-  padding-bottom: 30px;
 }
 
-.section-title h2 {
-  font-size: 32px;
-  font-weight: 400;
-  margin-bottom: 20px;
-  padding-bottom: 0;
-  font-family: "Poppins", sans-serif;
-  color: #627680;
+.section-heading h6 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #33ccc5;
+  text-transform: uppercase;
+  margin-bottom: 15px;
 }
 
-.section-title p {
-  margin-bottom: 0;
+.section-heading h2 {
+  font-size: 30px;
+  text-transform: capitalize;
+  color: #2a2a2a;
+  font-weight: 800;
+  position: relative;
+  z-index: 2;
+  line-height: 45px;
 }
+
+.section-heading h2 em {
+  font-style: normal;
+  color: #33ccc5;
+}
+
+.section-heading h2 span {
+  color: #088ec3;
+}
+
 
 /*--------------------------------------------------------------
 # About
