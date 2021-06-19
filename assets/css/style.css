@@ -1227,3 +1227,24 @@ padding: 30px 0;
 .btn:hover i {
   font-size: 26px;
 }
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.services_new{
+  padding: 30px;
+}
+
+.services_new .single-do.active{
+  box-shadow:0px 10px 30px 0px rgba(133,66,189,0.1);
+}
+
+.services_new .single-do{
+  -webkit-transition:all .3s ease-out 0s;
+  -moz-transition:all .3s ease-out 0s;
+  -ms-transition:all .3s ease-out 0s;
+  -o-transition:all .3s ease-out 0s;
+  transition:all .3s ease-out 0s;
+  padding:56px 5px 69px;
+  border-radius:6px;
+}
