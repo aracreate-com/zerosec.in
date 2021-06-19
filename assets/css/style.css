@@ -494,6 +494,73 @@ section {
   color: #088ec3;
 }
 
+/* Services Section
+--------------------------------*/
+.services {
+  padding: 40px 0;
+}
+
+.services .box {
+  padding: 20px;
+  box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+  background: #fff;
+  transition: 0.4s;
+  height: 100%;
+}
+
+.services .box .icon {
+  margin-top: 55px;
+  float: left;
+}
+
+.services .box .icon i {
+  color: #444;
+  font-size: 84px;
+  transition: 0.5s;
+  line-height: 0;
+}
+
+.services .box .icon i:before {
+  background: #088ec3;
+  background: linear-gradient(45deg, #088ec3 0%, #a3ebd5 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.services .box h4 {
+  margin-left: 100px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.services .box h4 a {
+  color: #444;
+}
+
+.services .box p {
+  font-size: 14px;
+  margin-left: 100px;
+  margin-bottom: 0;
+  line-height: 24px;
+}
+
+@media (max-width: 767px) {
+  .services .box .box {
+    margin-bottom: 20px;
+  }
+  .services .box .icon {
+    float: none;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  .services .box h4, .services .box p {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
