@@ -19,6 +19,8 @@
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -125,28 +127,6 @@
 
   <main id="main">
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-6" data-aos="zoom-in">
-            <img src="assets/img/hero-img.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 d-flex flex-column justify-contents-center" data-aos="fade-left">
-            <div class="content pt-4 pt-lg-0">
-              <h3>About Us</h3>
-              <p class="">
-                We are a for-profit social enterprise that delivers bespoke digital solutions, including offerings such as Data, Business and Legal process solutions for your outsourcing requirements</br>
-              </br>What makes us different is that we take <b>active responsibility</b> in the operations and <b>deliver quality results</b> at <b>competitive prices</b>. We are <b>invested in your growth</b>, and great results make our clients stay.
-              This is all done while also contributing to local community development.
-              </p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End About Section -->
     <section class="section"><img class="w-100" src="assets/img/come-on-join.png" alt="" />
         <div class="container">
           <div class="row align-items-center">
@@ -172,7 +152,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="single-do active text-center mb-30">
                     <div class="do-icon">
-                        <span  class="icofont-data"></span>
+                        <span class="icofont-data"></span>
                     </div>
                     <div class="do-caption">
                         <h4>Data Solutions</h4>
@@ -212,63 +192,93 @@
       </div>
     </section><!-- End Features Section -->
 
-      <!-- Testimonial Start -->
-              <!--<section class="testimonial-area testimonial-padding">
-                  <div class="container ">
-                     <div class="row align-items-center">
-                          <div class="col-lg-7 col-md-7">
-                              <div class="h1-testimonial-active">-->
-                                  <!-- Single Testimonial -->
-                                  <!--<div class="single-testimonial">-->
-                                       <!-- Testimonial Content -->
-                                      <!--<div class="testimonial-caption">-->
-                                          <!-- founder -->
-                                          <!--<div class="testimonial-founder d-flex align-items-center mb-30">
-                                              <div class="founder-img">
-                                                  <img src="assets/img/testmonial/Homepage_testi.png" alt="">
-                                              </div>
-                                              <div class="founder-text">
-                                                  <span>Jahon Ann</span>
-                                                  <p>CEO, Colorlib</p>
-                                              </div>
-                                          </div>
-                                          <div class="testimonial-top-cap">
-                                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrice.</p>
-                                          </div>
-                                      </div>
-                                  </div>-->
-                                  <!-- Single Testimonial -->
-                                  <!--<div class="single-testimonial">-->
-                                       <!-- Testimonial Content -->
-                                      <!--<div class="testimonial-caption ">-->
-                                          <!-- founder -->
-                                          <!--<div class="testimonial-founder d-flex align-items-center mb-30">
-                                              <div class="founder-img">
-                                                  <img src="assets/img/testmonial/Homepage_testi.png" alt="">
-                                              </div>
-                                              <div class="founder-text">
-                                                  <span>Jahon Ann</span>
-                                                  <p>CEO, Colorlib</p>
-                                              </div>
-                                          </div>
-                                          <div class="testimonial-top-cap">
-                                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrice.</p>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="col-lg-5 col-md-5">
-                              <div class="testimonial-banner">
-                                  <img src="assets/img/gallery/testimonail.png" alt="">
-                              </div>
-                          </div>
-                     </div>
-                  </div>-->
-                  <!-- Shape -->
-                  <!--<img src="assets/img/testmonial/shape-testimonial.png" class="testimonial-shape d-none d-lg-block" alt="">
-              </section>-->
-              <!-- Testimonial End -->
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+            <div class="col-lg-12">
+              <div class="section-heading">
+                <h6>Testimonials</h6>
+                <h2>Sub <span>Heading</span><em></em></h2>
+              </div>
+            </div>
+        </div>
+
+        <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <img src="assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
+                  <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
+                </p>
+                <img src="assets/img/feature-search.png" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <img src="assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum
+                  <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
+                </p>
+                <img src="assets/img/testimonial-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <img src="assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis
+                  <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
+                </p>
+                <img src="assets/img/testimonial-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <img src="assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim
+                  <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
+                </p>
+                <img src="assets/img/testimonial-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <img src="assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor
+                  <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
+                </p>
+                <img src="assets/img/testimonial-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
 
   </main><!-- End #main -->
 
@@ -312,11 +322,12 @@
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/venobox/venobox.min.js"></script>
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
