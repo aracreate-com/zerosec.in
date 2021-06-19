@@ -494,6 +494,37 @@ section {
   color: #088ec3;
 }
 
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about h4 {
+  font-size: 25px;
+  text-transform: capitalize;
+  color: #2a2a2a;
+  font-weight: 800;
+  position: relative;
+  z-index: 2;
+  line-height: 45px;
+}
+
+.about h4 em {
+  font-style: normal;
+  color: #33ccc5;
+}
+
+.about h4 span {
+  color: #088ec3;
+}
+
+.about .single-do{
+padding: 30px 0;
+}
+
+.about .single-do.active{
+  margin: 20px;
+  box-shadow:0px 10px 30px 0px rgba(133,66,189,0.1);
+}
+
 /* Services Section
 --------------------------------*/
 .services {
@@ -568,7 +599,7 @@ section {
   padding: 30px;
   background: #fff;
   width: 100%;
-  border: 2px solid #e9ecee;
+  box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
   border-radius: 4px;
 }
 
@@ -634,7 +665,7 @@ section {
   width: 100%;
   padding: 30px;
   background: #fff;
-  border: 2px solid #e9ecee;
+  box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
   border-radius: 4px;
 }
 
