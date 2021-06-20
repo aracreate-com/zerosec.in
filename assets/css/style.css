@@ -19,6 +19,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+ul, ol {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -599,7 +604,7 @@ padding: 30px 0;
   padding: 30px;
   background: #fff;
   width: 100%;
-  box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+  box-shadow:0px 10px 30px 0px rgba(133,66,189,0.1);
   border-radius: 4px;
 }
 
@@ -665,7 +670,7 @@ padding: 30px 0;
   width: 100%;
   padding: 30px;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+  box-shadow:0px 10px 30px 0px rgba(133,66,189,0.1);
   border-radius: 4px;
 }
 
@@ -996,7 +1001,7 @@ padding: 30px 0;
   margin: 30px 15px;
   text-align: center;
   min-height: 300px;
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  box-shadow:0px 10px 30px 0px rgba(133,66,189,0.1);
 }
 
 @media (max-width: 767px) {
@@ -1061,6 +1066,72 @@ padding: 30px 0;
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #088ec3;
 }
+
+/*===========================
+       09.PRICING css
+===========================*/
+.single_pricing {
+  box-shadow:0px 10px 30px 0px rgba(133,66,189,0.1);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.single_pricing:hover {
+  -webkit-box-shadow: 0px 0px 35px 0px rgba(158, 158, 158, 0.2);
+  box-shadow: 0px 0px 35px 0px rgba(158, 158, 158, 0.2);
+}
+
+.single_pricing .pricing_top_bar .pricing_title {
+  font-size: 24px;
+  font-weight: 600;
+  border-radius: 50%;
+}
+
+.single_pricing .pricing_top_bar i {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 60px;
+  line-height: 60px;
+}
+
+.single_pricing .pricing_top_bar p {
+  text-align: center;
+  font-size: 14px;
+  background:#c5ccd8;
+  width:250px;
+  height:24px;
+  display:inline-block;
+  color:#fff;
+  border-radius:4%;
+  margin-right:7px;
+}
+
+.single_pricing .pricing_top_bar .price {
+  display: block;
+  font-size: 44px;
+  font-weight: 700;
+  margin-top: 0;
+  padding-bottom: 10px;
+}
+
+.single_pricing.pricing_color .pricing_top_bar i {
+  color: #3698EE;
+}
+
+.single_pricing.pricing_color .pricing_top_bar i {
+  background: #088ec3;
+  background: linear-gradient(45deg, #088ec3 0%, #a3ebd5 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.single_pricing.pricing_color .pricing_top_bar .price {
+  color: #3698EE;
+}
+
 
 /*--------------------------------------------------------------
 # Breadcrumbs
