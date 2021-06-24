@@ -75,6 +75,7 @@ ul, ol {
 #header.header-scrolled {
   top: 0;
   background: rgb(255,255,255);
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
 #header .logo {
@@ -1078,11 +1079,6 @@ padding: 30px 0;
   border-radius: 10px;
 }
 
-.single_pricing:hover {
-  -webkit-box-shadow: 0px 0px 35px 0px rgba(158, 158, 158, 0.2);
-  box-shadow: 0px 0px 35px 0px rgba(158, 158, 158, 0.2);
-}
-
 .single_pricing .pricing_top_bar .pricing_title {
   font-size: 24px;
   font-weight: 600;
@@ -1173,7 +1169,7 @@ padding: 30px 0;
 --------------------------------------------------------------*/
 
 .footer {
-  padding: 20px 0;
+  padding: 100px 0 50px 0;
   font-family: "Poppins", sans-serif;
 }
 
@@ -1181,6 +1177,7 @@ padding: 30px 0;
     text-align: center;
     font-size: 32px;
     font-weight: 900;
+    padding: 0 0 10px 0;
   }
 
 .footer .footer-site-logo a {
@@ -1188,7 +1185,7 @@ padding: 30px 0;
   }
 
 .footer .nav-links {
-    padding: 0;
+    padding: 0  0 10px 0;
     margin: 0;
   }
 
@@ -1209,6 +1206,7 @@ padding: 30px 0;
     font-weight: bold;
     font-size: 18px;
     color: #000;
+    padding: 0 0 10px 0;
   }
 
 .footer .social ul li {
@@ -1242,6 +1240,7 @@ padding: 30px 0;
 
 .footer .copyright {
     color: #999999;
+    padding: 10px 0 0;
 }
 
 .btn {
@@ -1303,11 +1302,49 @@ padding: 30px 0;
 # Footer
 --------------------------------------------------------------*/
 .services_new{
-  padding: 30px;
+  position:relative;
 }
 
-.services_new .single-do.active{
-  box-shadow:0px 10px 30px 0px rgba(133,66,189,0.1);
+  @media only screen and (min-width: 768px) and (max-width: 991px){
+    .services_new::before{
+      display:none;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+  .services_new::before{
+    display:none;
+  }
+}
+
+@media (max-width: 767px){
+  .services_new::before{
+    display:none;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+  .services_new::after{
+    display:none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  .services_new::after{
+    display:none;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+  .services_new::after{
+    display:none;
+  }
+}
+
+@media (max-width: 767px){
+  .services_new::after{
+    display:none;
+  }
 }
 
 .services_new .single-do{
@@ -1316,6 +1353,110 @@ padding: 30px 0;
   -ms-transition:all .3s ease-out 0s;
   -o-transition:all .3s ease-out 0s;
   transition:all .3s ease-out 0s;
-  padding:56px 5px 69px;
+  padding:20px 10px 10px;
   border-radius:6px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+  .services_new .single-do{
+    padding:41px 17px 63px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  .services_new .single-do{
+    padding:41px 17px 63px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+  .services_new .single-do{
+    padding:41px 17px 63px;
+  }
+}
+
+@media (max-width: 767px){
+  .services_new .single-do{
+    padding:41px 17px 63px;
+  }
+}
+
+.services_new .single-do .do-icon span{
+  font-size:60px;
+  margin-bottom:20px;
+  display:inline-block;
+  color:#14b1ff;
+}
+
+.services_new .single-do .do-icon span:before {
+  background: #088ec3;
+  background: linear-gradient(45deg, #088ec3 0%, #a3ebd5 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.services_new .single-do .do-caption h4{
+  font-size:24px;
+  font-weight:600;
+  margin-bottom:23px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+  .services_new .single-do .do-caption h4{
+    font-size:21px;
+  }
+}
+
+.services_new .single-do .do-caption p{
+  margin-bottom:40px;
+}
+
+.single-do.active{
+  box-shadow:0px 10px 30px 0px rgba(133,66,189,0.1);
+}
+
+
+/* Partners Section
+--------------------------------*/
+.partner {
+  padding: 30px 0;
+}
+
+.partner .partner-item {
+  box-sizing: content-box;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  min-height: 50px;
+  box-shadow:0px 10px 30px 0px rgba(133,66,189,0.1);
+}
+
+@media (max-width: 767px) {
+  .partner .partner-item {
+    margin: 30px 10px;
+  }
+}
+
+.partner .partner-item .partner-img {
+  width: 200px;
+  border: 4px solid #fff;
+  margin: 0 auto;
+}
+
+.partner .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.partner .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #088ec3;
+}
+
+.partner .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #088ec3;
 }
