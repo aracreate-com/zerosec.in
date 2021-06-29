@@ -1361,25 +1361,25 @@ padding: 30px 0;
 
 @media only screen and (min-width: 992px) and (max-width: 1199px){
   .about_new .single-do{
-    padding:41px 17px 63px;
+    padding:15px 17px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px){
   .about_new .single-do{
-    padding:41px 17px 63px;
+    padding:15px 17px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px){
   .about_new .single-do{
-    padding:41px 17px 63px;
+    padding:15px 17px;
   }
 }
 
 @media (max-width: 767px){
   .about_new .single-do{
-    padding:41px 17px 63px;
+    padding:15px 17px;
   }
 }
 
