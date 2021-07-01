@@ -1169,6 +1169,7 @@ padding: 30px 0;
 --------------------------------------------------------------*/
 
 .footer {
+  background-color: #f2f3f5;
   padding: 100px 0 50px 0;
   font-family: "Poppins", sans-serif;
 }
@@ -1433,4 +1434,79 @@ padding: 30px 0;
 
 .about_new span {
   color: #088ec3;
+}
+
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+.team {
+  background: #fff;
+}
+
+.team .member {
+  position: relative;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.team .member .pic {
+  overflow: hidden;
+  width: 100%;
+  margin: 0 0 10px 0;
+}
+
+.team .member .pic img {
+  transition: ease-in-out 0.3s;
+}
+
+.team .member:hover img {
+  transform: scale(1.1);
+}
+
+.team .member h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #36343a;
+}
+
+.team .member span {
+  display: block;
+  font-size: 15px;
+  position: relative;
+  font-weight: 500;
+}
+
+.team .member .social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team .member .social a {
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  width: 32px;
+  height: 32px;
+  background: #a8a5ae;
+}
+
+.team .member .social a i {
+  color: #fff;
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+.team .member .social a:hover {
+  background: #009970;
+}
+
+.team .member .social a + a {
+  margin-left: 8px;
 }
