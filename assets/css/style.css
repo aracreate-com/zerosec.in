@@ -2,7 +2,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #444444;
 }
 
@@ -507,7 +507,7 @@ section {
   font-size: 25px;
   text-transform: capitalize;
   color: #2a2a2a;
-  font-weight: 800;
+  font-weight: 500;
   position: relative;
   z-index: 2;
   line-height: 45px;
@@ -516,10 +516,12 @@ section {
 .about h4 em {
   font-style: normal;
   color: #33ccc5;
+  font-weight: 700;
 }
 
 .about h4 span {
   color: #088ec3;
+  font-weight: 700;
 }
 
 .about .single-do{
@@ -1385,7 +1387,7 @@ padding: 30px 0;
 }
 
 .about_new .single-do .do-caption p{
-  margin-bottom:40px;
+  margin-bottom:20px;
 }
 
 .single-do.active{
@@ -1400,7 +1402,7 @@ padding: 30px 0;
 
 .about_new .icon i {
   color: #444;
-  font-size: 35px;
+  font-size: 30px;
   line-height: 0;
 }
 
@@ -1413,10 +1415,10 @@ padding: 30px 0;
 }
 
 .about_new h4 {
-  margin-left: 50px;
-  font-weight: 700;
+  margin-left: 40px;
+  font-weight: 500;
   margin-bottom: 0;
-  font-size: 18px;
+  font-size: 17px;
   color: #000;
 }
 
