@@ -436,32 +436,22 @@ section {
 }
 
 .section-heading h6 {
-  font-size: 15px;
-  font-weight: 700;
-  color: #33ccc5;
+  font-size: 32px;
+  font-weight: 800;
+  color: #149ac0;
   text-transform: uppercase;
   margin-bottom: 15px;
 }
 
 .section-heading h2 {
-  font-size: 30px;
+  font-size: 21px;
   text-transform: capitalize;
   color: #2a2a2a;
-  font-weight: 800;
+  font-weight: 500;
   position: relative;
   z-index: 2;
   line-height: 45px;
 }
-
-.section-heading h2 em {
-  font-style: normal;
-  color: #33ccc5;
-}
-
-.section-heading h2 span {
-  color: #088ec3;
-}
-
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
