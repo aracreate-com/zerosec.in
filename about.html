@@ -25,7 +25,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/services.css" rel="stylesheet">
-  <link href="assets/css/classy-nav.min.css" rel="stylesheet">
+  <link href="assets/css/classy-nav.css" rel="stylesheet">
 
 
 
@@ -34,74 +34,71 @@
 <body>
 
   <!-- ##### Header Area Start ##### -->
-  <header class="fixed-top">
+<header class="header-area">
+    <!-- Navbar Area -->
+    <div class="vizew-main-menu" id="sticker">
+        <div class="classy-nav-container breakpoint-off">
+            <div class="container">
 
-      <!-- Main Header Area -->
-      <div class="main-header-area">
-          <div class="classy-nav-container breakpoint-off">
-              <!-- Classy Menu -->
-              <nav class="classy-navbar justify-content-between" id="southNav">
+                <!-- Menu -->
+                <nav class="classy-navbar justify-content-between" id="vizewNav">
 
-                  <!-- Logo -->
-                  <a class="nav-brand" href="index.html"><img src="assets/img/logo.png" alt=""></a>
+                    <!-- Nav brand -->
+                    <a href="index.html" class="nav-brand"><img src="assets/img/logo.png" alt=""></a>
 
-                  <!-- Navbar Toggler -->
-                  <div class="classy-navbar-toggler">
-                      <span class="navbarToggler"><span></span><span></span><span></span></span>
-                  </div>
+                    <!-- Navbar Toggler -->
+                    <div class="classy-navbar-toggler">
+                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    </div>
 
-                  <!-- Menu -->
-                  <div class="classy-menu">
+                    <div class="classy-menu">
 
-                      <!-- close btn -->
-                      <div class="classycloseIcon">
-                          <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                      </div>
+                        <!-- Close Button -->
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div>
 
-                      <!-- Nav Start -->
-                      <div class="classynav">
-                          <ul>
-                              <li><a href="index.html"><i class="icofont-home mr-2"></i>Home</a></li>
-                              <li><a href="blog.html">Blog</a></li>
-                              <li><a href="#">Mega Menu</a>
-                                  <div class="megamenu">
-                                      <ul class="single-mega cn-col-4">
-                                          <li class="title">Headline 1</li>
-                                          <li><a href="#">Mega Menu Item 1</a></li>
-                                          <li><a href="#">Mega Menu Item 2</a></li>
-                                      </ul>
-                                      <ul class="single-mega cn-col-4">
-                                          <li class="title">Headline 2</li>
-                                          <li><a href="#">Mega Menu Item 1</a></li>
-                                          <li><a href="#">Mega Menu Item 2</a></li>
-                                      </ul>
-                                      <ul class="single-mega cn-col-4">
-                                          <li class="title">Headline 3</li>
-                                          <li><a href="#">Mega Menu Item 1</a></li>
-                                          <li><a href="#">Mega Menu Item 2</a></li>
-                                      </ul>
-                                      <ul class="single-mega cn-col-4">
-                                          <li class="title">Headline 4</li>
-                                          <li><a href="#">Mega Menu Item 1</a></li>
-                                          <li><a href="#">Mega Menu Item 2</a></li>
-                                      </ul>
-                                  </div>
-                              </li>
-                              <li><a href="contact.html">Contact</a></li>
-                          </ul>
-
-                     </div>
-                      <!-- Nav End -->
-                  </div>
-              </nav>
-          </div>
-      </div>
-  </header>
-  <!-- ##### Header Area End ##### -->
+                        <!-- Nav Start -->
+                        <div class="classynav">
+                            <ul>
+                                <li><a href="index.html"><i class="icofont-home mr-2"></i>Home</a></li>
+                                <li><a href="about.html"><i class="icofont-users mr-2"></i>About</a></li>
+                                <li><a href="services.html" class="arrow"><i class="icofont-tools mr-2"></i>Services</a>
+                                    <div class="megamenu">
+                                        <ul class="single-mega cn-col-3">
+                                            <li><a href="services.html#content-moderation" class="heading">Data Solutions</a></li>
+                                            <li><a href="services.html#content-moderation">Content Moderation</a></li>
+                                            <li><a href="services.html#data-annotation">Data Annotation</a></li>
+                                            <li><a href="services.html#data-extraction">Data Extraction</a></li>
+                                            <li><a href="services.html#bespoke-data-solutions">Bespoke Data Solutions</a></li>
+                                        </ul>
+                                        <ul class="single-mega cn-col-3">
+                                            <li><a href="services.html#market-research" class="heading">Business Solutions</a></li>
+                                            <li><a href="services.html#market-research">Market Research</a></li>
+                                            <li><a href="services.html#performance-marketing">Performance Marketing</a></li>
+                                            <li><a href="services.html#business-advisory">Business Advisory</a></li>
+                                            <li><a href="services.html#virtual-assistant">Virtual Assistant</a></li>
+                                        </ul>
+                                        <ul class="single-mega cn-col-3">
+                                            <li><a href="services.html" class="heading">Legal Process Outsourcing</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="contact.html"><i class="icofont-contact-add mr-2"></i>Contact</a></li>
+                            </ul>
+                        </div>
+                        <!--Nav End -->
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<!--##### Header Area End ##### -->
 
   <main id="main">
 
-    <!-- ======= About Section ======= -->
+    <!--======= About Section ======= -->
     <section id="about" class="about mt-5">
       <div class="container">
         <div class="row">
@@ -362,6 +359,7 @@
   <script src="assets/vendor/venobox/venobox.min.js"></script>
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/plugins/plugins.js"></script>
   <script src="assets/js/classy-nav.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
