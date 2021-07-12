@@ -952,6 +952,7 @@ padding: 30px 0;
 --------------------------------------------------------------*/
 .services-section {
   padding: 60px 0;
+  font-family: 'Raleway', sans-serif;
 }
 
 .services-section .about-content{
@@ -992,7 +993,7 @@ padding: 30px 0;
   padding-left: 40px;
   font-size: 18px;
   font-weight: 700;
-  color: #162447;
+  color: #444;
   margin-bottom: 20px;
   position: relative;
 }
@@ -1126,7 +1127,7 @@ padding: 30px 0;
 .footer {
   background-color: #f2f3f5;
   padding: 100px 0 50px 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .footer .footer-site-logo {
