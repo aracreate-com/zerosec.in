@@ -2,26 +2,9 @@
   "use strict";
   var browserWindow = $(window);
 
-      // :: 1.0 Preloader Active Code
-      $(window).on('load', function () {
-          $('.preloader').fadeOut('slow', function () {
-              $(this).remove();
-          });
-      });
-
       // :: 2.0 Nav Active Code
       if ($.fn.classyNav) {
           $('#vizewNav').classyNav();
-      }
-
-      // :: 3.0 Newsticker Active Code
-      if ($.fn.simpleTicker) {
-          $.simpleTicker($("#breakingNewsTicker"), {
-              speed: 1000,
-              delay: 3000,
-              easing: 'swing',
-              effectType: 'roll'
-          });
       }
 
       // :: 4.0 Sticky Active Code
@@ -80,45 +63,14 @@
           });
       }
 
-      // :: 6.0 Nicescroll Active Code
-      if ($.fn.niceScroll) {
-          $(".vizew-nav-tab").niceScroll({
-              cursorcolor: "#838586",
-              cursorwidth: "6px",
-              cursorborder: 'none'
-          });
-      }
-
-      // :: 7.0 ScrollUp Active Code
-      if ($.fn.scrollUp) {
-          $(window).scrollUp({
-              scrollSpeed: 1500,
-              scrollText: '<i class="ti-angle-up"></i>'
-          });
-      }
-
-      // :: 8.0 Tooltip Active Code
-      if ($.fn.tooltip) {
-          $('[data-toggle="tooltip"]').tooltip();
-      }
-
-      // :: 9.0 CounterUp Active Code
-      if ($.fn.counterUp) {
-          $('.counter').counterUp({
-              delay: 10,
-              time: 3000
-          });
-      }
-
-      // :: 10.0 Prevent Default a Click
-      $('a[href="#"]').on('click', function (e) {
-          e.preventDefault();
+      // Preloader
+  $(window).on('load', function() {
+    if ($('#preloader').length) {
+      $('#preloader').delay(100).fadeOut('slow', function() {
+        $(this).remove();
       });
-
-      // :: 11.0 Wow Active Code
-      if ($(window).width() > 767) {
-          new WOW().init();
-      }
+    }
+  });
             // Back to top button
       $(window).scroll(function() {
         if ($(this).scrollTop() > 100) {
