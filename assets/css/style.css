@@ -128,12 +128,6 @@ ul, ol {
   max-width: 300px;
 }
 
-@media only screen and (max-width: 767px) {
-  .header-area .vizew-main-menu .classy-navbar .nav-brand {
-   max-width: 250px;
-   }
- }
-
 .header-area .vizew-main-menu .classy-navbar .classynav ul li a {
   font-weight: 700;
   text-transform: uppercase;
@@ -222,7 +216,7 @@ ul, ol {
 }
 
 .breakpoint-on .classynav ul li .megamenu .single-mega.cn-col-3 {
-  padding: 0 50px;
+  padding: 0;
   border-bottom: 1px solid #393c3d;
 }
 

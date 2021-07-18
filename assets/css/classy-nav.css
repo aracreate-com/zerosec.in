@@ -3,8 +3,9 @@ body {
 
 ul{
   margin: 0; }
-  ul li{
-    list-style: none; }
+
+ul li{
+  list-style: none; }
 
 img {
   height: auto;
@@ -34,15 +35,18 @@ img {
     font-weight: 400;
     color: #232323;
     display: inline-block; }
-    .classy-nav-container a:hover, .classy-nav-container a:focus {
+
+.classy-nav-container a:hover, .classy-nav-container a:focus {
       -webkit-transition-duration: 500ms;
       transition-duration: 500ms;
       text-decoration: none;
       outline: none;
       font-size: 14px;
       font-weight: 400;
-      color: #1abc9c; }
-  .classy-nav-container.classy-sticky {
+      color: #1abc9c;
+  }
+
+.classy-nav-container.classy-sticky {
     position: fixed;
     z-index: 1010;
     width: 100%;
@@ -80,7 +84,7 @@ img {
     font-weight: 500;
     color: #565656;
     display: inline-block;
-    margin-right: 30px; }
+    margin-right: 10px; }
     .classy-navbar .nav-brand:focus, .classy-navbar .nav-brand:hover {
       font-size: 26px;
       font-weight: 500; }
@@ -99,15 +103,15 @@ img {
   .classynav ul li ul li {
     display: block; }
     .classynav ul li ul li a {
-      padding: 0 20px; }
+      padding: 0 10px; }
   .classynav ul li a {
-    padding: 0 12px;
+    padding: 0 10px;
     display: block;
     height: 35px;
     font-size: 14px;
     line-height: 34px; }
   .classynav ul li .megamenu li a {
-    padding: 0 12px; }
+    padding: 0 0px; }
   .classynav ul li div.single-mega a {
     height: auto;
     line-height: 1; }
@@ -139,7 +143,7 @@ img {
   content: "\e900";
   font-size: 12px;
   color: #000000;
-  padding-left: 5px;
+  padding-left: 0px;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms; }
 
@@ -150,22 +154,6 @@ img {
   top: 0;
   right: 10px;
   z-index: 3; }
-
-/* button css */
-.classy-btn {
-  position: relative;
-  z-index: 1;
-  min-width: 120px;
-  padding: 0 25px;
-  line-height: 42px;
-  height: 42px;
-  background-color: #1abc9c;
-  border-radius: 50px;
-  color: #fff !important;
-  margin-left: 30px;
-  text-align: center; }
-  .classy-btn:hover, .classy-btn:focus {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
 
 /* Dropdown Toggle */
 .dd-trigger {
@@ -271,10 +259,7 @@ img {
     border-right: 1px solid #f2f4f8; }
     .classynav ul li .megamenu .single-mega.cn-col-3:last-of-type {
       border-right: none; }
-  .classynav ul li .megamenu .single-mega .title {
-    font-size: 14px;
-    border-bottom: 1px solid #f2f4f8;
-    padding: 8px 12px; }
+
 .classynav ul li .dropdown li a {
   border-bottom: 1px solid rgba(242, 244, 248, 0.7); }
 .classynav ul li .dropdown li:last-child a {
@@ -368,14 +353,21 @@ img {
   opacity: 0;
   visibility: hidden;
   position: absolute;
-  width: 100%;
-  left: 0;
+  width: 82%;
+  margin:0 120px;
   top: 120%;
   background-color: #ffffff;
   z-index: 200;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
   -webkit-transition-duration: 300ms;
-  transition-duration: 300ms; }
+  transition-duration: 300ms;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .breakpoint-off .classynav ul li .megamenu {
+    width: 82%;
+    margin:0 100px;
+  }
+}
 .breakpoint-off .classynav ul li.megamenu-item:hover .megamenu, .breakpoint-off .classynav ul li.megamenu-item:focus .megamenu {
   top: 100%;
   visibility: visible;
@@ -455,10 +447,7 @@ img {
   background-color: #f2f4f8;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
 .breakpoint-on .classynav ul li ul.dropdown li ul li {
-  margin-left: 15px; }
-.breakpoint-on .classy-btn {
-  width: calc(100% - 30px);
-  margin: 30px 15px; }
+  margin-left: 5px; }
 .breakpoint-on .classynav ul li.megamenu-item > a::after,
 .breakpoint-on .classynav ul li.has-down > a::after {
   position: absolute;
