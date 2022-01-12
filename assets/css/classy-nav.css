@@ -45,7 +45,7 @@ img {
       outline: none;
       font-size: 14px;
       font-weight: 400;
-      color: #1abc9c;
+      color: #2088DA;
   }
 
 .classy-nav-container.classy-sticky {
@@ -56,7 +56,7 @@ img {
     right: 0;
     left: 0; }
   .classy-nav-container.box-skins .classynav > ul > li {
-    background-color: #1abc9c; }
+    background-color: #2088DA; }
     .classy-nav-container.box-skins .classynav > ul > li > a {
       color: #fff; }
 
@@ -443,7 +443,7 @@ img {
       border-right: none;
       border-bottom: 1px solid #f2f4f8; }
 .breakpoint-on .classynav > ul > li > a {
-  background-color: #f2f4f8;
+  background-color: #2088DA;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
 .breakpoint-on .classynav ul li ul.dropdown li ul li {
   margin-left: 5px; }
@@ -455,19 +455,19 @@ img {
   z-index: 5; }
 .breakpoint-on .classynav ul li.has-down.active > a:after,
 .breakpoint-on .classynav ul li.megamenu-item.active > a:after {
-  color: #2ecc71; }
+  color: #2088DA; }
 
 /* Dark Theme CSS */
 .dark.classy-nav-container {
-  background-color: #192a56; }
+  background-color: #2088DA; }
   .dark.classy-nav-container a {
     color: rgba(255, 255, 255, 0.7); }
     .dark.classy-nav-container a:hover, .dark.classy-nav-container a:focus {
       color: #ffffff; }
 .dark .classynav ul li .dropdown {
-  background-color: #192a56; }
+  background-color: #2088DA; }
 .dark .classynav ul li .megamenu {
-  background-color: #192a56; }
+  background-color: #2088DA; }
 .dark .classynav ul li .megamenu .single-mega.cn-col-5,
 .dark .classynav ul li .megamenu .single-mega.cn-col-4,
 .dark .classynav ul li .megamenu .single-mega.cn-col-3 {
@@ -480,11 +480,11 @@ img {
 .dark .classy-navbar-toggler .navbarToggler span {
   background-color: #ffffff; }
 .dark.breakpoint-on .classy-navbar .classy-menu {
-  background-color: #192a56; }
+  background-color: #2088DA; }
 .dark .classycloseIcon .cross-wrap span {
   background-color: #ffffff; }
 .dark.breakpoint-on .classynav > ul > li > a {
-  background-color: #192a56;
+  background-color: #2088DA;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05); }
 .dark.breakpoint-on .classynav ul li .megamenu .single-mega.cn-col-5, .dark.breakpoint-on .classynav ul li .megamenu .single-mega.cn-col-4, .dark.breakpoint-on .classynav ul li .megamenu .single-mega.cn-col-3 {
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);

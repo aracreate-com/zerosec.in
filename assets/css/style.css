@@ -67,7 +67,7 @@ ul, ol {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #149ac0;
+  border-top: 6px solid #2088DA;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -162,12 +162,12 @@ ul, ol {
   line-height: 85px;
   font-size: 16px;
   background-color: #fff;
-  border-bottom: 1px solid #149ac0;
+  border-bottom: 1px solid #2088DA;
   }
 }
 
 .header-area .vizew-main-menu .classy-navbar .classynav ul li a:hover, .header-area .vizew-main-menu .classy-navbar .classynav ul li a:focus {
-  color: #fbab14;
+  color: #41D0FF;
   border-bottom-color: #ffffff;
 }
 
@@ -186,7 +186,7 @@ ul, ol {
 }
 
 .header-area .vizew-main-menu .classy-navbar .classynav .heading {
-  color: #fbab14;
+  color: #41D0FF;
   font-size: 18px;
 }
 
@@ -195,11 +195,11 @@ ul, ol {
 }
 
 .header-area .vizew-main-menu .classy-navbar .classynav ul li ul li a::after {
-  color: #fbab14;
+  color: #41D0FF;
 }
 
 .header-area .vizew-main-menu .classy-navbar .classynav ul li ul li a:hover, .header-area .vizew-main-menu .classy-navbar .classynav ul li ul li a:focus {
-  color: #fbab14;
+  color: #41D0FF;
 }
 
 .header-area .is-sticky .vizew-main-menu {
@@ -362,7 +362,7 @@ section {
 .section-heading h6 {
   font-size: 32px;
   font-weight: 800;
-  color: #149ac0;
+  color: #2088DA;
   text-transform: uppercase;
   margin-bottom: 15px;
 }
@@ -392,12 +392,12 @@ section {
 
 .about h4 em {
   font-style: normal;
-  color: #33ccc5;
+  color: #2088DA;
   font-weight: 700;
 }
 
 .about h4 span {
-  color: #088ec3;
+  color: #2088DA;
   font-weight: 700;
 }
 
@@ -1000,7 +1000,7 @@ padding: 30px 0;
       width: 14px;
       height: 14px;
       border-radius: 50%;
-      background: #149ac0;
+      background: #2088DA;
       position: absolute;
       left: 0;
       top: 6.5px;
@@ -1228,7 +1228,7 @@ padding: 30px 0;
 .contact .php-email-form button[type="submit"], .back-to-top i, .services .single-do .do-btn a i, .services .single-do.active .do-btn a i,
 .team .member .social a, .header-area .classy-navbar-toggler .navbarToggler span
 {
-  background: #149ac0;
+  background: #2088DA;
 }
 
 .contact .info i, .nav-menu a, .nav-menu .drop-down ul a, .mobile-nav-toggle i, .mobile-nav a, .services .single-do .do-icon span,
@@ -1237,7 +1237,7 @@ padding: 30px 0;
 .features .box .icon i, .btn i, .header-area .vizew-main-menu .classy-navbar .classynav ul li a, .header-area .vizew-main-menu .classy-navbar .classynav .arrow::after,
 .header-area .vizew-main-menu .classy-navbar .classynav ul li ul li a
 {
-  color: #149ac0;
+  color: #2088DA;
 }
 
 #header .logo a, .back-to-top i, .back-to-top i:hover, .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a,
@@ -1256,10 +1256,10 @@ padding: 30px 0;
 
 .nav-menu > ul > li:hover, .nav-menu .active, .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a
 {
-  background: #fbab14;
+  background: #41D0FF;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a
 {
-  color: #fbab14;
+  color: #41D0FF;
 }
