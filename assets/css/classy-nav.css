@@ -1,5 +1,7 @@
+@font-face { font-family: Proxima Nova; src: url('../font/Proxima Nova Regular.otf'); }
+
 body {
-  font-family: "Roboto", sans-serif; }
+  font-family: "Proxima Nova"; }
 
 ul{
   margin: 0; }
@@ -118,13 +120,10 @@ img {
 
 /* Down Arrow Icon for Megamenu */
 @font-face {
-  font-family: 'classyfonts';
-  src: url("../fonts/classy.eot?fftrrv");
-  src: url("../fonts/classy.eot?fftrrv#iefix") format("embedded-opentype"), url("../fonts/classy.ttf?fftrrv") format("truetype"), url("../fonts/classy.woff?fftrrv") format("woff"), url("../fonts/classy.svg?fftrrv#classyfonts") format("svg");
-  font-weight: normal;
-  font-style: normal; }
+  font-family: 'Proxima Nova';
+  src: url("../font/Proxima Nova Regular.otf"); }
 .icon-classy-nav-down-arrow {
-  font-family: 'classyfonts';
+  font-family: 'Proxima Nova';
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -139,7 +138,7 @@ img {
 
 .classynav ul li.megamenu-item > a:after,
 .classynav ul li.has-down > a:after {
-  font-family: 'classyfonts';
+  font-family: 'Proxima Nova';
   content: "\e900";
   font-size: 12px;
   color: #000000;

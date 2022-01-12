@@ -1,8 +1,10 @@
-/*--------------------------------------------------------------
+ @font-face { font-family: Proxima Nova; src: url('../font/Proxima Nova Regular.otf'); }
+
+ /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Proxima Nova";
   color: #444444;
 }
 
@@ -11,7 +13,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Proxima Nova";
 }
 
 ul, ol {
@@ -446,7 +448,7 @@ padding: 30px 0;
 }
 
 .features .box p {
-  font-size: 14px;
+  font-size: 16px;
   margin-left: 100px;
   margin-bottom: 0;
   line-height: 24px;
@@ -947,7 +949,7 @@ padding: 30px 0;
 --------------------------------------------------------------*/
 .services-section {
   padding: 60px 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Proxima Nova';
 }
 
 .services-section .about-content{
@@ -1122,7 +1124,7 @@ padding: 30px 0;
 .footer {
   background-color: #f2f3f5;
   padding: 60px 0 50px 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Proxima Nova';
 }
 
 .footer .footer-site-logo {
