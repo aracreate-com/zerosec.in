@@ -15,6 +15,15 @@ body {
   color: #444444;
 }
 
+
+.main-slider-title{
+
+  color: #ffffff; 
+  font-size: 80px !important;
+  text-shadow: 3px 3px 2px #2088DA;
+
+}
+
 .statistics-circle {
   background: #2088DA;
   border-radius: 50%;
@@ -31,7 +40,7 @@ body {
   color: white; 
   text-align:center; 
   font-weight: bold; 
-  font-size: 30px;
+  font-size: 25px;
 
 }
 
