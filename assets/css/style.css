@@ -27,8 +27,8 @@ body {
 .statistics-circle {
   background: #2088DA;
   border-radius: 50%;
-  width: 175px;
-  height: 175px;
+  width: 150px;
+  height: 150px;
 }
 
 
@@ -49,8 +49,6 @@ body {
   font-weight: bold; 
   color: #2088DA;
   font-size: 25px;
-
-
 }
 
 a:hover {
