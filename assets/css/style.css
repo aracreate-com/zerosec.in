@@ -3,9 +3,54 @@
  /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+html {
+  height: 100%;
+}
+
+
+
 body {
   font-family: "Proxima Nova";
   color: #444444;
+}
+
+
+.main-slider-title{
+
+  color: #ffffff; 
+  font-size: 80px !important;
+  text-shadow: 3px 3px 2px #2088DA;
+
+}
+
+.statistics-circle {
+  background: #2088DA;
+  border-radius: 50%;
+  width: 175px;
+  height: 175px;
+}
+
+
+.center-cricle-statistics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: white; 
+  text-align:center; 
+  font-weight: bold; 
+  font-size: 25px;
+
+}
+
+.center-cricle-statistics-header {
+  text-align:left;
+  font-weight: bold; 
+  color: #2088DA;
+  font-size: 25px;
+
+
 }
 
 a:hover {

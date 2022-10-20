@@ -6,6 +6,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <title>Zerosec</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/fav.ico">
     <meta content="" name="descriptison">
     <meta content="" name="keywords">
 
@@ -19,7 +20,12 @@
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+
     <!-- Template Main CSS File -->
+ 
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/classy-nav.css" rel="stylesheet">
 
@@ -39,7 +45,7 @@
                     <nav class="classy-navbar justify-content-between" id="vizewNav">
 
                         <!-- Nav brand -->
-                        <a href="index.html" class="nav-brand"><img src="assets/img/zerosec-logo.png" style="height:65px;" alt=""></a>
+                        <a href="index.html" class="nav-brand"><img src="assets/img/zerosec-h-logo.png" style="height:65px;" alt=""></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -57,25 +63,35 @@
                             <div class="classynav">
                                 <ul>
                                     <li><a href="index.html"><i class="icofont-home mr-2"></i>Home</a></li>
-                                    <li><a href="about.html"><i class="icofont-users mr-2"></i>About</a></li>
+                                    <li><a href="about.html" class="arrow"><i class="icofont-users mr-2"></i>About</a>
+                                        <div class="megamenu " style="width: 40%; left: 20rem; ">
+                                            <ul >
+                                                <li><a href="about.html#story">Our Story</a></li>
+                                                <li><a href="about.html#team">Our Team</a></li>
+                                                <li><a href="about.html#partners">Our Partner</a></li>
+                                                <li><a href="about.html#infrastructure">Our Infrastructure</a></li>
+                                                <li><a href="about.html#pitch">Our Pitch Deck</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
                                     <li><a href="services.html" class="arrow"><i class="icofont-tools mr-2"></i>Services</a>
                                         <div class="megamenu">
                                             <ul class="single-mega cn-col-3">
-                                                <li><a href="services.html#content-moderation" class="heading">Data</a></li>
+                                                <li><a href="services.html#content-moderation" class="heading">DATA PROCESS OUTSOURCING</a></li>
                                                 <li><a href="services.html#content-moderation">Content Moderation</a></li>
                                                 <li><a href="services.html#data-annotation">Data Annotation</a></li>
                                                 <li><a href="services.html#data-extraction">Data Extraction</a></li>
-                                                <li><a href="services.html#bespoke-data-solutions">Bespoke Data Solutions</a></li>
+                                                <li><a href="services.html#bespoke-data-solutions">Bespoke DATA PROCESS OUTSOURCING</a></li>
                                             </ul>
                                             <ul class="single-mega cn-col-3">
-                                                <li><a href="services.html#market-research" class="heading">Business</a></li>
+                                                <li><a href="services.html#market-research" class="heading">BUSINESS PROCESS OUTSOURCING</a></li>
                                                 <li><a href="services.html#market-research">Market Research</a></li>
                                                 <li><a href="services.html#performance-marketing">Performance Marketing</a></li>
                                                 <li><a href="services.html#business-advisory">Business Advisory</a></li>
                                                 <li><a href="services.html#virtual-assistant">Virtual Assistant</a></li>
                                             </ul>
                                             <ul class="single-mega cn-col-3">
-                                                <li><a href="services.html" class="heading">Legal</a></li>
+                                                <li><a href="services.html" class="heading">LEGAL PROCESS OUTSOURCING</a></li>
                                             </ul>
                                         </div>
                                     </li>
@@ -100,7 +116,7 @@
 
                 <div class="carousel-inner" role="listbox">
 
-                    <div class="carousel-item active" data-interval="2000" style="background-image: url('assets/img/zerosec-2.jpg')" class="d-block w-100">
+                    <div class="carousel-item active" data-interval="2000" style="background-image: url('assets/img/0-slider-images/0-zerosec-front-image.jpg')" class="d-block w-100">
                         <div class="carousel-container">
                             <div class="container">
                                 <h2 class="animate__animated animate__fadeInDown"></h2>
@@ -108,27 +124,27 @@
                         </div>
                     </div>
 
-                    <div class="carousel-item" data-interval="2000" style="background-image: url('assets/img/features-1.png')">
+                    <div class="carousel-item" data-interval="2000" style="background-image: url('assets/img/0-slider-images/1-data-solutions.jpg')">
                         <div class="carousel-container">
                             <div class="container">
-                                <h2 class="animate__animated animate__fadeInDown" style="color: #2088da;">Data Process Outsourcing</h2>
+                                <h2 class="animate__animated animate__fadeInDown main-slider-title">DATA PROCESS OUTSOURCING</h2>
                             </div>
                         </div>
                     </div>
 
 
-                    <div class="carousel-item" data-interval="2000" style="background-image: url('assets/img/features-3.png')">
+                    <div class="carousel-item" data-interval="2000" style="background-image: url('assets/img//0-slider-images/2-business-solutions.jpg')">
                         <div class="carousel-container">
                             <div class="container">
-                                <h2 class="animate__animated animate__fadeInDown" style="color: #2088da;">Business Process Outsourcing</h2>
+                                <h2 class="animate__animated animate__fadeInDown main-slider-title">BUSINESS PROCESS OUTSOURCING</h2>
                             </div>
                         </div>
                     </div>
 
-                    <div class="carousel-item" data-interval="2000" style="background-image: url('assets/img/features-4.png')">
+                    <div class="carousel-item" data-interval="2000" style="background-image: url('assets/img//0-slider-images/3-legal-solutions.jpg')">
                         <div class="carousel-container">
                             <div class="container">
-                                <h2 class="animate__animated animate__fadeInDown" style="color: #2088da;">Legal Process Outsourcing</h2>
+                                <h2 class="animate__animated animate__fadeInDown main-slider-title">LEGAL PROCESS OUTSOURCING</h2>
                             </div>
                         </div>
                     </div>
@@ -167,7 +183,7 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-6">
                         <div class="single-do text-center mb-30">
-                            <h2>A for-profit-social enterprise delivering bespoke digital solutions for your business needs.
+                            <h2>A social enterprise delivering bespoke digital solutions for your business needs.
                                 </br></br>
                                 We take an active responsibility in operations and deliver quality results at competitive prices. We are invested in your growth and our initiative and work frees will free you to focus on core business issues. 
                                 </br></br>
@@ -283,7 +299,7 @@
                                 <span class="icofont-data"></span>
                             </div>
                             <div class="do-caption">
-                                <h4>Data Solutions</h4>
+                                <h4>DATA PROCESS OUTSOURCING</h4>
                             </div>
                             <div class="do-btn">
                                 <a href="services.html"><i class="icofont-arrow-right"></i> Know More...</a>
@@ -296,7 +312,7 @@
                                 <span class="icofont-briefcase"></span>
                             </div>
                             <div class="do-caption">
-                                <h4>Business Solutions</h4>
+                                <h4>BUSINESS PROCESS OUTSOURCING</h4>
                             </div>
                             <div class="do-btn">
                                 <a href="services.html"><i class="icofont-arrow-right"></i> Know More...</a>
@@ -309,7 +325,7 @@
                                 <span class="icofont-legal"></span>
                             </div>
                             <div class="do-caption">
-                                <h4>Legal Solutions</h4>
+                                <h4>LEGAL PROCESS OUTSOURCING</h4>
                             </div>
                             <div class="do-btn">
                                 <a href="services.html"><i class="icofont-arrow-right"></i> Know More...</a>
@@ -469,37 +485,61 @@
 
                         <div class="swiper-slide">
                             <div class="partner-item">
-                                <img src="assets/img/client-1.png" class="partner-img" alt="">
+                                <img src="assets/img/1-client-slider-images/1-dreamspace-adademy.jpg" class="partner-img" alt="">
                             </div>
                         </div>
                         <!-- End partner item -->
 
                         <div class="swiper-slide">
                             <div class="partner-item">
-                                <img src="assets/img/client-2.png" class="partner-img" alt="">
+                                <img src="assets/img/1-client-slider-images/2-aracreate.jpg" class="partner-img" alt="">
                             </div>
                         </div>
                         <!-- End partner item -->
 
                         <div class="swiper-slide">
                             <div class="partner-item">
-                                <img src="assets/img/client-3.png" class="partner-img" alt="">
+                                <img src="assets/img/1-client-slider-images/3-jodel.jpg"  class="partner-img" alt="">
                             </div>
                         </div>
                         <!-- End partner item -->
 
                         <div class="swiper-slide">
                             <div class="partner-item">
-                                <img src="assets/img/client-1.png" class="partner-img" alt="">
+                                <img src="assets/img/1-client-slider-images/4-dma.jpg" class="partner-img" alt="">
                             </div>
                         </div>
-                        <!-- End partner item -->
 
                         <div class="swiper-slide">
                             <div class="partner-item">
-                                <img src="assets/img/client-2.png" class="partner-img" alt="">
+                                <img src="assets/img/1-client-slider-images/5-smartware.jpg" class="partner-img" alt="">
                             </div>
                         </div>
+
+                        <div class="swiper-slide">
+                            <div class="partner-item">
+                                <img src="assets/img/1-client-slider-images/6-librarius-davinci.jpg" class="partner-img" alt="">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="partner-item">
+                                <img src="assets/img/1-client-slider-images/7-navee.jpg" class="partner-img" alt="">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="partner-item">
+                                <img src="assets/img/1-client-slider-images/8-nela.jpg" class="partner-img" alt="">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="partner-item">
+                                <img src="assets/img/1-client-slider-images/9-dydonai.jpg" class="partner-img" alt="">
+                            </div>
+                        </div>
+
                         <!-- End partner item -->
 
                     </div>
@@ -508,6 +548,70 @@
 
             </div>
         </section>
+
+        <section id="partner" class="partner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-heading">
+                            <h6>Statistics</h6>
+                            <h2></h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="partner-slider swiper-container" id="statistics-container">
+                    <div class="swiper-wrapper">
+
+
+                        <div class="swiper-slide" >
+                            <div class="partner-item statistics-circle">
+                                <p class="center-cricle-statistics"><span id="test" class="counterup">107 </span>&nbspMillion</p>
+                            </div>
+                            <p class="center-cricle-statistics-header">Image Moderation</p>
+                        </div>
+
+
+                        <div class="swiper-slide" >
+                            <div class="partner-item statistics-circle">
+                                <p class="center-cricle-statistics"><span>0.</span></span><span class="counterup">915.139 </span>&nbspMillion</p>
+                            </div>
+                            <p style="position: relative; left: 15px;" class="center-cricle-statistics-header">Fraud Detection</p>
+                        </div>
+
+
+                        <div class="swiper-slide" >
+                            <div class="partner-item statistics-circle">
+                                <p class="center-cricle-statistics"><span>0.</span><span class="counterup">245.766 </span> &nbspMillion</p>
+                            </div>
+                            <p style="position: relative; left: 15px;" class="center-cricle-statistics-header">Image Labelling </p>
+                        </div>
+
+                        <div class="swiper-slide" >
+                            <div class="partner-item statistics-circle">
+                                <p class="center-cricle-statistics"><span>0.</span><span class="counterup">435.706 </span>&nbspMillion</p>
+                            </div>
+                            <p style="position: relative; left: 28px;" class="center-cricle-statistics-header">Data Labelling</p>
+                        </div>
+
+                        <div class="swiper-slide" >
+                            <div class="partner-item statistics-circle">
+                                <p class="center-cricle-statistics"><span>0.</span><span class="counterup">773.302 </span>&nbspMillion</p>
+                            </div>
+                            <p style="position: relative; left: 15px;" class="center-cricle-statistics-header">Video Moderation</p>
+                        </div>
+                       
+                        <!-- End partner items -->
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+        </section>
+
+
+
         <!-- End partner Section -->
 
         <!-- Timeline-->
@@ -536,7 +640,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-9 text-center">
                     <div class="footer-site-logo mb-2">
-                        <img src="assets/img/zerosec-logo.png" style="height:125px;" alt="" class="img-fluid">
+                        <img src="assets/img/zerosec-h-logo.png" style="height:125px;" alt="" class="img-fluid">
                     </div>
                     <ul class="list-unstyled nav-links mb-3">
                         <li><a href="#">Home</a></li>
@@ -548,10 +652,8 @@
                     <div class="social mb-3">
                         <h3 class="mb-3">STAY IN TOUCH</h3>
                         <ul class="list-unstyled">
-                            <a href="#" class="twitter btn"><i class="icofont-twitter"></i></a>
-                            <a href="#" class="facebook btn"><i class="icofont-facebook"></i></a>
-                            <a href="#" class="instagram btn"><i class="icofont-instagram"></i></a>
-                            <a href="#" class="linkedin btn"><i class="icofont-linkedin"></i></a>
+                            <!-- <a href="https://www.instagram.com/zerosec/" target="_blank" class="instagram btn"><i class="icofont-instagram"></i></a> -->
+                            <a href="https://www.linkedin.com/company/zerosec-solutions/" target="_blank" class="linkedin btn"><i class="icofont-linkedin"></i></a>
                         </ul>
                     </div>
 
@@ -564,6 +666,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="assets/js/number-counting-animation.js"></script> 
 
     <a href="#" class="back-to-top"><i class="icofont-home"></i></a>
     <div id="preloader"></div>
@@ -581,7 +685,9 @@
     <script src="assets/js/classy-nav.min.js"></script>
 
 
+
     <!-- Template Main JS File -->
+  
     <script src="assets/js/main.js"></script>
 
 </body>
