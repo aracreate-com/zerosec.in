@@ -27,10 +27,16 @@ body {
 .statistics-circle {
   background: #2088DA;
   border-radius: 50%;
-  width: 175px;
-  height: 175px;
+  width: 160px;
+  height: 160px;
 }
 
+:target:before {
+  content: "";
+  display: inline-block;
+  height: 250px;
+  margin: -180px 0 0;
+}
 
 .center-cricle-statistics {
   display: flex;
@@ -49,8 +55,6 @@ body {
   font-weight: bold; 
   color: #2088DA;
   font-size: 25px;
-
-
 }
 
 a:hover {

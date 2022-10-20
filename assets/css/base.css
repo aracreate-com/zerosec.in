@@ -35,7 +35,7 @@ h3 {
 
 #team .card {
     border-radius: 0;
-    box-shadow: 5px 5px 15px #2088DA;
+    /* box-shadow: 5px 5px 15px #2088DA;*/
     transition: all 0.3s ease-in;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
