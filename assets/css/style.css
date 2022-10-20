@@ -31,6 +31,12 @@ body {
   height: 160px;
 }
 
+:target:before {
+  content: "";
+  display: inline-block;
+  height: 250px;
+  margin: -180px 0 0;
+}
 
 .center-cricle-statistics {
   display: flex;
