@@ -8,7 +8,13 @@ html {
   height: 100%;
 }
 
+@media (max-width: 640px) {
+  #story-map{
 
+    margin-left: 0% !important;
+
+  }
+}
 
 body {
   font-family: "Proxima Nova";
