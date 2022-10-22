@@ -470,6 +470,7 @@ padding: 30px 0;
 --------------------------------------------------------------*/
 .features {
   padding: 40px 0;
+  text-align: justify;
 }
 
 .features .box {
