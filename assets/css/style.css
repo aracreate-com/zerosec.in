@@ -25,7 +25,6 @@ body {
 .main-slider-title{
 
   color: #ffffff; 
-  font-size: 80px !important;
   text-shadow: 3px 3px 2px #2088DA;
 
 }
@@ -284,7 +283,7 @@ ul, ol {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#intro {
+/* #intro {
   width: 100%;
   margin-top: 0;
   height: 90vh;
@@ -343,63 +342,63 @@ ul, ol {
   #intro h2 {
     font-size: 28px;
   }
-}
+} */
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   #intro p {
     width: 60%;
   }
-}
+} */
 
-#intro .carousel-fade {
+/* #intro .carousel-fade {
   overflow: hidden;
-}
+} */
 
-#intro .carousel-fade .carousel-inner .carousel-item {
+/* #intro .carousel-fade .carousel-inner .carousel-item {
   transition-property: opacity;
-}
-
+} */
+/* 
 #intro .carousel-fade .carousel-inner .carousel-item,
 #intro .carousel-fade .carousel-inner .active.carousel-item-left,
 #intro .carousel-fade .carousel-inner .active.carousel-item-right {
   opacity: 0;
-}
+} */
 
-#intro .carousel-fade .carousel-inner .active,
+/* #intro .carousel-fade .carousel-inner .active,
 #intro .carousel-fade .carousel-inner .carousel-item-next.carousel-item-left,
 #intro .carousel-fade .carousel-inner .carousel-item-prev.carousel-item-right {
   opacity: 1;
   transition: 0.5s;
-}
+} */
 
-#intro .carousel-fade .carousel-inner .carousel-item-next,
+/* #intro .carousel-fade .carousel-inner .carousel-item-next,
 #intro .carousel-fade .carousel-inner .carousel-item-prev,
 #intro .carousel-fade .carousel-inner .active.carousel-item-left,
 #intro .carousel-fade .carousel-inner .active.carousel-item-right {
   left: 0;
   transform: translate3d(0, 0, 0);
-}
+} */
 
-#intro .carousel-control-prev, #intro .carousel-control-next {
+/* #intro .carousel-control-prev, #intro .carousel-control-next {
   width: 10%;
-}
+} */
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   #intro .carousel-control-prev, #intro .carousel-control-next {
     width: 5%;
   }
-}
+} */
 
-#intro .carousel-control-next-icon, #intro .carousel-control-prev-icon {
+/* #intro .carousel-control-next-icon, #intro .carousel-control-prev-icon {
   background: none;
   font-size: 32px;
   line-height: 0;
   margin-top: -50px;
-}
+} */
 
-#intro .carousel-indicators li {
+/* #intro .carousel-indicators li {
   cursor: pointer;
-}
+} */
 
 /*--------------------------------------------------------------
 # Sections General
