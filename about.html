@@ -3,16 +3,12 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <title>Zerosec</title>
     <link rel="icon" type="image/x-icon" href="./assets/img/fav.ico">
     <meta content="" name="descriptison">
     <meta content="" name="keywords">
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&display=swap" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,96 +18,222 @@
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
 
+    <!-- Navbar Assets -->
 
-    <!-- Template Main CSS File -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700italic,700,400italic%7CLato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic%7COpen+Sans:Open+Sans:400,800italic,800,700italic,700,600italic,600,400italic,300italic,300%7CHandlee">
+    <link rel="stylesheet" type="text/css" href="assets/navbar-assets/style/megafish.css" />
+    <link rel="stylesheet" type="text/css" href="assets/navbar-assets/style/superfish.css" />
+    <link rel="stylesheet" type="text/css" href="assets/navbar-assets/style/navbar-base.css" />
+    <link rel="stylesheet" type="text/css" href="assets/navbar-assets/style/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="assets/navbar-assets/style/retina.css" />
+    <link rel="stylesheet" type="text/css" href="assets/navbar-assets/style/font-awesome/css/all.css" />
+
     <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/classy-nav.css" rel="stylesheet">
-    <link href="assets/css/base.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-    <!-- ##### Header Area Start ##### -->
-    <header class="header-area">
-        <!-- Navbar Area -->
-        <div class="vizew-main-menu" id="sticker">
-            <div class="classy-nav-container breakpoint-off">
-                <div class="container">
 
-                    <!-- Menu -->
-                    <nav class="classy-navbar justify-content-between" id="vizewNav">
+    <div class="template-header" style="text-transform: uppercase;">
+        <div class="template-header-top">
+            <div class="template-main template-clear-fix">
+                <div class="template-header-top-logo">
+                    <a href="1-0-index.php">
+                        <img src="assets/img/zerosec-h-logo.png" />
+                    </a>
+                </div>
+                <div class="template-header-top-menu template-clear-fix">
+                    <!-- Desktop Web Menu -->
+                    <nav class="template-component-menu-default">
+                        <ul class="sf-menu template-clear-fix">
+                            <!-- Home Menu -->
+                            <li class="sf-mega-enable-0">
+                                <a href="index.html"><span class="template-icon-menu" style="font-size:xx-large;"><i
+                                            class="fas fa-home"></i></span><span
+                                        style="margin: 10%; margin-left: -10%; font-weight:bold;">Home</span></a>
+                            </li>
 
-                        <!-- Nav brand -->
-                        <a href="index.html" class="nav-brand"><img src="assets/img/logo.png" alt=""></a>
+                            <!-- About Menu -->
+                            <li class="sf-mega-enable-1">
+                                <a href="#"><span class="template-icon-menu" style="font-size:xx-large;"><i
+                                            class="fas fa-users"></i></span></span><span
+                                        style="margin: 10%; font-weight:bold;">About</span></a>
+                                <div class="sf-mega template-layout-100 template-clear-fix" id="cusDropDown"
+                                    style="width: 25%; margin-right: 23%; text-align: center;">
+                                    <div class="template-layout-column-left">
+                                        <ul>
+                                            <li><a href="about.html#about">WHO ARE WE?</a></li>
+                                            <li><a href="about.html#mission">OUR MISSION</a></li>
+                                            <li><a href="about.html#story">Our Story</a></li>
+                                            <li><a href="about.html#team">Our Team</a></li>
+                                            <li><a href="about.html#partners">Our Partners</a></li>
+                                            <li><a href="about.html#infrastructure">Our Infrastructure</a></li>
+                                            <li><a href="about.html#social-responsibility">SOCIAL RESPONSIBILITY</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
 
-                        <!-- Navbar Toggler -->
-                        <div class="classy-navbar-toggler">
-                            <span class="navbarToggler"><span></span><span></span><span></span></span>
-                        </div>
+                            <!-- The Three Verticals Menu -->
+                            <li class="sf-mega-enable-1">
+                                <a href="#"><span class="template-icon-menu" style="font-size:xx-large;"><i
+                                            class="fa fa-cog"></i></span><span
+                                        style="margin: 10%; font-weight:bold;">Services</span></a>
+                                <div class="sf-mega template-layout-33x33x33 template-clear-fix">
+                                    <div class="template-layout-column-left">
+                                        <span class="sf-mega-header" style="font-weight: bold;">DATA SOLUTION</span>
+                                        <ul>
+                                            <li><a href="services.html#content-moderation">Content Moderation</a></li>
+                                            <li><a href="services.html#data-annotation">Data Annotation</a></li>
+                                            <li><a href="services.html#data-extraction">Data Extraction</a></li>
+                                            <li><a href="services.html#bespoke-data-solutions">Bespoke DATA PROCESS
+                                                    OUTSOURCING</a></li>
+                                        </ul>
+                                    </div>
 
-                        <div class="classy-menu">
+                                    <div class="template-layout-column-center">
+                                        <span class="sf-mega-header" style="font-weight: bold;">BUSINESS SOLUTION</span>
+                                        <ul>
+                                            <li><a href="services.html#market-research">Market Research</a></li>
+                                            <li><a href="services.html#performance-marketing">DIGITAL MARKETING</a></li>
+                                            <li><a href="services.html#business-advisory">Business Advisory</a></li>
+                                            <li><a href="services.html#virtual-assistant">Virtual Assistant</a></li>
+                                        </ul>
+                                    </div>
 
-                            <!-- Close Button -->
-                            <div class="classycloseIcon">
-                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                            </div>
+                                    <div class="template-layout-column-right">
+                                        <span class="sf-mega-header" style="font-weight: bold;">LEGAL SOLUTION</span>
+                                        <ul>
+                                            <li><a href="services.html#legal-contract-management">Contract
+                                                    Management</a></li>
+                                            <li><a href="services.html#legal-legal-transcription">Legal
+                                                    Transcription</a></li>
+                                            <li><a href="services.html#legal-legal-due-diligence">Due Diligence</a></li>
+                                            <li><a href="services.html#legal-trademark-search">Trademark Search
+                                                    Report</a></li>
+                                            <li><a href="services.html#legal-legal-secretarial">Legal Secretarial
+                                                    Service</a></li>
+                                        </ul>
+                                    </div>
 
-                            <!-- Nav Start -->
-                            <div class="classynav">
-                                <ul>
-                                    <li><a href="index.html"><i class="icofont-home mr-2"></i>Home</a></li>
-                                    <li><a class="arrow"><i class="icofont-users mr-2"></i>About</a>
-                                        <div class="dropdown" style="width: 250px; margin-top: -7px;">
-                                            <ul >
-                                                <li><a href="about.html#about">WHO ARE WE?</a></li>
-                                                <li><a href="about.html#mission">OUR MISSION</a></li>
-                                                <li><a href="about.html#story">Our Story</a></li>
-                                                <li><a href="about.html#team">Our Team</a></li>
-                                                <li><a href="about.html#partners">Our Partners</a></li>
-                                                <li><a href="about.html#infrastructure">Our Infrastructure</a></li>
-                                                <li><a href="about.html#social-responsibility">SOCIAL RESPONSIBILITY</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li><a class="arrow"><i class="icofont-tools mr-2"></i>Services</a>
-                                        <div class="megamenu">
-                                            <ul class="single-mega cn-col-3">
-                                                <li><a href="services.html#content-moderation" class="heading">DATA PROCESS OUTSOURCING</a></li>
-                                                <li><a href="services.html#content-moderation">Content Moderation</a></li>
-                                                <li><a href="services.html#data-annotation">Data Annotation</a></li>
-                                                <li><a href="services.html#data-extraction">Data Extraction</a></li>
-                                                <li><a href="services.html#bespoke-data-solutions">Bespoke DATA PROCESS OUTSOURCING</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-3">
-                                                <li><a href="services.html#market-research" class="heading">BUSINESS PROCESS OUTSOURCING</a></li>
-                                                <li><a href="services.html#market-research">Market Research</a></li>
-                                                <li><a href="services.html#performance-marketing">DIGITAL MARKETING</a></li>
-                                                <li><a href="services.html#business-advisory">Business Advisory</a></li>
-                                                <li><a href="services.html#virtual-assistant">Virtual Assistant</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-3">
-                                                <li><a href="services.html#legal-section" class="heading">LEGAL PROCESS OUTSOURCING</a></li>
-                                                <li><a href="services.html#legal-section">Contract Management</a></li>
-                                                <li><a href="services.html#legal-section">Legal Transcription</a></li>
-                                                <li><a href="services.html#legal-section">Due Diligence</a></li>
-                                                <li><a href="services.html#legal-section">Trademark Search Report</a></li>
-                                                <li><a href="services.html#legal-section">Legal Secretarial Service</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li><a href="contact.html"><i class="icofont-contact-add mr-2"></i>Contact</a></li>
-                                </ul>
-                            </div>
-                            <!--Nav End -->
-                        </div>
+                                </div>
+                            </li>
+
+
+                            <!-- Contact Menu -->
+                            <li class="sf-mega-enable-1">
+                                <a href="contact.html"><span class="template-icon-menu" style="font-size:xx-large;"><i
+                                            class="fas fa-handshake"></i></span><span
+                                        style="margin: 10%; font-weight:bold;">Contact</span></a>
+                            </li>
+
+                        </ul>
                     </nav>
+
+                    <nav class="template-component-menu-responsive">
+                        <ul class="template-clear-fix">
+                            <li>
+                                <a href="#">Menu<span></span></a>
+                                <ul>
+                                    <!-- Home Menu -->
+                                    <li>
+                                        <a href="index.html">Home</a>
+                                    </li>
+
+                                    <!-- About Menu -->
+                                    <li>
+                                        <a href="#">About<span></span></a>
+                                        <ul>
+                                            <li><a href="about.html#about">WHO ARE WE?</a></li>
+                                            <li><a href="about.html#mission">OUR MISSION</a></li>
+                                            <li><a href="about.html#story">Our Story</a></li>
+                                            <li><a href="about.html#team">Our Team</a></li>
+                                            <li><a href="about.html#partners">Our Partners</a></li>
+                                            <li><a href="about.html#infrastructure">Our Infrastructure</a></li>
+                                            <li><a href="about.html#social-responsibility">SOCIAL RESPONSIBILITY</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <!-- Services Menu -->
+                                    <li>
+                                        <a href="#">Services<span></span></a>
+                                        <ul>
+
+                                            <!-- DATA PROCESS OUTSOURCING -->
+                                            <li>
+                                                <a href="#">DATA SOLUTION<span></span></a>
+                                                <ul>
+                                                    <li><a href="services.html#content-moderation">Content
+                                                            Moderation</a></li>
+                                                    <li><a href="services.html#data-annotation">Data Annotation</a></li>
+                                                    <li><a href="services.html#data-extraction">Data Extraction</a></li>
+                                                    <li><a href="services.html#bespoke-data-solutions">Bespoke DATA
+                                                            PROCESS OUTSOURCING</a></li>
+                                                </ul>
+                                            </li>
+
+                                            <!-- BUSINESS PROCESS OUTSOURCING -->
+                                            <li>
+                                                <a href="#">BUSINESS SOLUTION<span></span></a>
+                                                <ul>
+                                                    <li><a href="services.html#market-research">Market Research</a></li>
+                                                    <li><a href="services.html#performance-marketing">DIGITAL
+                                                            MARKETING</a></li>
+                                                    <li><a href="services.html#business-advisory">Business Advisory</a>
+                                                    </li>
+                                                    <li><a href="services.html#virtual-assistant">Virtual Assistant</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+                                            <!-- LEGAL PROCESS OUTSOURCING -->
+                                            <li>
+                                                <a href="#">LEGAL SOLUTION<span></span></a>
+                                                <ul>
+                                                    <li><a href="services.html#legal-contract-management">Contract
+                                                            Management</a>
+                                                    </li>
+                                                    <li><a href="services.html#legal-legal-transcription">Legal
+                                                            Transcription</a>
+                                                    </li>
+                                                    <li><a href="services.html#legal-due-diligence">Due Diligence</a>
+                                                    </li>
+                                                    <li><a href="services.html#legal-trademark-search">Trademark Search
+                                                            Report</a></li>
+                                                    <li><a href="services.html#legal-legal-secretarial">Legal
+                                                            Secretarial
+                                                            Service</a></li>
+                                                </ul>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+
+
+                                    <!-- Contact Menu -->
+                                    <li>
+                                        <a href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+
                 </div>
             </div>
         </div>
-    </header>
-    <!--##### Header Area End ##### -->
+    </div>
+
+
 
     <main id="main">
 
@@ -130,10 +252,12 @@
                         <div class="single-do text-center mb-30" style="color: black">
                             <h2>A social enterprise delivering bespoke digital solutions for your business needs.
                                 </br></br>
-                                We take an active responsibility in operations and deliver quality results at competitive prices. We invest  in your growth, and our initiative and work frees will free you to focus on your core business issues. 
+                                We take an active responsibility in operations and deliver quality results at
+                                competitive prices. We invest in your growth, and our initiative and work frees will
+                                free you to focus on your core business issues.
                                 </br></br>
-                                    As a social enterprise, we also contribute to local community development.
-                                </h2>
+                                As a social enterprise, we also contribute to local community development.
+                            </h2>
                         </div>
                     </div>
                 </div>
@@ -141,7 +265,7 @@
         </section>
         <!-- End About Section -->
 
-        
+
         <!-- ========================= OUR MISSION start ========================= -->
         <section class="services-section" id="mission">
             <div class="container">
@@ -155,14 +279,18 @@
                 <div class="row align-items-top">
                     <div class="col-xl-6 col-lg-6">
                         <div class="about-img">
-                            <img style="border-radius: 10px;" src="assets/img/other-images/image-5.jpg" alt="" class="w-100">
+                            <img style="border-radius: 10px;" src="assets/img/other-images/image-5.jpg" alt=""
+                                class="w-100">
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6">
                         <div class="about-content" style="position:relative; top:-25px;">
                             <div class="section-title">
-                                <p style="font-size: 30px; color:black; font-weight: bold;">“Your Growth, Our Success”</p>
-                                <h4 style="text-align: justify; font-size: 30px;">It is equally applicable to our talents as well to our clients. We truly believe that placing the growth of our Clients and our talents at the forefront, will surely ensure our success.</h4>
+                                <p style="font-size: 30px; color:black; font-weight: bold;">“Your Growth, Our Success”
+                                </p>
+                                <h4 style="text-align: justify; font-size: 18px;">It is equally applicable to our
+                                    talents as well to our clients. We truly believe that placing the growth of our
+                                    Clients and our talents at the forefront, will surely ensure our success.</h4>
                             </div>
                         </div>
                     </div>
@@ -220,9 +348,10 @@
         </section> -->
 
 
-       
+
         <!-- ======= story Section ======= -->
-        <section id="story" id="content-moderation" class="services-section" style="margin-bottom: -50px; margin-top: -50px;">
+        <section id="story" id="content-moderation" class="services-section"
+            style="margin-bottom: -50px; margin-top: -50px;">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -238,14 +367,25 @@
                                 <div class="row align-items-top" style="margin-bottom: 40px !IMPORTANT;">
                                     <div class="col-xl-6 col-lg-6">
                                         <div class="about-img">
-                                            <img style="border-radius: 80px;" src="assets/img/other-images/image-1.jpg" alt=""  class="w-100">
+                                            <img style="border-radius: 80px;" src="assets/img/other-images/image-1.jpg"
+                                                alt="" class="w-100">
                                         </div>
                                     </div>
                                     <div class="col-xl-6 col-lg-6">
                                         <div>
                                             <div class="section-title" style="position: relative; top:18px;">
                                                 <h2></h2>
-                                                <p style="text-align: justify; font-size: 18px;">Navaneethan has always had a passion for working in the field of social entrepreneurship despite coming from a farming family. After graduating, he immediately started working as an accountant. Aravinth, one of his friends, informed him about the opportunity to provide data processing solutions in order to support his objectives.As a result, they both decided to launch their own firm in order to offer those services.However, Navaneethan's commitment to raising the living standards of rural residents persisted. As an entrepreneur, he also sought to give job possibilities to those with disabilities and students who could work while attending college.</p>
+                                                <p style="text-align: justify; font-size: 18px;">Navaneethan has always
+                                                    had a passion for working in the field of social entrepreneurship
+                                                    despite coming from a farming family. After graduating, he
+                                                    immediately started working as an accountant. Aravinth, one of his
+                                                    friends, informed him about the opportunity to provide data
+                                                    processing solutions in order to support his objectives.As a result,
+                                                    they both decided to launch their own firm in order to offer those
+                                                    services.However, Navaneethan's commitment to raising the living
+                                                    standards of rural residents persisted. As an entrepreneur, he also
+                                                    sought to give job possibilities to those with disabilities and
+                                                    students who could work while attending college.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -254,14 +394,20 @@
                                 <div class="row align-items-top" style="margin-bottom: 40px !IMPORTANT;">
                                     <div class="col-xl-6 col-lg-6">
                                         <div class="about-img">
-                                            <img style="border-radius: 80px;" src="assets/img/other-images/image-2.jpg" alt=""  class="w-100">
+                                            <img style="border-radius: 80px;" src="assets/img/other-images/image-2.jpg"
+                                                alt="" class="w-100">
                                         </div>
                                     </div>
                                     <div class="col-xl-6 col-lg-6">
                                         <div>
                                             <div class="section-title" style="position: relative; top:18px;">
                                                 <h2></h2>
-                                                <p style="text-align: justify; font-size: 18px;">Aravinth was born in a war-zone in Sri Lanka, and he spent 24 years of his life as a war-child and refugee. His craving to uphold those who went through the same life experiences propelled him to co-found DreamSpace Academy - a non-profit social enterprise empowering underprivileged communities in war-affected regions of Sri Lanka.</p>
+                                                <p style="text-align: justify; font-size: 18px;">Aravinth was born in a
+                                                    war-zone in Sri Lanka, and he spent 24 years of his life as a
+                                                    war-child and refugee. His craving to uphold those who went through
+                                                    the same life experiences propelled him to co-found DreamSpace
+                                                    Academy - a non-profit social enterprise empowering underprivileged
+                                                    communities in war-affected regions of Sri Lanka.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -270,14 +416,25 @@
                                 <div class="row align-items-top" style="margin-bottom: 40px !IMPORTANT;">
                                     <div class="col-xl-6 col-lg-6">
                                         <div class="about-img">
-                                            <img style="border-radius: 80px;" src="assets/img/other-images/image-3.jpg" alt=""  class="w-100">
+                                            <img style="border-radius: 80px;" src="assets/img/other-images/image-3.jpg"
+                                                alt="" class="w-100">
                                         </div>
                                     </div>
                                     <div class="col-xl-6 col-lg-6">
                                         <div>
                                             <div class="section-title" style="position: relative; top:18px;">
                                                 <h2></h2>
-                                                <p style="text-align: justify; font-size: 18px;">Despite the fact that Aravinth and Navaneethan were engaged in separate endeavours, their shared passion for social entrepreneurship brought them together and sparked the creation of Zerosec Solutions as a social venture in 2015. They began it in a 15 sq.ft office space with just Navaneethan and a moderator, as the only two employees. The first year was spent on developing demo solutions to demonstrate how everything worked and persuade clients to test it out. In 2018, the company relocated to a 250 square foot office space with 10 employees. It took two entrepreneur’s 7 years of unwavering perseverance to make it as Zerosec Solutions Pvt. Ltd. in 2022.</p>
+                                                <p style="text-align: justify; font-size: 18px;">Despite the fact that
+                                                    Aravinth and Navaneethan were engaged in separate endeavours, their
+                                                    shared passion for social entrepreneurship brought them together and
+                                                    sparked the creation of Zerosec Solutions as a social venture in
+                                                    2015. They began it in a 15 sq.ft office space with just Navaneethan
+                                                    and a moderator, as the only two employees. The first year was spent
+                                                    on developing demo solutions to demonstrate how everything worked
+                                                    and persuade clients to test it out. In 2018, the company relocated
+                                                    to a 250 square foot office space with 10 employees. It took two
+                                                    entrepreneur’s 7 years of unwavering perseverance to make it as
+                                                    Zerosec Solutions Pvt. Ltd. in 2022.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -286,29 +443,36 @@
                                 <div class="row align-items-top" style="margin-bottom: 40px !IMPORTANT;">
                                     <div class="col-xl-6 col-lg-6">
                                         <div class="about-img">
-                                            <img style="border-radius: 80px;" src="assets/img/other-images/image-4.jpg" alt=""  class="w-100">
+                                            <img style="border-radius: 80px;" src="assets/img/other-images/image-4.jpg"
+                                                alt="" class="w-100">
                                         </div>
                                     </div>
                                     <div class="col-xl-6 col-lg-6">
                                         <div>
                                             <div class="section-title" style="position: relative; top:18px;">
                                                 <h2></h2>
-                                                <p style="text-align: justify; font-size: 18px;">Zerosec Solutions has been offering round-the-clock assistance since 2015, as we promised to one of the clients that offer us the very first opportunity. Despite the countless real-world issues we have encountered, such as pandemics and natural disasters, our perseverance and dedication to our work have never wavered. Additionally, even throughout the holiday season, our 24/7 workforce offers unflagging services.</p>
+                                                <p style="text-align: justify; font-size: 18px;">Zerosec Solutions has
+                                                    been offering round-the-clock assistance since 2015, as we promised
+                                                    to one of the clients that offer us the very first opportunity.
+                                                    Despite the countless real-world issues we have encountered, such as
+                                                    pandemics and natural disasters, our perseverance and dedication to
+                                                    our work have never wavered. Additionally, even throughout the
+                                                    holiday season, our 24/7 workforce offers unflagging services.</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-         <!-- End Story Section -->
+        <!-- End Story Section -->
 
-  
+
 
         <!-- ========================= Our Story Sub Headings start ========================= -->
         <section id="content-moderation" class="services-section" style="position:relative; top: -50px;">
@@ -319,22 +483,26 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="row align-items-top">
                     <div class="col-xl-6 col-lg-6">
                         <div class="about-img">
-                            <img style="border-radius: 10px;" src="assets/img/other-images/image-6.jpg" alt="" class="w-100">
+                            <img style="border-radius: 10px;" src="assets/img/other-images/image-6.jpg" alt=""
+                                class="w-100">
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6">
                         <div class="about-content" style="position:relative; top:-25px;">
                             <div class="section-title">
                                 <p style="font-size: 30px; color:black; font-weight: bold;">OUR COMMITMENT</p>
-                                <h4 style="text-align: justify; font-size: 20px;">After almost a decade of living in urban clusters and observing the need to recalibrate the development idea, we at zerosec solutions have made the following commitment:                                </h4>
+                                <h4 style="text-align: justify; font-size: 18px;">After almost a decade of living in
+                                    urban clusters and observing the need to recalibrate the development idea, we at
+                                    zerosec solutions have made the following commitment: </h4>
                             </div>
 
                             <ul>
-                                <li>Reverse the trend of urban agglomeration which is one of the main causes for rural poverty.</li>
+                                <li>Reverse the trend of urban agglomeration which is one of the main causes for rural
+                                    poverty.</li>
                                 <li>Upskill rural youth to global standards.</li>
                                 <li>Deliver cost-effective services to global companies.</li>
                                 <li>Promote community development.</li>
@@ -347,14 +515,18 @@
                 <div class="row align-items-top" style="margin-top: 60px;">
                     <div class="col-xl-6 col-lg-6">
                         <div class="about-img">
-                            <img style="border-radius: 10px;" src="assets/img/other-images/image-7.jpg" alt="" class="w-100">
+                            <img style="border-radius: 10px;" src="assets/img/other-images/image-7.jpg" alt=""
+                                class="w-100">
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6">
                         <div class="about-content" style="position:relative; top:-40px;">
                             <div class="section-title">
-                                <p style="font-size: 30px; color:black; font-weight: bold;">Equal Opportunity Employer</p>
-                                <h4 style="text-align: justify; font-size: 20px;">We are an equal opportunity provider and actively strive to build diversity in our teams, <span style="font-weight: bold;">the years we have supported:</span></h4>
+                                <p style="font-size: 30px; color:black; font-weight: bold;">Equal Opportunity Employer
+                                </p>
+                                <h4 style="text-align: justify; font-size: 18px;">We are an equal opportunity provider
+                                    and actively strive to build diversity in our teams, <span
+                                        style="font-weight: bold;">the years we have supported:</span></h4>
                             </div>
 
                             <ul>
@@ -368,25 +540,28 @@
                     </div>
                 </div>
 
-                <div class="row align-items-top"  style="margin-top: 30px;">
+                <div class="row align-items-top" style="margin-top: 30px;">
                     <div class="col-xl-6 col-lg-6">
                         <div class="about-img">
-                            <img style="border-radius: 10px;" src="assets/img/other-images/image-8.jpg" alt="" class="w-100">
+                            <img style="border-radius: 10px;" src="assets/img/other-images/image-8.jpg" alt=""
+                                class="w-100">
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6">
                         <div class="about-content" style="position:relative; top:-40px;">
                             <div class="section-title">
                                 <p style="font-size: 30px; color:black; font-weight: bold;">Empowerment</p>
-                                <h4 style="text-align: justify; font-size: 20px;">Some of our notable initiatives in supporting the local community as well as our talents are:</span></h4>
+                                <h4 style="text-align: justify; font-size: 18px;">Some of our notable initiatives in
+                                    supporting the local community as well as our talents are:</span></h4>
                             </div>
 
                             <ul>
-                                <li>We have set-up a borrowing library in our office to expose our talents to ideas from across the world 
+                                <li>We have set-up a borrowing library in our office to expose our talents to ideas from
+                                    across the world
                                     Mentorship program to working students.</li>
                                 <li>Fast-tracking talent to managerial positions.</li>
                                 <li>Organising community events.</li>
-                                <li>Financial assistance to 40+  first-generation graduates etc.</li>
+                                <li>Financial assistance to 40+ first-generation graduates etc.</li>
                                 <li>Supports women empowerment by providing work from home option to homemakers .</li>
                             </ul>
 
@@ -395,7 +570,7 @@
                 </div>
 
 
-                <div class="row align-items-top"  style="margin-top: 30px; margin-left: 28%; " id="story-map">
+                <!-- <div class="row align-items-top"  style="margin-top: 30px; margin-left: 28%; " id="story-map">
                     <div class="col-xl-8 col-lg-8">
 
                         <div class="section-title">
@@ -407,247 +582,261 @@
                         </div>
                     </div>
                    
-                </div>
+                </div> -->
 
 
             </div>
         </section>
-          <!-- ========================= Our Story Sub Headings end ========================= -->
+        <!-- ========================= Our Story Sub Headings end ========================= -->
 
 
 
         <!-- ======= Team Section ======= -->
-            <section id="team" class="team">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="section-heading">
-                                <h6>Our Team</h6>
+        <section id="team" class="team">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-heading">
+                            <h6>Our Team</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="member">
+                            <div class="pic"><img src="assets/img/2-team-profiles/0-navaneethan.jpg" class="img-fluid"
+                                    alt=""></div>
+                            <div class="member-info">
+                                <h4>Navaneethan</h4>
+                                <span>Managing Director & Co-Founder</span>
+                                <!--
+                                        <div class="social">
+                                            <a href=""><i class="icofont-link"></i></a>
+                                        </div>
+                                    -->
                             </div>
                         </div>
                     </div>
-                    <div class="row">
 
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="member">
-                                <div class="pic"><img src="assets/img/2-team-profiles/0-navaneethan.jpg" class="img-fluid" alt=""></div>
-                                <div class="member-info">
-                                    <h4>Navaneethan</h4>
-                                    <span>Managing Director & Co-Founder</span>
-                                    <!--
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="member">
+                            <div class="pic"><img src="assets/img/2-team-profiles/1-aravinth.jpg" class="img-fluid"
+                                    alt=""></div>
+                            <div class="member-info">
+                                <h4>Aravinth</h4>
+                                <span>Director & Co-founder</span>
+                                <!--
                                         <div class="social">
                                             <a href=""><i class="icofont-link"></i></a>
                                         </div>
                                     -->
-                                </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="member">
-                                <div class="pic"><img src="assets/img/2-team-profiles/1-aravinth.jpg" class="img-fluid" alt=""></div>
-                                <div class="member-info">
-                                    <h4>Aravinth</h4>
-                                    <span>Director & Co-founder</span>
-                                    <!--
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="member">
+                            <div class="pic"><img src="assets/img/2-team-profiles/2-arthi.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4>Arthi</h4>
+                                <span>General Manager</span>
+                                <!--
                                         <div class="social">
                                             <a href=""><i class="icofont-link"></i></a>
                                         </div>
                                     -->
-                                </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="member">
-                                <div class="pic"><img src="assets/img/2-team-profiles/2-arthi.jpg" class="img-fluid" alt=""></div>
-                                <div class="member-info">
-                                    <h4>Arthi</h4>
-                                    <span>General Manager</span>
-                                    <!--
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="member">
+                            <div class="pic"><img src="assets/img/2-team-profiles/3-kamini.jpg" class="img-fluid"
+                                    alt=""></div>
+                            <div class="member-info">
+                                <h4>Kamini</h4>
+                                <span>Business Development Manager</span>
+                                <!--
                                         <div class="social">
                                             <a href=""><i class="icofont-link"></i></a>
                                         </div>
                                     -->
-                                </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="member">
-                                <div class="pic"><img src="assets/img/2-team-profiles/3-kamini.jpg" class="img-fluid" alt=""></div>
-                                <div class="member-info">
-                                    <h4>Kamini</h4>
-                                    <span>Business Development Manager</span>
-                                    <!--
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="member">
+                            <div class="pic"><img src="assets/img/2-team-profiles/4-abirami.jpg" class="img-fluid"
+                                    alt=""></div>
+                            <div class="member-info">
+                                <h4>Abirami</h4>
+                                <span>Team Lead</span>
+                                <!--
                                         <div class="social">
                                             <a href=""><i class="icofont-link"></i></a>
                                         </div>
                                     -->
-                                </div>
                             </div>
                         </div>
+                    </div>
 
-
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="member">
-                                <div class="pic"><img src="assets/img/2-team-profiles/4-abirami.jpg" class="img-fluid" alt=""></div>
-                                <div class="member-info">
-                                    <h4>Abirami</h4>
-                                    <span>Team Lead</span>
-                                    <!--
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="member">
+                            <div class="pic"><img src="assets/img/2-team-profiles/5-gowthami.jpg" class="img-fluid"
+                                    alt=""></div>
+                            <div class="member-info">
+                                <h4>Gowthami</h4>
+                                <span>NSFW Moderator</span>
+                                <!--
                                         <div class="social">
                                             <a href=""><i class="icofont-link"></i></a>
                                         </div>
                                     -->
-                                </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="member">
-                                <div class="pic"><img src="assets/img/2-team-profiles/5-gowthami.jpg" class="img-fluid" alt=""></div>
-                                <div class="member-info">
-                                    <h4>Gowthami</h4>
-                                    <span>Moderator</span>
-                                    <!--
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="member">
+                            <div class="pic"><img src="assets/img/2-team-profiles/7-ajith.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4>Ajith</h4>
+                                <span>NSFW Moderator</span>
+                                <!--
                                         <div class="social">
                                             <a href=""><i class="icofont-link"></i></a>
                                         </div>
                                     -->
-                                </div>
                             </div>
                         </div>
+                    </div>
 
-                        
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="member">
-                                <div class="pic"><img src="assets/img/2-team-profiles/7-ajith.jpg" class="img-fluid" alt=""></div>
-                                <div class="member-info">
-                                    <h4>Ajith</h4>
-                                    <span>Moderator</span>
-                                    <!--
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="member">
+                            <div class="pic"><img src="assets/img/2-team-profiles/8-devandhiran.jpg" class="img-fluid"
+                                    alt=""></div>
+                            <div class="member-info">
+                                <h4>Devandhiran</h4>
+                                <span>NSFW Moderator</span>
+                                <!--
                                         <div class="social">
                                             <a href=""><i class="icofont-link"></i></a>
                                         </div>
                                     -->
-                                </div>
                             </div>
                         </div>
+                    </div>
 
-                                                    
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="member">
-                                <div class="pic"><img src="assets/img/2-team-profiles/8-devandhiran.jpg" class="img-fluid" alt=""></div>
-                                <div class="member-info">
-                                    <h4>Devandhiran</h4>
-                                    <span>Moderator</span>
-                                    <!--
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="member">
+                            <div class="pic"><img src="assets/img/2-team-profiles/9-induja.jpg" class="img-fluid"
+                                    alt=""></div>
+                            <div class="member-info">
+                                <h4>Induja</h4>
+                                <span>Brand Protection Moderator</span>
+                                <!--
                                         <div class="social">
                                             <a href=""><i class="icofont-link"></i></a>
                                         </div>
                                     -->
-                                </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="member">
-                                <div class="pic"><img src="assets/img/2-team-profiles/9-induja.jpg" class="img-fluid" alt=""></div>
-                                <div class="member-info">
-                                    <h4>Induja</h4>
-                                    <span>Moderator</span>
-                                    <!--
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="member">
+                            <div class="pic"><img src="assets/img/2-team-profiles/10-preethi.jpg" class="img-fluid"
+                                    alt=""></div>
+                            <div class="member-info">
+                                <h4>Preethi</h4>
+                                <span>Brand Protection Moderator</span>
+                                <!--
                                         <div class="social">
                                             <a href=""><i class="icofont-link"></i></a>
                                         </div>
                                     -->
-                                </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="member">
-                                <div class="pic"><img src="assets/img/2-team-profiles/10-preethi.jpg" class="img-fluid" alt=""></div>
-                                <div class="member-info">
-                                    <h4>Preethi</h4>
-                                    <span>Moderator</span>
-                                    <!--
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="member">
+                            <div class="pic"><img src="assets/img/2-team-profiles/11-kalaivani.jpg" class="img-fluid"
+                                    alt=""></div>
+                            <div class="member-info">
+                                <h4>Kalaivani</h4>
+                                <span>Brand Protection Moderator</span>
+                                <!--
                                         <div class="social">
                                             <a href=""><i class="icofont-link"></i></a>
                                         </div>
                                     -->
-                                </div>
                             </div>
                         </div>
+                    </div>
 
-
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="member">
-                                <div class="pic"><img src="assets/img/2-team-profiles/11-kalaivani.jpg" class="img-fluid" alt=""></div>
-                                <div class="member-info">
-                                    <h4>Kalaivani</h4>
-                                    <span>Moderator</span>
-                                    <!--
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="member">
+                            <div class="pic"><img src="assets/img/2-team-profiles/12-logesh.jpg" class="img-fluid"
+                                    alt=""></div>
+                            <div class="member-info">
+                                <h4>Logesh</h4>
+                                <span>Fraud Detection Moderator</span>
+                                <!--
                                         <div class="social">
                                             <a href=""><i class="icofont-link"></i></a>
                                         </div>
                                     -->
-                                </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="member">
-                                <div class="pic"><img src="assets/img/2-team-profiles/12-logesh.jpg" class="img-fluid" alt=""></div>
-                                <div class="member-info">
-                                    <h4>Logesh</h4>
-                                    <span>Moderator</span>
-                                    <!--
+
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="member">
+                            <div class="pic"><img src="assets/img/2-team-profiles/13-sreenisha.jpg" class="img-fluid"
+                                    alt=""></div>
+                            <div class="member-info">
+                                <h4>Sreenisha</h4>
+                                <span>Brand Protection Moderator</span>
+                                <!--
                                         <div class="social">
                                             <a href=""><i class="icofont-link"></i></a>
                                         </div>
                                     -->
-                                </div>
                             </div>
                         </div>
+                    </div>
 
-
-                        
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="member">
-                                <div class="pic"><img src="assets/img/2-team-profiles/13-sreenisha.jpg" class="img-fluid" alt=""></div>
-                                <div class="member-info">
-                                    <h4>Sreenisha</h4>
-                                    <span>Moderator</span>
-                                    <!--
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="member">
+                            <div class="pic"><img src="assets/img/2-team-profiles/14-vignesh.jpg" class="img-fluid"
+                                    alt=""></div>
+                            <div class="member-info">
+                                <h4>Vignesh</h4>
+                                <span>Fraud Detection Moderator</span>
+                                <!--
                                         <div class="social">
                                             <a href=""><i class="icofont-link"></i></a>
                                         </div>
                                     -->
-                                </div>
                             </div>
                         </div>
-
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="member">
-                                <div class="pic"><img src="assets/img/2-team-profiles/14-vignesh.jpg" class="img-fluid" alt=""></div>
-                                <div class="member-info">
-                                    <h4>Vignesh</h4>
-                                    <span>Moderator</span>
-                                    <!--
-                                        <div class="social">
-                                            <a href=""><i class="icofont-link"></i></a>
-                                        </div>
-                                    -->
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
 
                 </div>
-            </section>
+
+            </div>
+        </section>
         <!-- End Team Section -->
 
 
@@ -665,7 +854,9 @@
 
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="member">
-                            <div class="pic"><a target="_blank" href="https://dreamspace.academy/"><img src="assets/img/3-partners-logo/0-dreamspace.jpg" class="img-fluid" alt=""></a></div>
+                            <div class="pic"><a target="_blank" href="https://dreamspace.academy/"><img
+                                        src="assets/img/3-partners-logo/0-dreamspace.jpg" class="img-fluid" alt=""></a>
+                            </div>
                             <div class="member-info">
                                 <!--
                                 <h4>DreamSpace Academy</h4>
@@ -681,7 +872,9 @@
 
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="member">
-                            <div class="pic"><a target="_blank" href="https://aracreate.com/"><img src="assets/img/3-partners-logo/1-aracreate.png" class="img-fluid" alt=""></a></div>
+                            <div class="pic"><a target="_blank" href="https://aracreate.com/"><img
+                                        src="assets/img/3-partners-logo/1-aracreate.png" class="img-fluid" alt=""></a>
+                            </div>
                             <div class="member-info">
                                 <!--
                                 <h4>araCreate</h4>
@@ -716,13 +909,16 @@
                 <div class="row align-items-top">
                     <div class="col-xl-6 col-lg-6">
                         <div class="about-img">
-                            <img style="border-radius: 10px;" src="assets/img/other-images/image-10.jpg" alt="" class="w-100">
+                            <img style="border-radius: 10px;" src="assets/img/other-images/image-10.jpg" alt=""
+                                class="w-100">
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6">
                         <div class="about-content" style="position:relative; top:-25px;">
                             <div class="section-title">
-                                <h4 style="text-align: justify; font-size: 20px;">We have a 2300 square feet office space with adequate ventilation and other basic amenities. We ensure that our employees have a trouble-free working environment.</h4>
+                                <h4 style="text-align: justify; font-size: 18px;">We have a 2300 square feet office
+                                    space with adequate ventilation and other basic amenities. We ensure that our
+                                    employees have a trouble-free working environment.</h4>
                             </div>
 
                             <ul>
@@ -756,14 +952,18 @@
                 <div class="row align-items-top">
                     <div class="col-xl-6 col-lg-6">
                         <div class="about-img">
-                            <img style="border-radius: 10px;" src="assets/img/other-images/image-11.jpg" alt="" class="w-100">
+                            <img style="border-radius: 10px;" src="assets/img/other-images/image-11.jpg" alt=""
+                                class="w-100">
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6">
                         <div class="about-content" style="position:relative; top:-25px;">
                             <div class="section-title">
-                                <h4 style="text-align: justify; font-size: 30px;">As a social enterprise, we are always concerned about our society. When it comes to the environment, Zerosec Solutions uses solar energy for all of its electricity needs.</h4>
-                                <h4 style="text-align: justify; font-size: 30px;">We also intend to collaborate with non-governmental organisations to help protect the environment.</h4>
+                                <h4 style="text-align: justify; font-size: 18px;">As a social enterprise, we are always
+                                    concerned about our society. When it comes to the environment, Zerosec Solutions
+                                    uses solar energy for all of its electricity needs.</h4>
+                                <h4 style="text-align: justify; font-size: 18px;">We also intend to collaborate with
+                                    non-governmental organisations to help protect the environment.</h4>
                             </div>
 
                         </div>
@@ -774,13 +974,13 @@
         </section>
         <!-- End social responsibility Section -->
 
-        
+
 
 
     </main>
     <!-- End #main -->
 
-    
+
 
     <footer class="footer">
         <div class="container">
@@ -799,13 +999,19 @@
                     <div class="social mb-3">
                         <h3 class="mb-3">STAY IN TOUCH</h3>
                         <ul class="list-unstyled">
-                            <!-- <a href="#" class="twitter btn"><i class="icofont-twitter"></i></a>
-                            <a href="#" class="facebook btn"><i class="icofont-facebook"></i></a>
-                            <a href="#" class="instagram btn"><i class="icofont-instagram"></i></a> -->
-                            <a href="#" class="linkedin btn"><i class="icofont-linkedin"></i></a>
+                            <a href="https://www.instagram.com/zerosec_solutions/" target="_blank"
+                                class="instagram btn"><i class="icofont-instagram"></i></a>
+                            <a href="https://www.linkedin.com/company/zerosec-solutions/" target="_blank"
+                                class="linkedin btn"><i class="icofont-linkedin"></i></a>
+                            <a href="https://twitter.com/ZerosecLtd" target="_blank" class="instagram btn"><i
+                                    class="icofont-twitter"></i></a>
                         </ul>
                     </div>
-
+                    <div class="container-fluid">
+                        <a href="terms.html" class=" text-opacity-75"> | &nbsp;&nbsp;Terms&nbsp;&nbsp; |</a>
+                        <a href="#">&nbsp;&nbsp;Privacy Policy&nbsp;&nbsp; |</a>
+                        <a href="#">&nbsp;&nbsp;Services&nbsp;&nbsp; |</a>
+                    </div>
                     <div class="copyright">
                         <p class="mb-0"><small>&copy; Zerosec All Rights Reserved.</small></p>
                     </div>
@@ -816,7 +1022,10 @@
         </div>
     </footer>
 
+    <script src="assets/js/number-counting-animation.js"></script>
+
     <a href="#" class="back-to-top"><i class="icofont-home"></i></a>
+    <div id="preloader"></div>
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/jquery/jquery.min.js"></script>
@@ -826,12 +1035,19 @@
     <script src="assets/vendor/venobox/venobox.min.js"></script>
     <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/plugins/plugins.js"></script>
-    <script src="assets/js/classy-nav.min.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/plugins/plugins.js"></script>
 
 
-    <!-- Template Main JS File -->
+
+
+    <!-- Navbar Assets -->
+    <script type="text/javascript" src="assets/navbar-assets/script/superfish.min.js"></script>
+    <script type="text/javascript" src="assets/navbar-assets/script/jquery.actual.min.js"></script>
+    <script type="text/javascript" src="assets/navbar-assets/script/jquery.template.component.js"></script>
+    <script type="text/javascript" src="assets/navbar-assets/script/public.js"></script>
+
+
     <script src="assets/js/main.js"></script>
 
 </body>
