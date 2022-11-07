@@ -11,48 +11,55 @@
    height: 100%;
  }
 
-@media screen and (min-width: 320px) {
+ @media screen and (min-width: 320px) {
 
-  .animate__animated {
-      margin-top: 45%;
-      font-size: 10px !important;
-    }
-}
-@media screen and (min-width: 375px) {
+   .animate__animated {
+     margin-top: 45%;
+     font-size: 10px !important;
+   }
+ }
 
-  .animate__animated {
-    margin-top: 50%;
-    font-size: 17px !important;
-  }
-}
-@media screen and (min-width: 425px) {
-  .animate__animated {
-    margin-top: 50%;
-    font-size: 20px !important;
-  }
-}
-@media screen and (min-width: 768px) {
-  .animate__animated {
-    margin-top: 50%;
-    font-size: 50px !important;
-  }
-}
+ @media screen and (min-width: 375px) {
+
+   .animate__animated {
+     margin-top: 50%;
+     font-size: 17px !important;
+   }
+ }
+
+ @media screen and (min-width: 425px) {
+   .animate__animated {
+     margin-top: 50%;
+     font-size: 20px !important;
+   }
+ }
+
+ @media screen and (min-width: 768px) {
+   .animate__animated {
+     margin-top: 50%;
+     font-size: 50px !important;
+   }
+ }
+
  @media screen and (min-width: 1024px) {
    .animate__animated {
-    margin-top: 50%;
+     margin-top: 50%;
      font-size: 80px !important;
    }
  }
+
  @media screen and (min-width: 2560px) {
    .animate__animated {
-    margin-top: 50%;
-     font-size: 100px !important;
+     margin-top: 50%;
+     font-size: 110px !important;
    }
  }
+
  body {
    font-family: "Proxima Nova";
    color: #444444;
  }
+
  .main-slider-title {
 
    color: #ffffff;
