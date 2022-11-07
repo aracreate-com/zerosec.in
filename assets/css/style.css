@@ -15,7 +15,15 @@
 
    .animate__animated {
      margin-top: 45%;
-     font-size: 10px !important;
+     font-size: 20px !important;
+   }
+
+   .statistics-circle {
+     margin-left: 60px !important;
+   }
+
+   .center-cricle-statistics-header {
+     margin-left: 45px !important;
    }
  }
 
@@ -23,14 +31,30 @@
 
    .animate__animated {
      margin-top: 50%;
-     font-size: 17px !important;
+     font-size: 25px !important;
+   }
+
+   .statistics-circle {
+     margin-left: 80px !important;
+   }
+
+   .center-cricle-statistics-header {
+     margin-left: 65px !important;
    }
  }
 
  @media screen and (min-width: 425px) {
    .animate__animated {
      margin-top: 50%;
-     font-size: 20px !important;
+     font-size: 25px !important;
+   }
+
+   .statistics-circle {
+     margin-left: 100px !important;
+   }
+
+   .center-cricle-statistics-header {
+     margin-left: 95px !important;
    }
  }
 
@@ -39,12 +63,28 @@
      margin-top: 50%;
      font-size: 50px !important;
    }
+
+   .statistics-circle {
+     margin-left: 70px !important;
+   }
+
+   .center-cricle-statistics-header {
+     margin-left: 50px !important;
+   }
  }
 
  @media screen and (min-width: 1024px) {
    .animate__animated {
      margin-top: 50%;
      font-size: 80px !important;
+   }
+
+   .statistics-circle {
+     margin-left: 20px !important;
+   }
+
+   .center-cricle-statistics-header {
+     margin-left: 10px !important;
    }
  }
 
@@ -61,7 +101,6 @@
  }
 
  .main-slider-title {
-
    color: #ffffff;
    text-shadow: 3px 3px 2px #2088DA;
 
@@ -72,6 +111,7 @@
    border-radius: 50%;
    width: 160px;
    height: 160px;
+   overflow: hidden;
  }
 
  :target:before {
