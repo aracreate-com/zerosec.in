@@ -564,7 +564,7 @@ a:hover,
 .template-widget-archive.template-widget-archive-style-1 > ul > li > a:hover,
 .template-widget-category.template-widget-category-style-1 > ul > li > a:hover,
 .template-widget-tag > ul > li > a:hover {
-  background-color: #261f40;
+  background-color: black;
 }
 
 .tp-leftarrow:hover,
