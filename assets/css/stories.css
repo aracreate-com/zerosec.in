@@ -30,8 +30,11 @@ body{
     height: 100%;
     -webkit-backface-visibility: hidden; 
     backface-visibility: hidden;
+    overflow-y: scroll;
   }
-  
+    ::-webkit-scrollbar {
+      display: none;
+    }
   
   .flip-card-front {
     background-color: transparent;
@@ -42,6 +45,7 @@ body{
   .flip-card-back {
     background-color: transparent;
     color: rgb(32,136,218);
+    padding: 5px;
     transform: rotateY(180deg);
     
   }
