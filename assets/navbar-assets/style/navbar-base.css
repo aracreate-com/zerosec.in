@@ -187,7 +187,7 @@ ul {
 
 .template-main,
 .template-component-menu-default ul.sf-menu .sf-mega {
-  width: ;
+  width: auto;
   margin-left: auto;
   margin-right: auto;
 }
@@ -564,7 +564,7 @@ a:hover,
 .template-widget-archive.template-widget-archive-style-1 > ul > li > a:hover,
 .template-widget-category.template-widget-category-style-1 > ul > li > a:hover,
 .template-widget-tag > ul > li > a:hover {
-  background-color: black;
+  background-color: rgb(32,136,218);
 }
 
 .tp-leftarrow:hover,
