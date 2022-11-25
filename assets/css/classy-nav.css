@@ -8,6 +8,9 @@ ul{
 
 ul li{
   list-style: none; }
+ol, ul {
+  padding-left: 0rem;
+}
 
 img {
   height: auto;
