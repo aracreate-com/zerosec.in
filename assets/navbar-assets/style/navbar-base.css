@@ -6678,17 +6678,17 @@ ul.template-widget-list > li > div h6 a {
   background-position: 0px -15px;
 }
 
-.template-component-menu-responsive ul li ul li a {
+/* .template-component-menu-responsive ul li ul li a {
   padding-left: 0px;
-}
-
+} */
+/* 
 .template-component-menu-responsive ul li ul li ul li a {
   padding-left: 0px;
-}
+} */
 
-.template-component-menu-responsive ul li ul li ul li ul li a {
+/* .template-component-menu-responsive ul li ul li ul li ul li a {
   padding-left: 0px;
-}
+} */
 
 .template-component-menu-responsive ul li a,
 .template-component-menu-responsive ul li a:hover {
