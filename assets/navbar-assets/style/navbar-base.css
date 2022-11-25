@@ -6630,7 +6630,7 @@ ul.template-widget-list > li > div h6 a {
 }
 
 .template-component-menu-responsive > ul {
-  border-style: solid;
+  border-style: none;
   border-width: 1px 0px 0px 0px;
 }
 
