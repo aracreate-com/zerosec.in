@@ -6643,7 +6643,7 @@ ul.template-widget-list > li > div h6 a {
   display: block;
   border-style: solid;
   padding: 10px 20px 10px 20px;
-  border-width: 0px 1px 1px 1px;
+  border-width: 1px 1px 1px 1px;
 }
 
 .template-component-menu-responsive a > span {
