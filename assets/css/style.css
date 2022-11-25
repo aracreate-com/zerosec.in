@@ -1152,9 +1152,8 @@ intro .carousel-container {
    position: absolute;
    left: 0;
    top: 6.5px;
-   -webkit-box-shadow: 0px 14px 15px rgba(78, 110, 241, 0.26);
-   -moz-box-shadow: 0px 14px 15px rgba(78, 110, 241, 0.26);
-   box-shadow: 0px 14px 15px rgba(78, 110, 241, 0.26);
+   
+   ;
  }
 
  /*--------------------------------------------------------------
