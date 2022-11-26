@@ -2,10 +2,7 @@
 /* 0-1049																	  */
 /******************************************************************************/
 
-@media only screen and (min-width:0px) and (max-width:1069px)
-{
-
-}
+@media only screen and (min-width:0px) and (max-width:1069px) {}
 
 
 
@@ -15,97 +12,89 @@
 /* 0-959																	  */
 /******************************************************************************/
 
-@media only screen and (min-width:0px) and (max-width:979px)
-{
+@media only screen and (min-width:0px) and (max-width:979px) {
 
-/******************************************************************************/
-/* Base																		  */
-/******************************************************************************/
+	/******************************************************************************/
+	/* Base																		  */
+	/******************************************************************************/
 
-*,
-body,
-input,
-select,
-textarea,
-.fancybox-title.fancybox-title-inside-wrap
-{
-	font-size:14px;
-}
+	*,
+	body,
+	input,
+	select,
+	textarea,
+	.fancybox-title.fancybox-title-inside-wrap {
+		font-size: 14px;
+	}
+	
 
-/******************************************************************************/
-/* Post																		  */
-/******************************************************************************/
+	/******************************************************************************/
+	/* Post																		  */
+	/******************************************************************************/
 
 	/**************************************************************************/
 	/*	Post / Comments list												  */
 	/**************************************************************************/
 
 	.template-post .template-post-comment-list>ul>li ul.template-post-comment-list-children,
-	.template-post .template-post-comment-list>ul>li ul.template-post-comment-list-children li
-	{
-		margin-left:0px;
+	.template-post .template-post-comment-list>ul>li ul.template-post-comment-list-children li {
+		margin-left: 0px;
 	}
 
-/******************************************************************************/
-/* Component																  */
-/******************************************************************************/
+	/******************************************************************************/
+	/* Component																  */
+	/******************************************************************************/
 
 	/**************************************************************************/
 	/* Component / Counter box												  */
 	/**************************************************************************/
 
-	.template-component-counter-box ul>li>.template-component-counter-box-counter
-	{
-		width:150px;
-		height:150px;
-		line-height:150px;
+	.template-component-counter-box ul>li>.template-component-counter-box-counter {
+		width: 150px;
+		height: 150px;
+		line-height: 150px;
 	}
 
 	/**************************************************************************/
 	/* Component / Feature													  */
 	/**************************************************************************/
 
-				/**************************************************************/
-				/* Component / Feature / Icon								  */
-				/**************************************************************/
+	/**************************************************************/
+	/* Component / Feature / Icon								  */
+	/**************************************************************/
 
-					/**********************************************************/
-					/* Component / Feature / Icon / Size					  */
-					/**********************************************************/
+	/**********************************************************/
+	/* Component / Feature / Icon / Size					  */
+	/**********************************************************/
 
-					.template-component-feature.template-component-feature-size-large ul>li>.template-icon-feature
-					{
-						width:150px;
-						height:150px;
-					}
+	.template-component-feature.template-component-feature-size-large ul>li>.template-icon-feature {
+		width: 150px;
+		height: 150px;
+	}
 
-					/**********************************************************/
-					/* Component / Feature / Header	/ Position				  */
-					/**********************************************************/
+	/**********************************************************/
+	/* Component / Feature / Header	/ Position				  */
+	/**********************************************************/
 
-					.template-component-feature.template-component-feature-size-large.template-component-feature-position-right ul>li>h5
-					{
-						margin-right:170px;
-					}
+	.template-component-feature.template-component-feature-size-large.template-component-feature-position-right ul>li>h5 {
+		margin-right: 170px;
+	}
 
-					.template-component-feature.template-component-feature-size-large.template-component-feature-position-left ul>li>h5
-					{
-						margin-left:170px;
-					}
+	.template-component-feature.template-component-feature-size-large.template-component-feature-position-left ul>li>h5 {
+		margin-left: 170px;
+	}
 
-					/**********************************************************/
-					/* Component / Feature / Text / Position				  */
-					/**********************************************************/
+	/**********************************************************/
+	/* Component / Feature / Text / Position				  */
+	/**********************************************************/
 
-					.template-component-feature.template-component-feature-size-large.template-component-feature-position-right ul>li>p
-					{
-						margin-right:170px;
-					}
+	.template-component-feature.template-component-feature-size-large.template-component-feature-position-right ul>li>p {
+		margin-right: 170px;
+	}
 
-					.template-component-feature.template-component-feature-size-large.template-component-feature-position-left ul>li>p
-					{
-						margin-left:170px;
-					}
+	.template-component-feature.template-component-feature-size-large.template-component-feature-position-left ul>li>p {
+		margin-left: 170px;
+	}
 
 }
 
@@ -116,143 +105,126 @@ textarea,
 /******************************************************************************/
 /* 0-767																	  */
 /******************************************************************************/
+    /* max width 787px change to  979px */
+@media only screen and (min-width:0px) and (max-width:979px) {
 
-@media only screen and (min-width:0px) and (max-width:787px)
-{
+	/******************************************************************************/
+	/* Template layout															  */
+	/******************************************************************************/
 
-/******************************************************************************/
-/* Template layout															  */
-/******************************************************************************/
+	.template-content-layout .template-content-layout-column-left,
+	.template-content-layout .template-content-layout-column-right {
+		clear: both;
+		float: none;
+	}
 
-.template-content-layout .template-content-layout-column-left,
-.template-content-layout .template-content-layout-column-right
-{
-	clear:both;
-	float:none;
-}
+	.template-content-layout .template-content-layout-column-left {
+		margin-bottom: 60px;
+	}
 
-.template-content-layout .template-content-layout-column-left
-{
-	margin-bottom:60px;
-}
+	/******************************************************************************/
+	/* Headers																	  */
+	/******************************************************************************/
 
-/******************************************************************************/
-/* Headers																	  */
-/******************************************************************************/
+	h3,
+	h3 a,
+	.template-component-testimonial ul>li>p,
+	.template-component-twitter-user-timeline ul>li>p {
+		font-size: 28px;
+	}
 
-h3,h3 a,
-.template-component-testimonial ul>li>p,
-.template-component-twitter-user-timeline ul>li>p
-{
-	font-size:28px;
-}
+	h4,
+	h4 a {
+		font-size: 24px;
+	}
 
-h4,h4 a
-{
-	font-size:24px;
-}
+	h5,
+	h5 a {
+		font-size: 20px;
+	}
 
-h5,h5 a
-{
-	font-size:20px;
-}
+	h6,
+	h6 a,
+	.template-component-counter-list>ul>li>.template-component-counter-list-label,
+	.template-component-counter-list>ul>li>.template-component-counter-list-counter {
+		font-size: 16px;
+	}
 
-h6,h6 a,
-.template-component-counter-list>ul>li>.template-component-counter-list-label,
-.template-component-counter-list>ul>li>.template-component-counter-list-counter
-{
-	font-size:16px;
-}
-
-/******************************************************************************/
-/* Template																	  */
-/******************************************************************************/
+	/******************************************************************************/
+	/* Template																	  */
+	/******************************************************************************/
 
 	/**************************************************************************/
 	/* Template	/ Header													  */
 	/**************************************************************************/
 
-	.template-header
-	{
+	.template-header {}
 
+	.template-header .template-main {
+		display: block;
 	}
 
-		.template-header .template-main
-		{
-			display:block;
-		}
+	/**********************************************************************/
+	/* Template / Header / Top											  */
+	/**********************************************************************/
 
-		/**********************************************************************/
-		/* Template / Header / Top											  */
-		/**********************************************************************/
+	.template-header .template-header-top .template-header-top-logo,
+	.template-header .template-header-top .template-header-top-menu {
+		width: 100%;
+		display: block;
+	}
 
-				.template-header .template-header-top .template-header-top-logo,
-				.template-header .template-header-top .template-header-top-menu
-				{
-					width:100%;
-					display:block;
-				}
+	.template-header .template-header-top .template-header-top-logo {
+		float: none;
+		text-align: center;
+	}
 
-				.template-header .template-header-top .template-header-top-logo
-				{
-					float:none;
-					text-align:center;
-				}
+	.template-header .template-header-top .template-header-top-logo a {}
 
-					.template-header .template-header-top .template-header-top-logo a
-					{
+	.template-header .template-header-top .template-header-top-logo a img {
+		max-width: 150px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
-					}
+	.template-header .template-header-top .template-header-top-menu {
+		margin-bottom: 20px;
+	}
 
-						.template-header .template-header-top .template-header-top-logo a img
-						{
-							max-width:150px;
-							margin-left:auto;
-							margin-right:auto;
-						}
+	/******************************************************************************/
+	/* Form																		  */
+	/******************************************************************************/
 
-				.template-header .template-header-top .template-header-top-menu
-				{
-					margin-bottom:20px;
-				}
+	.template-form-line.template-form-line-submit,
+	.template-form-line.template-form-line-submit>div,
+	.template-form-line.template-form-line-submit input[type="submit"] {
+		width: 100%;
+		display: block;
+	}
 
-/******************************************************************************/
-/* Form																		  */
-/******************************************************************************/
-
-.template-form-line.template-form-line-submit,
-.template-form-line.template-form-line-submit>div,
-.template-form-line.template-form-line-submit input[type="submit"]
-{
-	width:100%;
-	display:block;
-}
-
-/******************************************************************************/
-/* Component																  */
-/******************************************************************************/
+	/******************************************************************************/
+	/* Component																  */
+	/******************************************************************************/
 
 	/**************************************************************************/
 	/* Component / Menu														  */
 	/**************************************************************************/
 
-		/**********************************************************************/
-		/* Component / Menu / Default										  */
-		/**********************************************************************/
+	/**********************************************************************/
+	/* Component / Menu / Default										  */
+	/**********************************************************************/
 
-		.template-component-menu-default
-		{
-			display:none;
-		}
+	.template-component-menu-default {
+		display: none;
+	}
 
-		/**********************************************************************/
-		/* Component / Menu / Responsive									  */
-		/**********************************************************************/
+	/**********************************************************************/
+	/* Component / Menu / Responsive									  */
+	/**********************************************************************/
 
-		.template-component-menu-responsive
-		{
-			display:block;
-		}
+	.template-component-menu-responsive {
+		display: block;
+	}
 
 }
 
@@ -264,10 +236,7 @@ h6,h6 a,
 /* 768-1049																	  */
 /******************************************************************************/
 
-@media only screen and (min-width:768px) and (max-width:1069px)
-{
-
-}
+@media only screen and (min-width:768px) and (max-width:1069px) {}
 
 
 
@@ -277,51 +246,46 @@ h6,h6 a,
 /* 960-1049																	  */
 /******************************************************************************/
 
-@media only screen and (min-width:960px) and (max-width:1069px)
-{
+@media only screen and (min-width:960px) and (max-width:1069px) {
 
-/******************************************************************************/
-/* Default																	  */
-/******************************************************************************/
+	/******************************************************************************/
+	/* Default																	  */
+	/******************************************************************************/
 
-.template-main,
-.template-component-menu-default ul.sf-menu .sf-mega
-{
-	width:930px;
-}
+	.template-main,
+	.template-component-menu-default ul.sf-menu .sf-mega {
+		width: 930px;
+	}
 
-/******************************************************************************/
-/*	Template layout															  */
-/******************************************************************************/
+	/******************************************************************************/
+	/*	Template layout															  */
+	/******************************************************************************/
 
-.template-content-layout.template-content-layout-sidebar-left .template-content-layout-column-left,
-.template-content-layout.template-content-layout-sidebar-right .template-content-layout-column-right
-{
-	width:290px;
-}
+	.template-content-layout.template-content-layout-sidebar-left .template-content-layout-column-left,
+	.template-content-layout.template-content-layout-sidebar-right .template-content-layout-column-right {
+		width: 290px;
+	}
 
-.template-content-layout.template-content-layout-sidebar-left .template-content-layout-column-right,
-.template-content-layout.template-content-layout-sidebar-right .template-content-layout-column-left
-{
-	width:610px;
-}
+	.template-content-layout.template-content-layout-sidebar-left .template-content-layout-column-right,
+	.template-content-layout.template-content-layout-sidebar-right .template-content-layout-column-left {
+		width: 610px;
+	}
 
-/******************************************************************************/
-/*	Component																  */
-/******************************************************************************/
+	/******************************************************************************/
+	/*	Component																  */
+	/******************************************************************************/
 
 	/**************************************************************************/
 	/* Component / Menu														  */
 	/**************************************************************************/
 
-		/**********************************************************************/
-		/* Component / Menu / Default										  */
-		/**********************************************************************/
+	/**********************************************************************/
+	/* Component / Menu / Default										  */
+	/**********************************************************************/
 
-					.template-component-menu-default ul.sf-menu>li>a
-					{
-						min-width:100px;
-					}
+	.template-component-menu-default ul.sf-menu>li>a {
+		min-width: 100px;
+	}
 
 }
 
@@ -333,38 +297,34 @@ h6,h6 a,
 /* 768-959																	  */
 /******************************************************************************/
 
-@media only screen and (min-width:768px) and (max-width:979px)
-{
+@media only screen and (min-width:768px) and (max-width:979px) {
 
-/******************************************************************************/
-/* Default																	  */
-/******************************************************************************/
+	/******************************************************************************/
+	/* Default																	  */
+	/******************************************************************************/
 
-.template-main,
-.template-component-menu-default ul.sf-menu .sf-mega
-{
-	width:750px;
-}
+	.template-main,
+	.template-component-menu-default ul.sf-menu .sf-mega {
+		width: 750px;
+	}
 
-/******************************************************************************/
-/*	Template layout															  */
-/******************************************************************************/
+	/******************************************************************************/
+	/*	Template layout															  */
+	/******************************************************************************/
 
-.template-content-layout.template-content-layout-sidebar-left .template-content-layout-column-left,
-.template-content-layout.template-content-layout-sidebar-right .template-content-layout-column-right
-{
-	width:230px;
-}
+	.template-content-layout.template-content-layout-sidebar-left .template-content-layout-column-left,
+	.template-content-layout.template-content-layout-sidebar-right .template-content-layout-column-right {
+		width: 230px;
+	}
 
-.template-content-layout.template-content-layout-sidebar-left .template-content-layout-column-right,
-.template-content-layout.template-content-layout-sidebar-right .template-content-layout-column-left
-{
-	width:490px;
-}
+	.template-content-layout.template-content-layout-sidebar-left .template-content-layout-column-right,
+	.template-content-layout.template-content-layout-sidebar-right .template-content-layout-column-left {
+		width: 490px;
+	}
 
-/******************************************************************************/
-/* Widget																	  */
-/******************************************************************************/
+	/******************************************************************************/
+	/* Widget																	  */
+	/******************************************************************************/
 
 	/**************************************************************************/
 	/* Widget / Most commented - Style 2									  */
@@ -372,41 +332,38 @@ h6,h6 a,
 	/* Widget / Recent comments - Style 3									  */
 	/**************************************************************************/
 
-				.template-footer .template-footer-top .template-widget-most-commented.template-widget-most-commented-style-1>ul>li>a,
-				.template-footer .template-footer-top .template-widget-recent-post.template-widget-recent-post-style-1>ul>li>a,
-				.template-footer .template-footer-top .template-widget-recent-comment.template-widget-recent-comment-style-1>ul>li>a
-				{
-					display:none;
-				}
+	.template-footer .template-footer-top .template-widget-most-commented.template-widget-most-commented-style-1>ul>li>a,
+	.template-footer .template-footer-top .template-widget-recent-post.template-widget-recent-post-style-1>ul>li>a,
+	.template-footer .template-footer-top .template-widget-recent-comment.template-widget-recent-comment-style-1>ul>li>a {
+		display: none;
+	}
 
-				.template-footer .template-footer-top .template-widget-most-commented.template-widget-most-commented-style-1>ul>li>h6,
-				.template-footer .template-footer-top .template-widget-most-commented.template-widget-most-commented-style-1>ul>li>span,
-				.template-footer .template-footer-top .template-widget-recent-post.template-widget-recent-post-style-1>ul>li>h6,
-				.template-footer .template-footer-top .template-widget-recent-post.template-widget-recent-post-style-1>ul>li>span,
-				.template-footer .template-footer-top .template-widget-recent-comment.template-widget-recent-comment-style-1>ul>li>h6,
-				.template-footer .template-footer-top .template-widget-recent-comment.template-widget-recent-comment-style-1>ul>li>span
-				{
-					margin-left:0px;
-				}
+	.template-footer .template-footer-top .template-widget-most-commented.template-widget-most-commented-style-1>ul>li>h6,
+	.template-footer .template-footer-top .template-widget-most-commented.template-widget-most-commented-style-1>ul>li>span,
+	.template-footer .template-footer-top .template-widget-recent-post.template-widget-recent-post-style-1>ul>li>h6,
+	.template-footer .template-footer-top .template-widget-recent-post.template-widget-recent-post-style-1>ul>li>span,
+	.template-footer .template-footer-top .template-widget-recent-comment.template-widget-recent-comment-style-1>ul>li>h6,
+	.template-footer .template-footer-top .template-widget-recent-comment.template-widget-recent-comment-style-1>ul>li>span {
+		margin-left: 0px;
+	}
 
-/******************************************************************************/
-/*	Component																  */
-/******************************************************************************/
+	/******************************************************************************/
+	/*	Component																  */
+	/******************************************************************************/
 
 	/**************************************************************************/
 	/* Component / Menu														  */
 	/**************************************************************************/
 
-		/**********************************************************************/
-		/* Component / Menu / Default										  */
-		/**********************************************************************/
+	/**********************************************************************/
+	/* Component / Menu / Default										  */
+	/**********************************************************************/
 
-					.template-component-menu-default ul.sf-menu>li>a
-					{
-						min-width:75px;
-						padding-left:5px;
-						padding-right:5px;
-					}
+	.template-component-menu-default ul.sf-menu>li>a {
+		min-width: 75px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
 
 }
 
@@ -418,41 +375,38 @@ h6,h6 a,
 /* 479-767																	  */
 /******************************************************************************/
 
-@media only screen and (min-width:480px) and (max-width:787px)
-{
+@media only screen and (min-width:480px) and (max-width:787px) {
 
-/******************************************************************************/
-/* Headers																	  */
-/******************************************************************************/
+	/******************************************************************************/
+	/* Headers																	  */
+	/******************************************************************************/
 
-h2,h2 a,
-.template-component-counter-box ul>li>.template-component-counter-box-counter,
-.template-component-pricing-plan>ul>li .template-component-pricing-plan-price>span:first-child
-{
-	font-size:48px;
-}
+	h2,
+	h2 a,
+	.template-component-counter-box ul>li>.template-component-counter-box-counter,
+	.template-component-pricing-plan>ul>li .template-component-pricing-plan-price>span:first-child {
+		font-size: 48px;
+	}
 
-/******************************************************************************/
-/* Default																	  */
-/******************************************************************************/
+	/******************************************************************************/
+	/* Default																	  */
+	/******************************************************************************/
 
-.template-main,
-.template-component-menu-default ul.sf-menu .sf-mega
-{
-	width:460px;
-}
+	.template-main,
+	.template-component-menu-default ul.sf-menu .sf-mega {
+		width: 460px;
+	}
 
-/******************************************************************************/
-/*	Template layout															  */
-/******************************************************************************/
+	/******************************************************************************/
+	/*	Template layout															  */
+	/******************************************************************************/
 
-.template-content-layout.template-content-layout-sidebar-left .template-content-layout-column-left,
-.template-content-layout.template-content-layout-sidebar-left .template-content-layout-column-right,
-.template-content-layout.template-content-layout-sidebar-right .template-content-layout-column-left,
-.template-content-layout.template-content-layout-sidebar-right .template-content-layout-column-right
-{
-	width:460px
-}
+	.template-content-layout.template-content-layout-sidebar-left .template-content-layout-column-left,
+	.template-content-layout.template-content-layout-sidebar-left .template-content-layout-column-right,
+	.template-content-layout.template-content-layout-sidebar-right .template-content-layout-column-left,
+	.template-content-layout.template-content-layout-sidebar-right .template-content-layout-column-right {
+		width: 460px
+	}
 
 }
 
@@ -464,81 +418,75 @@ h2,h2 a,
 /* 0-479																	  */
 /******************************************************************************/
 
-@media only screen and (min-width:0px) and (max-width:499px)
-{
+@media only screen and (min-width:0px) and (max-width:499px) {
 
-/******************************************************************************/
-/* Headers																	  */
-/******************************************************************************/
+	/******************************************************************************/
+	/* Headers																	  */
+	/******************************************************************************/
 
-h1,h1 a
-{
-	font-size:48px;
-}
+	h1,
+	h1 a {
+		font-size: 48px;
+	}
 
-h2,h2 a,
-.template-component-counter-box ul>li>.template-component-counter-box-counter,
-.template-component-pricing-plan>ul>li .template-component-pricing-plan-price>span:first-child
-{
-	font-size:40px;
-}
+	h2,
+	h2 a,
+	.template-component-counter-box ul>li>.template-component-counter-box-counter,
+	.template-component-pricing-plan>ul>li .template-component-pricing-plan-price>span:first-child {
+		font-size: 40px;
+	}
 
-/******************************************************************************/
-/* Default																	  */
-/******************************************************************************/
+	/******************************************************************************/
+	/* Default																	  */
+	/******************************************************************************/
 
-.template-main,
-.template-component-menu-default ul.sf-menu .sf-mega
-{
-	width:300px;
-}
+	.template-main,
+	.template-component-menu-default ul.sf-menu .sf-mega {
+		width: 300px;
+	}
 
-/******************************************************************************/
-/*	Template layout															  */
-/******************************************************************************/
+	/******************************************************************************/
+	/*	Template layout															  */
+	/******************************************************************************/
 
-.template-content-layout.template-content-layout-sidebar-left .template-content-layout-column-left,
-.template-content-layout.template-content-layout-sidebar-left .template-content-layout-column-right,
-.template-content-layout.template-content-layout-sidebar-right .template-content-layout-column-left,
-.template-content-layout.template-content-layout-sidebar-right .template-content-layout-column-right
-{
-	width:300px;
-}
+	.template-content-layout.template-content-layout-sidebar-left .template-content-layout-column-left,
+	.template-content-layout.template-content-layout-sidebar-left .template-content-layout-column-right,
+	.template-content-layout.template-content-layout-sidebar-right .template-content-layout-column-left,
+	.template-content-layout.template-content-layout-sidebar-right .template-content-layout-column-right {
+		width: 300px;
+	}
 
-/******************************************************************************/
-/* Post																		  */
-/******************************************************************************/
+	/******************************************************************************/
+	/* Post																		  */
+	/******************************************************************************/
 
 	/**************************************************************************/
 	/*	Post / Comments list												  */
 	/**************************************************************************/
 
 	.template-post .template-post-comment-list>ul>li .template-comment-meta,
-	.template-post .template-post-comment-list>ul>li .template-comment-content
-	{
-		margin-left:0px;
+	.template-post .template-post-comment-list>ul>li .template-comment-content {
+		margin-left: 0px;
 	}
 
-		/**********************************************************************/
-		/*	Post / Comments list / Comment									  */
-		/**********************************************************************
+	/**********************************************************************/
+	/*	Post / Comments list / Comment									  */
+	/**********************************************************************
 
 			/******************************************************************/
-			/*	Post / Comments list / Comment / Avatar						  */
-			/******************************************************************/
+	/*	Post / Comments list / Comment / Avatar						  */
+	/******************************************************************/
 
-			.template-post .template-post-comment-list>ul>li .template-comment-avatar
-			{
-				display:none;
-			}
+	.template-post .template-post-comment-list>ul>li .template-comment-avatar {
+		display: none;
+	}
 
-			/******************************************************************/
-			/*	Post / Comments list / Comment / Content					  */
-			/******************************************************************/
+	/******************************************************************/
+	/*	Post / Comments list / Comment / Content					  */
+	/******************************************************************/
 
-			.template-post .template-post-comment-list>ul>li .template-comment-content
-			{
-				margin-top:10px;
-			}
+	.template-post .template-post-comment-list>ul>li .template-comment-content {
+		margin-top: 10px;
+	}
 
 }
