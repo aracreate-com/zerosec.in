@@ -15,6 +15,14 @@
       {
         "label": "off"
       }
+    ],
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "img[loading]"
+        ]
+      }
     ]
   }
 }
