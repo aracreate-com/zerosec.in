@@ -3289,7 +3289,7 @@ input[type="text"]:focus,
   max-width: 200px;
   margin-left: auto;
   margin-right: auto;
-}
+} 
 
 /**********************************************************************/
 /* Template / Header / Bottom										  */
@@ -6577,6 +6577,7 @@ ul.template-widget-list > li > div h6 a {
   border-style: solid;
   border-width: 2px 0px 0px 0px;
   box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.1);
+
 }
 
 .template-component-menu-default ul.sf-menu > li.sf-mega-enable-0 ul {
@@ -6584,8 +6585,8 @@ ul.template-widget-list > li > div h6 a {
 }
 
 .template-component-menu-default ul.sf-menu > li.sf-mega-enable-1 .sf-mega {
-  left: 0px;
-  right: 0px;
+  left: 80px;
+  right: 80px;
 }
 
 .template-component-menu-default
