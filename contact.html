@@ -323,26 +323,26 @@
                                 <div class="form-group col-md-6">
                                     <label for="name">Your Name</label>
                                     <input type="text" class="form-control" id="name" data-rule="minlen:4"
-                                        data-msg="Please enter at least 4 chars" name="Name" />
+                                        data-msg="Please enter at least 4 chars" name="Name" required />
                                     <div class="validate"></div>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="name">Your Email</label>
                                     <input type="email" class="form-control" id="email" data-rule="email"
-                                        data-msg="Please enter a valid email" name="Email address" />
+                                        data-msg="Please enter a valid email" name="Email address" required />
                                     <div class="validate"></div>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="name">Subject</label>
                                 <input type="text" class="form-control" id="subject" data-rule="minlen:4"
-                                    data-msg="Please enter at least 8 chars of subject" name="Subject" />
+                                    data-msg="Please enter at least 8 chars of subject" name="Subject" required />
                                 <div class="validate"></div>
                             </div>
                             <div class="form-group">
                                 <label for="name">Message</label>
                                 <textarea class="form-control" rows="10" data-rule="required"
-                                    data-msg="Please write something for us" name="Message"></textarea>
+                                    data-msg="Please write something for us" name="Message" required></textarea>
                                 <div class="validate"></div>
                             </div>
                             <div class="text-center"><button type="submit" onclick="myFunction()">Send Message</button></div>
