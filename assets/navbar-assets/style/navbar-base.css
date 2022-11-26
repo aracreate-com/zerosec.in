@@ -6612,8 +6612,8 @@ ul.template-widget-list > li > div h6 a {
   .sf-mega
   > div
   > .sf-mega-header {
-  display: block;
-  font-size: 30px;
+  display:flex;
+  font-size: 20px;
   font-weight: 900;
   padding: 13px 25px 13px 20px;
 }
