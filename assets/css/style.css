@@ -10,7 +10,9 @@
  html {
    height: 100%;
  }
-
+  a{
+    color: #2088DA;
+  }
  @media screen and (min-width: 320px) {
 
    .animate__animated {
@@ -183,7 +185,7 @@
  }
 
  .back-to-top i:hover {
-   background: #14b1ff;
+   background: #2088DA;
  }
 
  /*--------------------------------------------------------------
