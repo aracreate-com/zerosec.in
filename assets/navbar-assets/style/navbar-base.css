@@ -564,7 +564,7 @@ a:hover,
 .template-widget-archive.template-widget-archive-style-1 > ul > li > a:hover,
 .template-widget-category.template-widget-category-style-1 > ul > li > a:hover,
 .template-widget-tag > ul > li > a:hover {
-  background-color: rgb(32,136,218);
+  background-color: rgb(0,138,222);
 }
 
 .tp-leftarrow:hover,
@@ -602,7 +602,7 @@ a:hover,
   > ul
   > li
   > a:hover {
-  background-color: #2088da;
+  background-color: #0089DE;
 }
 
 .template-header,
@@ -872,7 +872,7 @@ input[type="text"]:focus,
 .tp-caption.tp-slider-button:hover
   .template-component-button.template-component-button-style-3,
 .template-component-button.template-component-button-style-3:hover {
-  border-color: #2088da;
+  border-color: #0089DE;
 }
 
 .template-pagination.template-pagination-style-2 > ul > li > a,
@@ -3287,10 +3287,14 @@ input[type="text"]:focus,
 .template-header .template-header-top .template-header-top-logo {
   float: left;
   max-width: 200px;
-  margin-left: auto;
+  margin-left: 80px;
   margin-right: auto;
 } 
-
+@media screen and (max-width: 980px){
+  .template-header .template-header-top .template-header-top-logo {
+    margin-left: auto;
+  }
+  }
 /**********************************************************************/
 /* Template / Header / Bottom										  */
 /**********************************************************************/
