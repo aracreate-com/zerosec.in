@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    content-visibility: auto;
 }
 
 body {
@@ -8,6 +9,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     color: #777;
+    content-visibility: auto;
 }
 
 h1 {

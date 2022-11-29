@@ -176,7 +176,7 @@ li {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  font-size: 20px;
   vertical-align: baseline;
 }
 
@@ -187,7 +187,7 @@ ul {
 
 .template-main,
 .template-component-menu-default ul.sf-menu .sf-mega {
-  width: 1050px;
+  width: auto;
   margin-left: auto;
   margin-right: auto;
 }
@@ -195,7 +195,7 @@ ul {
 .template-clear-fix:after {
   height: 0;
   clear: both;
-  content: " ";
+  content: "";
   font-size: 0;
   min-height: 0;
   display: block;
@@ -564,7 +564,7 @@ a:hover,
 .template-widget-archive.template-widget-archive-style-1 > ul > li > a:hover,
 .template-widget-category.template-widget-category-style-1 > ul > li > a:hover,
 .template-widget-tag > ul > li > a:hover {
-  background-color: #261f40;
+  background-color: rgb(0,138,222);
 }
 
 .tp-leftarrow:hover,
@@ -602,7 +602,7 @@ a:hover,
   > ul
   > li
   > a:hover {
-  background-color: #2088da;
+  background-color: #0089DE;
 }
 
 .template-header,
@@ -872,7 +872,7 @@ input[type="text"]:focus,
 .tp-caption.tp-slider-button:hover
   .template-component-button.template-component-button-style-3,
 .template-component-button.template-component-button-style-3:hover {
-  border-color: #2088da;
+  border-color: #0089DE;
 }
 
 .template-pagination.template-pagination-style-2 > ul > li > a,
@@ -3287,10 +3287,14 @@ input[type="text"]:focus,
 .template-header .template-header-top .template-header-top-logo {
   float: left;
   max-width: 200px;
-  margin-left: auto;
+  margin-left: 80px;
   margin-right: auto;
-}
-
+} 
+@media screen and (max-width: 1080px){
+  .template-header .template-header-top .template-header-top-logo {
+    margin-left: auto;
+  }
+  }
 /**********************************************************************/
 /* Template / Header / Bottom										  */
 /**********************************************************************/
@@ -6577,6 +6581,7 @@ ul.template-widget-list > li > div h6 a {
   border-style: solid;
   border-width: 2px 0px 0px 0px;
   box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.1);
+
 }
 
 .template-component-menu-default ul.sf-menu > li.sf-mega-enable-0 ul {
@@ -6584,8 +6589,8 @@ ul.template-widget-list > li > div h6 a {
 }
 
 .template-component-menu-default ul.sf-menu > li.sf-mega-enable-1 .sf-mega {
-  left: 0px;
-  right: 0px;
+  left: 80px;
+  right: 80px;
 }
 
 .template-component-menu-default
@@ -6612,10 +6617,10 @@ ul.template-widget-list > li > div h6 a {
   .sf-mega
   > div
   > .sf-mega-header {
-  display: block;
-  font-size: 14px;
-  font-weight: 600;
-  padding: 13px 20px 13px 20px;
+  display:flex;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 13px 25px 13px 20px;
 }
 
 /**********************************************************************/
@@ -6630,7 +6635,7 @@ ul.template-widget-list > li > div h6 a {
 }
 
 .template-component-menu-responsive > ul {
-  border-style: solid;
+  border-style: none;
   border-width: 1px 0px 0px 0px;
 }
 
@@ -6643,7 +6648,7 @@ ul.template-widget-list > li > div h6 a {
   display: block;
   border-style: solid;
   padding: 10px 20px 10px 20px;
-  border-width: 0px 1px 1px 1px;
+  border-width: 1px 1px 1px 1px;
 }
 
 .template-component-menu-responsive a > span {
@@ -6678,17 +6683,17 @@ ul.template-widget-list > li > div h6 a {
   background-position: 0px -15px;
 }
 
-.template-component-menu-responsive ul li ul li a {
-  padding-left: 30px;
-}
-
+/* .template-component-menu-responsive ul li ul li a {
+  padding-left: 0px;
+} */
+/* 
 .template-component-menu-responsive ul li ul li ul li a {
-  padding-left: 45px;
-}
+  padding-left: 0px;
+} */
 
-.template-component-menu-responsive ul li ul li ul li ul li a {
-  padding-left: 60px;
-}
+/* .template-component-menu-responsive ul li ul li ul li ul li a {
+  padding-left: 0px;
+} */
 
 .template-component-menu-responsive ul li a,
 .template-component-menu-responsive ul li a:hover {

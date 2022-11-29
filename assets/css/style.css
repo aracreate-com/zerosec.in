@@ -1,6 +1,6 @@
  @font-face {
    font-family: Proxima Nova;
-   src: url('../font/Proxima Nova Regular.otf');
+   src: url('../font/Proxima\ Nova\ Regular.otf')
  }
 
  /*--------------------------------------------------------------
@@ -10,7 +10,9 @@
  html {
    height: 100%;
  }
-
+  a{
+    color: #2088DA;
+  }
  @media screen and (min-width: 320px) {
 
    .animate__animated {
@@ -98,6 +100,7 @@
  body {
    font-family: "Proxima Nova";
    color: #444444;
+  content-visibility: auto;
  }
 
  .main-slider-title {
@@ -182,7 +185,7 @@
  }
 
  .back-to-top i:hover {
-   background: #14b1ff;
+   background: #2088DA;
  }
 
  /*--------------------------------------------------------------
@@ -1152,9 +1155,8 @@ intro .carousel-container {
    position: absolute;
    left: 0;
    top: 6.5px;
-   -webkit-box-shadow: 0px 14px 15px rgba(78, 110, 241, 0.26);
-   -moz-box-shadow: 0px 14px 15px rgba(78, 110, 241, 0.26);
-   box-shadow: 0px 14px 15px rgba(78, 110, 241, 0.26);
+
+   ;
  }
 
  /*--------------------------------------------------------------
