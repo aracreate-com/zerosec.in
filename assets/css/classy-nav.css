@@ -66,7 +66,7 @@ img {
   outline: none;
   font-size: 14px;
   font-weight: 400;
-  color: #2088DA;
+  color: #0089DE;
 }
 
 .classy-nav-container.classy-sticky {
@@ -79,7 +79,7 @@ img {
 }
 
 .classy-nav-container.box-skins .classynav>ul>li {
-  background-color: #2088DA;
+  background-color: #0089DE;
 }
 
 .classy-nav-container.box-skins .classynav>ul>li>a {
@@ -607,7 +607,7 @@ img {
 }
 
 .breakpoint-on .classynav>ul>li>a {
-  background-color: #2088DA;
+  background-color: #0089DE;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
@@ -625,12 +625,12 @@ img {
 
 .breakpoint-on .classynav ul li.has-down.active>a:after,
 .breakpoint-on .classynav ul li.megamenu-item.active>a:after {
-  color: #2088DA;
+  color: #0089DE;
 }
 
 /* Dark Theme CSS */
 .dark.classy-nav-container {
-  background-color: #2088DA;
+  background-color: #0089DE;
 }
 
 .dark.classy-nav-container a {
@@ -643,11 +643,11 @@ img {
 }
 
 .dark .classynav ul li .dropdown {
-  background-color: #2088DA;
+  background-color: #0089DE;
 }
 
 .dark .classynav ul li .megamenu {
-  background-color: #2088DA;
+  background-color: #0089DE;
 }
 
 .dark .classynav ul li .megamenu .single-mega.cn-col-5,
@@ -670,7 +670,7 @@ img {
 }
 
 .dark.breakpoint-on .classy-navbar .classy-menu {
-  background-color: #2088DA;
+  background-color: #0089DE;
 }
 
 .dark .classycloseIcon .cross-wrap span {
@@ -678,7 +678,7 @@ img {
 }
 
 .dark.breakpoint-on .classynav>ul>li>a {
-  background-color: #2088DA;
+  background-color: #0089DE;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 

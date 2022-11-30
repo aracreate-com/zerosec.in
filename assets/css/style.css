@@ -103,12 +103,12 @@
 
  .main-slider-title {
    color: #ffffff;
-   text-shadow: 3px 3px 2px #2088DA;
+   text-shadow: 3px 3px 2px #0089DE;
 
  }
 
  .statistics-circle {
-   background: #2088DA;
+   background: #0089DE;
    border-radius: 50%;
    width: 160px;
    height: 160px;
@@ -183,7 +183,7 @@
  }
 
  .back-to-top i:hover {
-   background: #2088DA;
+   background: #0089DE;
  }
 
  /*--------------------------------------------------------------
@@ -206,7 +206,7 @@
    top: calc(50% - 30px);
    left: calc(50% - 30px);
    border: 6px solid #f2f2f2;
-   border-top: 6px solid #2088DA;
+   border-top: 6px solid #0089DE;
    border-radius: 50%;
    width: 60px;
    height: 60px;
@@ -303,7 +303,7 @@
      line-height: 85px;
      font-size: 16px;
      background-color: #fff;
-     border-bottom: 1px solid #2088DA;
+     border-bottom: 1px solid #0089DE;
    }
  }
 
@@ -505,7 +505,7 @@ intro .carousel-container {
  .section-heading h6 {
    font-size: 32px;
    font-weight: 800;
-   color: #2088DA;
+   color: #0089DE;
    text-transform: uppercase;
    margin-bottom: 15px;
  }
@@ -535,12 +535,12 @@ intro .carousel-container {
 
  .about h4 em {
    font-style: normal;
-   color: #2088DA;
+   color: #0089DE;
    font-weight: 700;
  }
 
  .about h4 span {
-   color: #2088DA;
+   color: #0089DE;
    font-weight: 700;
  }
 
@@ -1149,7 +1149,7 @@ intro .carousel-container {
    width: 14px;
    height: 14px;
    border-radius: 50%;
-   background: #2088DA;
+   background: #0089DE;
    position: absolute;
    left: 0;
    top: 6.5px;
@@ -1385,7 +1385,7 @@ intro .carousel-container {
  .services .single-do.active .do-btn a i,
  .team .member .social a,
  .header-area .classy-navbar-toggler .navbarToggler span {
-   background: #2088DA;
+   background: #0089DE;
  }
 
  .contact .info i,
@@ -1409,7 +1409,7 @@ intro .carousel-container {
  .header-area .vizew-main-menu .classy-navbar .classynav ul li a,
  .header-area .vizew-main-menu .classy-navbar .classynav .arrow::after,
  .header-area .vizew-main-menu .classy-navbar .classynav ul li ul li a {
-   color: #2088DA;
+   color: #0089DE;
  }
 
  #header .logo a,

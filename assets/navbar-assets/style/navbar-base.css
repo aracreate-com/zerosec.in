@@ -263,7 +263,7 @@ a:hover,
 .template-component-testimonial ul > li > p,
 .template-component-twitter-user-timeline ul > li > p,
 .template-component-vertical-grid > ul > li > div:first-child + div {
-  color: #2088da;
+  color: #0089DE;
 }
 
 .tp-font-handlee,
@@ -602,7 +602,7 @@ a:hover,
   > ul
   > li
   > a:hover {
-  background-color: #0089DE;
+  background-color: #0089DE;;
 }
 
 .template-header,
@@ -1051,7 +1051,7 @@ input[type="text"]:focus,
 
 .template-section-white .template-component-button:hover,
 .template-section-white .template-component-button:hover > i {
-  color: #2088da !important;
+  color: #0089DE !important;
 }
 
 .template-section-white .template-pagination a,
@@ -5665,7 +5665,7 @@ ul.template-widget-list > li > div h6 a {
   line-height: 200px;
   /* border-radius:100%; */
   margin-bottom: 20px;
-  background-color: #2088da;
+  background-color: #0089DE;
 }
 
 .template-component-counter-box-counter.counter-box-round {

@@ -37,14 +37,14 @@ h3 {
 
 #team .card {
     border-radius: 0;
-    /* box-shadow: 5px 5px 15px #2088DA;*/
+    /* box-shadow: 5px 5px 15px #0089DE;*/
     transition: all 0.3s ease-in;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
 }
 
 #team .card:hover {
-    background: #2088DA;
+    background: #0089DE;
     color: #fff;
     border-radius: 5px;
     border: none;
