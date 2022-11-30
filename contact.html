@@ -327,15 +327,15 @@
                                 <div class="form-group col-md-6">
                                     <label for="name">Your Email</label>
                                     <input type="email" class="form-control" id="email" data-rule="email"
-                                        placeholder="Please enter a valid email address" name="Email address"
-                                        required />
+                                        placeholder="Please enter a valid email address" name="Email" required />
                                     <div class="validate"></div>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="name">Subject</label>
                                 <input type="text" class="form-control" id="subject" data-rule="minlen:4"
-                                    data-msg="Please enter at least 8 chars of subject" name="Subject" required />
+                                    placeholder="Subject" data-msg="Please enter at least 8 chars of subject"
+                                    name="Subject" required />
                                 <div class="validate"></div>
                             </div>
                             <div class="form-group">
@@ -401,7 +401,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        const scriptURL = 'https://script.google.com/a/macros/zerosec.in/s/AKfycbwwru4kbb0OWsKNC71o4VGdJf-CvOGcSUoFL6QKtD5DquSechZJ_JDcSPZIVJlEmXE6mw/exec'
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyxI26xHSI7dEuwFTXzf9QPQsh1eGo6LkDnNURXLZht8A4Y8ewAP7ZKWYuqgeB6Ft5c/exec'
         const form = document.forms['submit-to-google-sheet']
 
         form.addEventListener('submit', e => {
@@ -410,7 +410,6 @@
                 .then(response => {
                     form.reset();
                     window.location.href = "index.html";
-                    alert('Success!', response)
                 })
                 .catch(error => alert('Error!', error.message))
             form.reset();
