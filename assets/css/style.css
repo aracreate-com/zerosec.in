@@ -493,7 +493,7 @@ intro .carousel-container {
 # Sections General
 --------------------------------------------------------------*/
  section {
-   padding: 10px 0;
+   padding: 50px 0;
    overflow: hidden;
  }
 
@@ -1095,7 +1095,8 @@ intro .carousel-container {
 # Services
 --------------------------------------------------------------*/
  .services-section {
-   padding: 60px 0;
+   padding-top: 10px;
+   padding-bottom: 60px;
    font-family: 'Proxima Nova';
  }
 
