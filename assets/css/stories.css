@@ -38,6 +38,10 @@
   backface-visibility: hidden;
   overflow: auto;
 }
+.flip-card-front,
+.flip-card-back p{
+  text-align: justify;
+}
 
 .flip-card-front {
   background-color: transparent;
