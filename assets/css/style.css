@@ -10,9 +10,11 @@
  html {
    height: 100%;
  }
-  a{
-    color: #2088DA;
-  }
+
+ a {
+   color: #2088DA;
+ }
+
  @media screen and (min-width: 320px) {
 
    .animate__animated {
@@ -100,7 +102,7 @@
  body {
    font-family: "Proxima Nova";
    color: #444444;
-  content-visibility: auto;
+   content-visibility: auto;
  }
 
  .main-slider-title {
@@ -495,7 +497,7 @@ intro .carousel-container {
 # Sections General
 --------------------------------------------------------------*/
  section {
-   padding: 50px 0;
+   padding: 20px 0;
    overflow: hidden;
  }
 
@@ -510,7 +512,7 @@ intro .carousel-container {
    color: #2088DA;
    text-transform: uppercase;
    margin-bottom: 0;
-   margin-top: 0px;
+   margin-top: 60px;
    /* margin-top: 60px; */
  }
 
@@ -1094,7 +1096,8 @@ intro .carousel-container {
  .team .member .social a+a {
    margin-left: 8px;
  }
-/* .services-section */
+
+ /* .services-section */
  /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
