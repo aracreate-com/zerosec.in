@@ -510,7 +510,8 @@ intro .carousel-container {
    color: #2088DA;
    text-transform: uppercase;
    margin-bottom: 0;
-   margin-top: 60px;
+   margin-top: 0px;
+   /* margin-top: 60px; */
  }
 
  .section-heading h2 {
@@ -1093,12 +1094,12 @@ intro .carousel-container {
  .team .member .social a+a {
    margin-left: 8px;
  }
-
+/* .services-section */
  /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
  .services-section {
-   padding: 20px 0;
+   padding: 107px 0;
    font-family: 'Proxima Nova';
  }
 
