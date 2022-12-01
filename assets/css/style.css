@@ -509,7 +509,8 @@ intro .carousel-container {
    font-weight: 800;
    color: #2088DA;
    text-transform: uppercase;
-   margin-bottom: 15px;
+   margin-bottom: 0;
+   margin-top: 30px;
  }
 
  .section-heading h2 {
@@ -1097,7 +1098,7 @@ intro .carousel-container {
 # Services
 --------------------------------------------------------------*/
  .services-section {
-   padding: 60px 0;
+   padding: 30px 0;
    font-family: 'Proxima Nova';
  }
 
