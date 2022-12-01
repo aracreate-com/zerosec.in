@@ -507,7 +507,8 @@ intro .carousel-container {
    font-weight: 800;
    color: #0089DE;
    text-transform: uppercase;
-   margin-bottom: 15px;
+   margin-bottom: 10px;
+   margin-top: 50px;
    
  }
 
