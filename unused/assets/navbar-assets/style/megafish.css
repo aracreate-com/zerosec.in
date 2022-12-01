@@ -1,0 +1,26 @@
+/*** ESSENTIAL STYLES ***/
+.sf-menu {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.sf-menu .sf-mega {
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: 0;
+  z-index: 99;
+}
+.sf-menu > li {
+  float: left;
+}
+.sf-menu li:hover > .sf-mega,
+.sf-menu li.sfHover > .sf-mega {
+  display: block;
+}
+
+.sf-menu > li > a {
+  display: block;
+  position: relative;
+}
