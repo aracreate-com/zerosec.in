@@ -511,8 +511,8 @@ intro .carousel-container {
    font-weight: 800;
    color: #2088DA;
    text-transform: uppercase;
-   margin-bottom: 0;
-   margin-top: 60px;
+   /* margin-bottom: 0;
+   margin-top: 7%; */
    /* margin-top: 60px; */
  }
 
@@ -630,7 +630,7 @@ intro .carousel-container {
  }
 
  .services::before {
-   background-image: url('../img/shape/what_do.png');
+   /* background-image: url('../img/shape/what_do.png'); */
    position: absolute;
    content: "";
    top: -187px;
@@ -662,7 +662,7 @@ intro .carousel-container {
  }
 
  .services::after {
-   background-image: url(../img/shape/what_do_right.png);
+   /* background-image: url(../img/shape/what_do_right.png); */
    position: absolute;
    content: "";
    bottom: -187px;
@@ -1102,7 +1102,7 @@ intro .carousel-container {
 # Services
 --------------------------------------------------------------*/
  .services-section {
-   padding: 107px 0;
+   padding: 11px 0;
    font-family: 'Proxima Nova';
  }
 
