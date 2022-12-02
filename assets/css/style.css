@@ -559,6 +559,207 @@ intro .carousel-container {
    box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1);
  }
 
+ .main {
+   width: 100%;
+   height: auto;
+   display: grid;
+   place-items: center;
+   padding: 50px 0;
+ }
+
+ .main .head {
+   font-size: 32px;
+   font-weight: 800;
+   text-transform: uppercase;
+   color: #0089DE;
+   position: relative;
+   margin-bottom: 80px;
+ }
+
+ .main .head::after {
+   content: " ";
+   position: absolute;
+   width: 50%;
+   height: 3px;
+   left: 50%;
+   bottom: -5px;
+   transform: translateX(-50%);
+   background-image: linear-gradient(to right, #0089DE, #0089DE, );
+ }
+
+ /* Container Css Start  */
+
+ .container {
+   width: 70%;
+   height: auto;
+   margin: auto 0;
+   position: relative;
+ }
+
+ .container ul {
+   list-style: none;
+ }
+
+ .container ul::after {
+   content: " ";
+   position: absolute;
+   width: 2px;
+   height: 100%;
+   left: 50%;
+   top: 0;
+   transform: translateX(-50%);
+   background-image: linear-gradient(to bottom, rgba(91, 14, 216, 0.767), rgba(238, 12, 200, 0.747));
+ }
+
+ .container ul li {
+   width: 50%;
+   height: auto;
+   padding: 15px 20px;
+   background-color: #0089DE;
+   border-radius: 8px;
+   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.218);
+   position: relative;
+   z-index: 99;
+   margin-bottom: 60px;
+ }
+
+ ul li p {
+  font-family: "Proxima Nova";
+   color: #fff;
+   font-size: 20px;
+   padding: 3px;
+   line-height: 1.5rem;
+   margin: 6px 0 4px 0;
+   text-align: left;
+ }
+
+ .container ul li img {
+   border-radius: 4px;
+   margin: 6px 0 4px 0;
+   text-align: left;
+ }
+
+ .container ul li .circle {
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   background-color: #fa381a8a;
+   top: 0;
+   display: grid;
+   place-items: center;
+ }
+
+ .circle::after {
+   content: '';
+   width: 12px;
+   height: 12px;
+   background-color: #040305;
+   border-radius: 50%;
+ }
+
+ ul li:nth-child(odd) .circle {
+   transform: translate(50%, -50%);
+   right: -15px;
+ }
+
+ ul li:nth-child(even) .circle {
+   transform: translate(-50%, -50%);
+   left: -45px;
+ }
+
+ ul li .date {
+   position: absolute;
+   width: auto;
+   height: auto;
+   background-color: black;
+   border-radius: 15px;
+   padding: 2px;
+   top: -45px;
+   display: grid;
+   place-items: center;
+   color: #fff;
+   font-size: 25px;
+   box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.318);
+ }
+
+ .container ul li:nth-child(odd) {
+   float: left;
+   clear: right;
+   transform: translateX(-30px);
+ }
+
+ ul li:nth-child(odd) .date {
+   right: 20px;
+ }
+
+ .container ul li:nth-child(even) {
+   float: right;
+   clear: left;
+   transform: translateX(30px);
+ }
+
+ ul li .heading {
+   font-size: 20px;
+   color: #fff;
+ }
+
+ @media only screen and (min-width:798px) and (max-width: 1100px) {
+   .container {
+     width: 80%;
+   }
+ }
+
+ @media only screen and (max-width: 798px) {
+   .container {
+     width: 70%;
+     transform: translateX(20px);
+   }
+
+   .container ul::after {
+     left: -40px;
+   }
+
+   .container ul li {
+     width: 100%;
+     float: none;
+     clear: none;
+     margin-bottom: 80px;
+   }
+
+   .container ul li .circle {
+     left: -40px;
+     transform: translate(-50%, -50%);
+   }
+
+   .container ul li .date {
+     left: 100px;
+   }
+
+   .container ul li:nth-child(odd) {
+     transform: translateX(0px);
+     text-align: left;
+   }
+
+   .container ul li:nth-child(even) {
+     transform: translateX(0px);
+   }
+ }
+
+ @media only screen and (max-width: 550px) {
+   .container {
+     width: 80%;
+   }
+
+   .container ul::after {
+     left: -20px;
+   }
+
+   .container ul li .circle {
+     left: -20px;
+   }
+ }
+
  /*--------------------------------------------------------------
 # features
 --------------------------------------------------------------*/
