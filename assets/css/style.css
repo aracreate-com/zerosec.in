@@ -713,11 +713,11 @@ intro .carousel-container {
  @media only screen and (max-width: 798px) {
    .container {
      width: 70%;
-     transform: translateX(20px);
+     transform: translateX(-3px);
    }
 
    .container ul::after {
-     left: -40px;
+     left: -2px;
    }
 
    .container ul li {
@@ -752,7 +752,7 @@ intro .carousel-container {
    }
 
    .container ul::after {
-     left: -20px;
+     left: 19px;
    }
 
    .container ul li .circle {
