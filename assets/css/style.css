@@ -559,7 +559,7 @@ intro .carousel-container {
    box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1);
  }
 
- .main {
+ .main-story {
    width: 100%;
    height: auto;
    display: grid;
@@ -567,7 +567,7 @@ intro .carousel-container {
    padding: 50px 0;
  }
 
- .main .head {
+ .main-story .head-story {
    font-size: 32px;
    font-weight: 800;
    text-transform: uppercase;
@@ -576,7 +576,7 @@ intro .carousel-container {
    margin-bottom: 80px;
  }
 
- .main .head::after {
+ .main-story .head-story::after {
    content: " ";
    position: absolute;
    width: 50%;
@@ -589,19 +589,19 @@ intro .carousel-container {
 
  /* Container Css Start  */
 
- .container {
+ .container-story {
    width: 70%;
    height: auto;
    margin: auto 0;
    position: relative;
  }
 
- .container ul {
+ .container-story ul {
    list-style: none;
  }
 
- .container ul::after {
-   content: " ";
+ .container-story ul::after {
+   content: "";
    position: absolute;
    width: 2px;
    height: 100%;
@@ -611,7 +611,7 @@ intro .carousel-container {
    background-image: linear-gradient(to bottom, rgba(91, 14, 216, 0.767), rgba(238, 12, 200, 0.747));
  }
 
- .container ul li {
+ .container-story ul li {
    width: 50%;
    height: auto;
    padding: 15px 20px;
@@ -639,7 +639,7 @@ intro .carousel-container {
    text-align: left;
  }
 
- .container ul li .circle {
+ .container-story ul li .circle {
    position: absolute;
    width: 20px;
    height: 20px;
@@ -674,16 +674,16 @@ intro .carousel-container {
    height: auto;
    background-color: black;
    border-radius: 15px;
-   padding: 2px;
-   top: -45px;
+   padding: 8px;
+   top: -54px;
    display: grid;
    place-items: center;
    color: #fff;
-   font-size: 25px;
+   font-size: 18px;
    box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.318);
  }
 
- .container ul li:nth-child(odd) {
+ .container-story ul li:nth-child(odd) {
    float: left;
    clear: right;
    transform: translateX(-30px);
@@ -693,7 +693,7 @@ intro .carousel-container {
    right: 20px;
  }
 
- .container ul li:nth-child(even) {
+ .container-story ul li:nth-child(even) {
    float: right;
    clear: left;
    transform: translateX(30px);
@@ -705,57 +705,57 @@ intro .carousel-container {
  }
 
  @media only screen and (min-width:798px) and (max-width: 1100px) {
-   .container {
+   .container-story {
      width: 80%;
    }
  }
 
  @media only screen and (max-width: 798px) {
-   .container {
+   .container-storyr {
      width: 70%;
      transform: translateX(-3px);
    }
 
-   .container ul::after {
-     left: -2px;
+   .container-story ul::after {
+     left: -12px;
    }
 
-   .container ul li {
+   .container-story ul li {
      width: 100%;
      float: none;
      clear: none;
      margin-bottom: 80px;
    }
 
-   .container ul li .circle {
+   .container-story ul li .circle {
      left: -40px;
      transform: translate(-50%, -50%);
    }
 
-   .container ul li .date {
+   .container-story ul li .date {
      left: 100px;
    }
 
-   .container ul li:nth-child(odd) {
+   .container-story ul li:nth-child(odd) {
      transform: translateX(0px);
      text-align: left;
    }
 
-   .container ul li:nth-child(even) {
+   .container-story ul li:nth-child(even) {
      transform: translateX(0px);
    }
  }
 
  @media only screen and (max-width: 550px) {
-   .container {
-     width: 80%;
+   .container-story {
+     width: 95%;
    }
 
-   .container ul::after {
-     left: 19px;
+   .container-story ul::after {
+     left: 9px;
    }
 
-   .container ul li .circle {
+   .container-story ul li .circle {
      left: -20px;
    }
  }
