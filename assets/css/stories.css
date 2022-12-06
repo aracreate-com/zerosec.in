@@ -32,7 +32,7 @@
     position: relative;
   }
   
-  .card{
+  .card:nth-of-type(odd){
     height: 400px;
     padding: 40px;
     color:white;
@@ -87,6 +87,7 @@
     
     z-index: 1;
   }
+  
   
   .card::after{
     content: '';

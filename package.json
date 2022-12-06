@@ -1,12 +1,11 @@
 {
   "dependencies": {
-    "bootstrap": "^5.2.2"
+    "bootstrap": "^5.2.3"
   },
   "name": "zerosec.in",
   "description": "- Aravinth Panch\r - Gunarakulan Gunaretnam\r - Abhitharani Jeyachandran\r - Vinothraj Kanapathipillai\r - Thivagaran Selvanayagam\r - Prajeevan Sivanandharajah\r - Asathkavi\r - Sanjay Kirupaharan",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
