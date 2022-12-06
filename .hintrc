@@ -23,6 +23,7 @@
           "img[loading]"
         ]
       }
-    ]
+    ],
+    "disown-opener": "off"
   }
 }
