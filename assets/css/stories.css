@@ -1,7 +1,7 @@
 @font-face {
-    font-family: Proxima Nova;
-    src: url('../font/Proxima\ Nova\ Regular.otf')
-  }
+  font-family: Proxima Nova;
+  src: url('../font/Proxima\ Nova\ Regular.otf')
+}
 
 
 *{
@@ -88,8 +88,7 @@
     z-index: 1;
   }
   
-  
-  .card::after{
+  .card:nth-of-type(odd)::after{
     content: '';
     width:150px;
     height: 150px;
@@ -120,35 +119,31 @@
   .card{
     overflow:scroll;
   }
-  
-  
-  .card::after{
+
+
+  .card::after {
     content: '';
-   width: 50px;
-   height: 50px;
+    width: 50px;
+    height: 50px;
     background-color: white;
     position: absolute;
     top: 0;
     right: 0;
     border-radius: 50%;
     border-top-right-radius: 0;
-    
+
   }
-  .card:nth-of-type(even)::after{
+
+  .card:nth-of-type(even)::after {
     content: '';
     width: 50px;
     height: 50px;
-     background-color: #0089DE;
-     position: absolute;
-     top: 0;
-     right: 0;
-     border-radius: 50%;
-     border-top-right-radius: 0;
+    background-color: #0089DE;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    border-top-right-radius: 0;
   }
-  
-  }
-  
-  
-  
-  
-  
+
+}
