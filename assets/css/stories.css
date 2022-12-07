@@ -4,24 +4,41 @@
 }
 
 
-*{
-    padding:0;
-    margin:0;
-    font-family: Proxima Nova;
+html {
+  height: 100%;
+}
+
+.container{
+    display: block;
+    max-height: max-content;
   }
-  
+
+  .container h1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+    color:#0089DE;
+    font-weight: 600;
+  }
 .title{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: white;
     display:flex;
     flex-direction: column;
+   
     align-items: center;
     justify-content: center;
     
     color:#0089DE;
   }
-  
+  .title h1{
+    display: block;
+    flex-direction: column  ;
+    margin-top: 30px;
+    max-height: fit-content;
+  }
   .stories{
     margin-top: 50px;
     width: 90%;
@@ -125,7 +142,30 @@
   }
   
   
-  @media only screen and (max-width: 600px){
+  @media only screen and (max-width: 640px){
+    .container{
+      margin-top: 30px;
+      display: flexbox;
+      flex-direction: column;
+    }
+
+    .container h1{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-top: 30px;
+      color:#0089DE;
+      font-weight: 600;
+      font-size:30px ;
+    }
+    .title{
+      display: flexbox;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-left: 10px;
+    }
+  
     .profile {
       display: flexbox;
       flex-direction: column;
@@ -139,7 +179,7 @@
    
   
   .card{
-    overflow:scroll;
+    overflow-y:scroll;
   }
 
 
