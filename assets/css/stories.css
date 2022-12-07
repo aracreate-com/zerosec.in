@@ -177,3 +177,192 @@ html {
     opacity: 1;
   }
 }
+.footer {
+  background-color: #f2f3f5;
+  padding: 60px 0 50px 0;
+  font-family: 'Proxima Nova';
+}
+
+.footer .footer-site-logo {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 900;
+  padding: 0 0 10px 0;
+}
+
+.footer .footer-site-logo a {
+  color: #4200ff;
+}
+
+.footer .nav-links {
+  padding: 0 0 10px 0;
+  margin: 0;
+}
+
+.footer .nav-links li {
+  display: inline-block;
+}
+
+.footer .nav-links li a {
+  padding: 10px;
+  color: #000;
+}
+
+.footer .social h3 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #000;
+  padding: 0 0 10px 0;
+}
+
+.footer .social ul li {
+  display: inline-block;
+}
+
+.footer .social ul li a {
+  display: inline-block;
+  padding: 10px;
+}
+
+.footer .copyright {
+  color: #999999;
+  padding: 10px 0 0;
+}
+
+/*--------------------------------------------------------------
+# Button
+--------------------------------------------------------------*/
+.btn {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  border-radius: 50%;
+  box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.9),
+    7px 7px 20px 0 rgba(0, 0, 0, 0.3);
+  transition: 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  height: 80%;
+  width: 80%;
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn:hover::before {
+  box-shadow: inset -7px -7px 20px 0 rgba(255, 255, 255, 1),
+    inset 7px 7px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.btn i {
+  position: absolute;
+  font-size: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.2s;
+}
+
+.btn:hover i {
+  font-size: 26px;
+}
+
+/*--------------------------------------------------------------
+# Color
+--------------------------------------------------------------*/
+.contact .info .social-links a:hover,
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i,
+.contact .php-email-form button[type="submit"],
+.back-to-top i,
+.services .single-do .do-btn a i,
+.services .single-do.active .do-btn a i,
+.team .member .social a,
+.header-area .classy-navbar-toggler .navbarToggler span {
+  background: #2088DA;
+}
+
+.contact .info i,
+.nav-menu a,
+.nav-menu .drop-down ul a,
+.mobile-nav-toggle i,
+.mobile-nav a,
+.services .single-do .do-icon span,
+.about_new span,
+.single_pricing.pricing_color .pricing_top_bar i,
+.services .single-do .do-btn a,
+.services .single-do.active .do-btn a,
+.about_new span,
+.about_new .icon i,
+.footer .nav-links li a:hover,
+.about_new em,
+.team .member .social a i,
+.team .member .social a:hover i,
+.features .box .icon i,
+.btn i,
+.header-area .vizew-main-menu .classy-navbar .classynav ul li a,
+.header-area .vizew-main-menu .classy-navbar .classynav .arrow::after,
+.header-area .vizew-main-menu .classy-navbar .classynav ul li ul li a {
+  color: #2088DA;
+}
+
+#header .logo a,
+.back-to-top i,
+.back-to-top i:hover,
+.nav-menu .drop-down ul a:hover,
+.nav-menu .drop-down ul .active>a,
+.nav-menu .drop-down ul li:hover>a,
+.mobile-nav-active .mobile-nav-toggle i,
+#intro h2,
+.contact .info .social-links a,
+.contact .info .social-links a:hover,
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i,
+.contact .php-email-form button[type="submit"],
+.team .member .social a i,
+.nav-menu li.active a,
+.nav-menu>ul>li:hover>a,
+.services .single-do .do-btn a i,
+.single_pricing .pricing_top_bar p {
+  color: #fff;
+}
+
+#header,
+#header.header-scrolled,
+.mobile-nav,
+.features .box,
+.contact .info,
+.team,
+.nav-menu .drop-down ul,
+.contact .php-email-form,
+.single_pricing,
+.btn,
+.team .member .social a:hover {
+  background: #fff;
+}
+
+.nav-menu>ul>li:hover,
+.nav-menu .active,
+.nav-menu .drop-down ul a:hover,
+.nav-menu .drop-down ul .active>a,
+.nav-menu .drop-down ul li:hover>a {
+  background: #41D0FF;
+}
+
+.mobile-nav a:hover,
+.mobile-nav .active>a,
+.mobile-nav li:hover>a {
+  color: #41D0FF;
+}
