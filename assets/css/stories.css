@@ -1,54 +1,370 @@
-.main {
-  background-color: rgb(255, 255, 255);
-  content-visibility: auto;
+@font-face {
+  font-family: Proxima Nova;
+  src: url('../font/Proxima\ Nova\ Regular.otf')
 }
 
-.flip-card {
-  background-color: transparent;
-  width: 350px;
-  height: 350px;
-  border: transparent;
-  perspective: 1000px;
-  
-}
-.flip-card img{
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-}
 
-.flip-card-inner {
-  position: relative;
-  width: 100%;
+html {
   height: 100%;
+}
+
+.container {
+  display: block;
+  max-height: fit-content;
+}
+
+.container h4 {
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  transition: transform 0.9s;
-  transform-style: preserve-3d;
+  margin-top: 30px;
+  color: #0089DE;
+  font-weight: 600;
 }
 
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front,
-.flip-card-back {
-  position: absolute;
+.title {
   width: 100%;
   height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  overflow: auto;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #0089DE;
 }
 
-.flip-card-front {
-  background-color: transparent;
-  color: rgb(32, 136, 218);
-  size: 60px;
+.title h4 {
+  display: block;
+  flex-direction: column;
+  margin-top: 30px;
+  max-height: fit-content;
 }
 
-.flip-card-back {
-  background-color: transparent;
-  color:rgb(0,137,222);
-  padding: 5px;
-  transform: rotateY(180deg);
+.stories {
+  margin-top: 50px;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 10px;
+  /* box-shadow: -10px 10px 40px rgba(0,0,0,0.25); */
+  position: relative;
+}
 
+.card:nth-of-type(odd) {
+  padding: 40px;
+  color: white;
+  line-height: 22px;
+  box-sizing: border-box;
+  background: #0089DE;
+  position: relative;
+  box-shadow: -10px 10px 40px rgba(0, 0, 0, 0.25);
+  transform: translateX(-150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+
+.card:nth-of-type(even) {
+  height: auto;
+  padding: 40px;
+  color: #0089DE;
+  line-height: 22px;
+  box-sizing: border-box;
+  background: white;
+  position: relative;
+  box-shadow: -10px 10px 40px rgba(0, 0, 0, 0.25);
+  transform: translatex(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.card.active {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.card.active {
+  opacity: 1;
+}
+
+.active.fade-left {
+  animation: fade-left 1s ease-in;
+}
+
+.active.fade-right {
+  animation: fade-right 1s ease-in;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+.profile img {
+  /* width 150px */
+  width: 200px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 640px) {
+  .container {
+    margin-top: 30px;
+    display: flexbox;
+    flex-direction: column;
+  }
+
+  .container h4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+    color: #0089DE;
+    font-weight: 600;
+    font-size: 30px;
+  }
+
+  .title {
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+  }
+
+  .profile {
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .profile img {
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+
+
+  .card {
+    /* scroll */
+    overflow-y: auto;
+  }
+}
+
+
+@keyframes fade-left {
+  0% {
+    transform: translateX(-150px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(150px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+.footer {
+  background-color: #f2f3f5;
+  padding: 60px 0 50px 0;
+  font-family: 'Proxima Nova';
+}
+
+.footer .footer-site-logo {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 900;
+  padding: 0 0 10px 0;
+}
+
+.footer .footer-site-logo a {
+  color: #4200ff;
+}
+
+.footer .nav-links {
+  padding: 0 0 10px 0;
+  margin: 0;
+}
+
+.footer .nav-links li {
+  display: inline-block;
+}
+
+.footer .nav-links li a {
+  padding: 10px;
+  color: #000;
+}
+
+.footer .social h3 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #000;
+  padding: 0 0 10px 0;
+}
+
+.footer .social ul li {
+  display: inline-block;
+}
+
+.footer .social ul li a {
+  display: inline-block;
+  padding: 10px;
+}
+
+.footer .copyright {
+  color: #999999;
+  padding: 10px 0 0;
+}
+
+/*--------------------------------------------------------------
+# Button
+--------------------------------------------------------------*/
+.btn {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  border-radius: 50%;
+  box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.9),
+    7px 7px 20px 0 rgba(0, 0, 0, 0.3);
+  transition: 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  height: 80%;
+  width: 80%;
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn:hover::before {
+  box-shadow: inset -7px -7px 20px 0 rgba(255, 255, 255, 1),
+    inset 7px 7px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.btn i {
+  position: absolute;
+  font-size: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.2s;
+}
+
+.btn:hover i {
+  font-size: 26px;
+}
+
+/*--------------------------------------------------------------
+# Color
+--------------------------------------------------------------*/
+.contact .info .social-links a:hover,
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i,
+.contact .php-email-form button[type="submit"],
+.back-to-top i,
+.services .single-do .do-btn a i,
+.services .single-do.active .do-btn a i,
+.team .member .social a,
+.header-area .classy-navbar-toggler .navbarToggler span {
+  background: #2088DA;
+}
+
+.contact .info i,
+.nav-menu a,
+.nav-menu .drop-down ul a,
+.mobile-nav-toggle i,
+.mobile-nav a,
+.services .single-do .do-icon span,
+.about_new span,
+.single_pricing.pricing_color .pricing_top_bar i,
+.services .single-do .do-btn a,
+.services .single-do.active .do-btn a,
+.about_new span,
+.about_new .icon i,
+.footer .nav-links li a:hover,
+.about_new em,
+.team .member .social a i,
+.team .member .social a:hover i,
+.features .box .icon i,
+.btn i,
+.header-area .vizew-main-menu .classy-navbar .classynav ul li a,
+.header-area .vizew-main-menu .classy-navbar .classynav .arrow::after,
+.header-area .vizew-main-menu .classy-navbar .classynav ul li ul li a {
+  color: #2088DA;
+}
+
+#header .logo a,
+.back-to-top i,
+.back-to-top i:hover,
+.nav-menu .drop-down ul a:hover,
+.nav-menu .drop-down ul .active>a,
+.nav-menu .drop-down ul li:hover>a,
+.mobile-nav-active .mobile-nav-toggle i,
+#intro h2,
+.contact .info .social-links a,
+.contact .info .social-links a:hover,
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i,
+.contact .php-email-form button[type="submit"],
+.team .member .social a i,
+.nav-menu li.active a,
+.nav-menu>ul>li:hover>a,
+.services .single-do .do-btn a i,
+.single_pricing .pricing_top_bar p {
+  color: #fff;
+}
+
+#header,
+#header.header-scrolled,
+.mobile-nav,
+.features .box,
+.contact .info,
+.team,
+.nav-menu .drop-down ul,
+.contact .php-email-form,
+.single_pricing,
+.btn,
+.team .member .social a:hover {
+  background: #fff;
+}
+
+.nav-menu>ul>li:hover,
+.nav-menu .active,
+.nav-menu .drop-down ul a:hover,
+.nav-menu .drop-down ul .active>a,
+.nav-menu .drop-down ul li:hover>a {
+  background: #41D0FF;
+}
+
+.mobile-nav a:hover,
+.mobile-nav .active>a,
+.mobile-nav li:hover>a {
+  color: #41D0FF;
 }

@@ -1,5 +1,22 @@
 {
   "dependencies": {
-    "bootstrap": "^5.2.2"
-  }
+    "bootstrap": "^5.2.3"
+  },
+  "name": "zerosec.in",
+  "description": "- Aravinth Panch\r - Gunarakulan Gunaretnam\r - Abhitharani Jeyachandran\r - Vinothraj Kanapathipillai\r - Thivagaran Selvanayagam\r - Prajeevan Sivanandharajah\r - Asathkavi\r - Sanjay Kirupaharan",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreamspace-academy/zerosec.in.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dreamspace-academy/zerosec.in/issues"
+  },
+  "homepage": "https://github.com/dreamspace-academy/zerosec.in#readme"
 }

@@ -23,6 +23,15 @@
           "img[loading]"
         ]
       }
+    ],
+    "disown-opener": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "max-height: fit-content"
+        ]
+      }
     ]
   }
 }
