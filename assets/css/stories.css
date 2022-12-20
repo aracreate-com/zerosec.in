@@ -51,7 +51,7 @@ html {
 
 .card:nth-of-type(odd) {
   padding: 40px;
-  color: white;
+  color: white !important; 
   line-height: 22px;
   box-sizing: border-box;
   background: #0089DE;
@@ -60,6 +60,9 @@ html {
   transform: translateX(-150px);
   opacity: 0;
   transition: 1s all ease;
+}
+.card:nth-of-type(odd) h3{
+  color: white !important;    
 }
 
 
