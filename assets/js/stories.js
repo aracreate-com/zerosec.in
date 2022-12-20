@@ -1,5 +1,8 @@
+
+
+var cards = document.querySelectorAll(".card");
+cards[0].classList.add("active");
 function card() {
-    var cards = document.querySelectorAll(".card");
   
     for (var i = 0; i < cards.length; i++) {
       var windowHeight = window.innerHeight;
@@ -7,7 +10,9 @@ function card() {
       var elementVisible = 150;
     
       if (elementTop < windowHeight - elementVisible) {
-        cards[i].classList.add("active");
+        if(i !== 0){
+          cards[i].classList.add("active");
+        }
       } else {
         cards[i].classList.remove("active");
       }

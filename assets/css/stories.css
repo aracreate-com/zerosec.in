@@ -13,13 +13,13 @@ html {
   max-height: fit-content;
 }
 
-.container h4 {
+.container h3 {
   display: flex;
   flex-direction: column;
   text-align: center;
   margin-top: 30px;
   color: #0089DE;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 .title {
