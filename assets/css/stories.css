@@ -19,7 +19,10 @@ html {
   text-align: center;
   margin-top: 30px;
   color: #0089DE;
-  font-weight: bold;
+  font-weight: bolder;
+  font-family: Proxima Nova;
+  font-size: 32px;
+
 }
 
 .title {
