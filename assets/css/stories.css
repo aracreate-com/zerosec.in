@@ -150,7 +150,7 @@ html {
 
 @media only screen and (max-width: 640px) {
 
-/*   
+
   .card::after{
     content: '';
    width: 50px;
@@ -173,7 +173,7 @@ html {
      right: 0;
      border-radius: 50%;
      border-top-right-radius: 0;
-  } */
+  } 
 
   .container {
     margin-top: 30px;
