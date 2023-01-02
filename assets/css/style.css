@@ -12,6 +12,8 @@
  }
 
  a {
+  font-family: Proxima Nova;
+   src: url('../font/Proxima\ Nova\ Regular.otf');
    color: #2088DA;
  }
 

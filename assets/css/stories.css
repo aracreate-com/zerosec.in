@@ -58,7 +58,7 @@ html {
   line-height: 22px;
   box-sizing: border-box;
   background: #0089DE;
-  position: relative;
+  position: relative
   box-shadow: -10px 10px 40px rgba(0, 0, 0, 0.25);
   transform: translateX(-150px);
   opacity: 0;
