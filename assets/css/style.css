@@ -965,7 +965,7 @@ intro .carousel-container {
 
  .services .single-do .do-btn a {
    text-transform: uppercase;
-   font-size: 13px;
+   font-size: 16px;
    font-weight: 500;
    -webkit-transition: all .3s ease-out 0s;
    -moz-transition: all .3s ease-out 0s;
