@@ -7,6 +7,10 @@
 html {
   height: 100%;
 }
+a{
+  font-family: Proxima Nova;
+  src: url('../font/Proxima\ Nova\ Regular.otf')
+}
 
 .container {
   display: block;
@@ -58,7 +62,7 @@ html {
   line-height: 22px;
   box-sizing: border-box;
   background: #0089DE;
-  position: relative
+  position: relative;
   box-shadow: -10px 10px 40px rgba(0, 0, 0, 0.25);
   transform: translateX(-150px);
   opacity: 0;
@@ -102,7 +106,7 @@ html {
 
 .profile {
   display: flex;
-  align-items: center;
+  align-items: center ;
   justify-content: left;
   margin-bottom: 40px;
   font-size: 30px;
@@ -113,9 +117,10 @@ html {
   width: 200px;
   border-radius: 50%;
   margin-right: 20px;
+  
   /* margin-left: 150px; */
 }
-
+/* 
 .card:nth-of-type(even)::after{
   content: '';
   width:150px;
@@ -142,7 +147,7 @@ html {
   border-top-right-radius: 0;
 
   z-index: 1;
-}
+} */
 
 
 
@@ -151,7 +156,7 @@ html {
 @media only screen and (max-width: 640px) {
 
 
-  .card::after{
+  /* .card::after{
     content: '';
    width: 50px;
    height: 50px;
@@ -173,7 +178,7 @@ html {
      right: 0;
      border-radius: 50%;
      border-top-right-radius: 0;
-  } 
+  }  */
 
   .container {
     margin-top: 30px;
