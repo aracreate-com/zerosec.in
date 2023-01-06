@@ -120,65 +120,10 @@ a{
   
   /* margin-left: 150px; */
 }
-/* 
-.card:nth-of-type(even)::after{
-  content: '';
-  width:150px;
-  height: 150px;
-  background-color: #0089DE;
-  position: absolute;
-  top: 0;
-  right: 0;
-  border-radius: 50%;
-  border-top-right-radius: 0;
-
-  z-index: 1;
-}
-
-.card::after{
-  content: '';
-  width:150px;
-  height: 150px;
-  background-color: #ffffff;
-  position: absolute;
-  top: 0;
-  right: 0;
-  border-radius: 50%;
-  border-top-right-radius: 0;
-
-  z-index: 1;
-} */
-
-
 
 
 
 @media only screen and (max-width: 640px) {
-
-
-  /* .card::after{
-    content: '';
-   width: 50px;
-   height: 50px;
-    background-color: white;
-    position: absolute;
-    top: 0;
-    right: 0;
-    border-radius: 50%;
-    border-top-right-radius: 0;
-
-  }
-  .card:nth-of-type(even)::after{
-    content: '';
-    width: 50px;
-    height: 50px;
-     background-color: #0089DE;
-     position: absolute;
-     top: 0;
-     right: 0;
-     border-radius: 50%;
-     border-top-right-radius: 0;
-  }  */
 
   .container {
     margin-top: 30px;
