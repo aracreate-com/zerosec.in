@@ -10,7 +10,10 @@
  html {
    height: 100%;
  }
-
+body{
+  font-family: Proxima Nova !important;
+   src: url('../font/Proxima\ Nova\ Regular.otf')
+}
  a {
   font-family: Proxima Nova;
    src: url('../font/Proxima\ Nova\ Regular.otf');
@@ -135,7 +138,7 @@
    height: 100%;
    color: white;
    font-weight: bold;
-   font-size: 25px;
+   font-size: 22px;
 
  }
 
