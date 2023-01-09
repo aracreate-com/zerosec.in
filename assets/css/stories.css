@@ -20,6 +20,9 @@ a{
   display: block;
   max-height: fit-content;
 }
+.p{
+  font-size: 15px;
+}
 
 .container h3 {
   display: flex;

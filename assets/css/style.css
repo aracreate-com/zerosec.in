@@ -170,6 +170,7 @@ p{
    margin: 0px;
    padding: 0px;
    list-style-type: none;
+   font-size: 24px;
  }
 
  /*--------------------------------------------------------------
@@ -634,7 +635,7 @@ intro .carousel-container {
  ul li p {
   font-family: "Proxima Nova";
    color: #fff;
-   font-size: 20px;
+   font-size: 18px;
    padding: 3px;
    line-height: 1.5rem;
    margin: 6px 0 4px 0;
@@ -807,7 +808,7 @@ intro .carousel-container {
  }
 
  .features .box p {
-   font-size: 16px;
+   font-size: 15px;
    margin-left: 100px;
    margin-bottom: 0;
    line-height: 24px;
