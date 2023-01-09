@@ -20,5 +20,26 @@ function card() {
     }
   }
   
+  
   window.addEventListener("scroll", card);
   
+
+    // Back to top button
+    $(window).scroll(function() {
+      if ($(this).scrollTop() > 100) {
+        $('.back-to-top').fadeIn('slow');
+      } else {
+        $('.back-to-top').fadeOut('slow');
+      }
+    });
+
+    $('.back-to-top').click(function() {
+      $('html, body').animate({
+        scrollTop: 0
+      }, 1500, 'easeIn', function() {
+        $(".nav-menu ul:first li:first").addClass('active');
+      });
+
+      return false;
+    });
+// Back to top button
