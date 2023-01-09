@@ -7,19 +7,26 @@
 html {
   height: 100%;
 }
+a{
+  font-family: Proxima Nova;
+  src: url('../font/Proxima\ Nova\ Regular.otf')
+}
 
 .container {
   display: block;
   max-height: fit-content;
 }
 
-.container h4 {
+.container h3 {
   display: flex;
   flex-direction: column;
   text-align: center;
   margin-top: 30px;
   color: #0089DE;
-  font-weight: 600;
+  font-weight: bolder;
+  font-family: Proxima Nova;
+  font-size: 32px;
+
 }
 
 .title {
@@ -51,7 +58,7 @@ html {
 
 .card:nth-of-type(odd) {
   padding: 40px;
-  color: white;
+  color: white !important; 
   line-height: 22px;
   box-sizing: border-box;
   background: #0089DE;
@@ -60,6 +67,9 @@ html {
   transform: translateX(-150px);
   opacity: 0;
   transition: 1s all ease;
+}
+.card:nth-of-type(odd) h3{
+  color: white !important;    
 }
 
 
@@ -96,7 +106,7 @@ html {
 
 .profile {
   display: flex;
-  align-items: center;
+  align-items: center ;
   justify-content: left;
   margin-bottom: 40px;
   font-size: 30px;
@@ -107,9 +117,13 @@ html {
   width: 200px;
   border-radius: 50%;
   margin-right: 20px;
+  
+  /* margin-left: 150px; */
 }
 
+
 @media only screen and (max-width: 640px) {
+
   .container {
     margin-top: 30px;
     display: flexbox;
@@ -150,6 +164,7 @@ html {
   .card {
     /* scroll */
     overflow-y: auto;
+    
   }
 }
 
