@@ -519,7 +519,7 @@ intro .carousel-container {
    font-weight: 800;
    color: #2088DA;
    text-transform: uppercase;
-   margin-bottom: 0px;
+   margin-bottom: 0;
    /* margin-top: 7%; */
    /* margin-top: 60px; */
  }
