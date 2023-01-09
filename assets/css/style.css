@@ -14,12 +14,15 @@ body{
   font-family: Proxima Nova !important;
    src: url('../font/Proxima\ Nova\ Regular.otf')
 }
- a {
+a {
   font-family: Proxima Nova;
    src: url('../font/Proxima\ Nova\ Regular.otf');
    color: #2088DA;
  }
-
+p{
+  font-family: Proxima Nova !important;
+  src: url('assets/')
+}
  @media screen and (min-width: 320px) {
 
    .animate__animated {
