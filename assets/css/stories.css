@@ -7,6 +7,10 @@
 html {
   height: 100%;
 }
+body{
+  font-family: Proxima Nova;
+  src: url('../font/Proxima\ Nova\ Regular.otf')
+}
 a{
   font-family: Proxima Nova;
   src: url('../font/Proxima\ Nova\ Regular.otf')
@@ -15,6 +19,9 @@ a{
 .container {
   display: block;
   max-height: fit-content;
+}
+.p{
+  font-size: 15px;
 }
 
 .container h3 {
@@ -120,7 +127,61 @@ a{
   
   /* margin-left: 150px; */
 }
+.back-to-top {
+  position: fixed;
+  display: none;
+  right: 15px;
+  bottom: 15px;
+  z-index: 99999;
+}
 
+.back-to-top i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+.back-to-top i:hover {
+  background: #2088DA;
+}
+.contact .info .social-links a:hover,
+ .contact .info .email:hover i,
+ .contact .info .address:hover i,
+ .contact .info .phone:hover i,
+ .contact .php-email-form button[type="submit"],
+ .back-to-top i,
+ .services .single-do .do-btn a i,
+ .services .single-do.active .do-btn a i,
+ .team .member .social a,
+ .header-area .classy-navbar-toggler .navbarToggler span {
+   background: #2088DA;
+ }
+
+ #header .logo a,
+ .back-to-top i,
+ .back-to-top i:hover,
+ .nav-menu .drop-down ul a:hover,
+ .nav-menu .drop-down ul .active>a,
+ .nav-menu .drop-down ul li:hover>a,
+ .mobile-nav-active .mobile-nav-toggle i,
+ #intro h2,
+ .contact .info .social-links a,
+ .contact .info .social-links a:hover,
+ .contact .info .email:hover i,
+ .contact .info .address:hover i,
+ .contact .info .phone:hover i,
+ .contact .php-email-form button[type="submit"],
+ .team .member .social a i,
+ .nav-menu li.active a,
+ .nav-menu>ul>li:hover>a,
+ .services .single-do .do-btn a i,
+ .single_pricing .pricing_top_bar p {
+   color: #fff;
+ }
 
 @media only screen and (max-width: 640px) {
 

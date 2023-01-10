@@ -14,12 +14,15 @@ body{
   font-family: Proxima Nova !important;
    src: url('../font/Proxima\ Nova\ Regular.otf')
 }
- a {
+a {
   font-family: Proxima Nova;
    src: url('../font/Proxima\ Nova\ Regular.otf');
    color: #2088DA;
  }
-
+p{
+  font-family: Proxima Nova !important;
+  src: url('assets/')
+}
  @media screen and (min-width: 320px) {
 
    .animate__animated {
@@ -167,6 +170,7 @@ body{
    margin: 0px;
    padding: 0px;
    list-style-type: none;
+   font-size: 24px;
  }
 
  /*--------------------------------------------------------------
@@ -516,8 +520,8 @@ intro .carousel-container {
    font-weight: 800;
    color: #2088DA;
    text-transform: uppercase;
-   /* margin-bottom: 0;
-   margin-top: 7%; */
+   margin-bottom: 0;
+   /* margin-top: 7%; */
    /* margin-top: 60px; */
  }
 
@@ -556,12 +560,16 @@ intro .carousel-container {
  }
 
  .about .single-do {
-   padding: 30px 0;
+   padding: 10px 0;
  }
 
  .about .single-do.active {
-   margin: 20px;
+   margin: 10px;
    box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1);
+ }
+
+ .space{
+  margin-bottom: 20px;
  }
 
  .main-story {
@@ -631,7 +639,7 @@ intro .carousel-container {
  ul li p {
   font-family: "Proxima Nova";
    color: #fff;
-   font-size: 20px;
+   font-size: 18px;
    padding: 3px;
    line-height: 1.5rem;
    margin: 6px 0 4px 0;
@@ -804,7 +812,7 @@ intro .carousel-container {
  }
 
  .features .box p {
-   font-size: 16px;
+   font-size: 15px;
    margin-left: 100px;
    margin-bottom: 0;
    line-height: 24px;
