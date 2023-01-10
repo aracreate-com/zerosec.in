@@ -568,6 +568,10 @@ intro .carousel-container {
    box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1);
  }
 
+ .space{
+  margin-bottom: 20px;
+ }
+
  .main-story {
    width: 100%;
    height: auto;
