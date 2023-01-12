@@ -139,6 +139,9 @@
   .main-timeline8 .timeline-content {
     margin: 0 35px 0 45px;
   }
+  .main-timeline8 .timeline-content .description{
+    text-align: left;
+  }
 }
 
 
