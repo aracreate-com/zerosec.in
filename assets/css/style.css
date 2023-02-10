@@ -605,7 +605,6 @@ intro .carousel-container {
  .container-story {
    width: 70%;
    height: auto;
-   margin: auto 0;
    position: relative;
  }
 
@@ -724,7 +723,7 @@ intro .carousel-container {
  }
 
  @media only screen and (max-width: 798px) {
-   .container-storyr {
+   .container-story {
      width: 70%;
      transform: translateX(-3px);
    }
