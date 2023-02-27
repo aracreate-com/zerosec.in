@@ -2,23 +2,470 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-
-    
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta http-equiv="refresh" content="URL=index.html" />
     <title>Zerosec</title>
-  <link rel="icon" type="image/x-icon" href="./assets/img/fav.ico">
-  <meta content="" name="descriptison">
-  <meta content="" name="keywords">
+    <link rel="icon" type="image/x-icon" href="./assets/img/fav.ico">
+    <meta content="" name="descriptison">
+    <meta content="" name="keywords">
 
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+
+    <!-- Navbar Assets -->
+
+    <!-- <link rel="stylesheet" type="text/css"
+        href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700italic,700,400italic%7CLato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic%7COpen+Sans:Open+Sans:400,800italic,800,700italic,700,600italic,600,400italic,300italic,300%7CHandlee"> -->
+    <link rel="stylesheet" type="text/css" href="assets/navbar-assets/style/megafish.css" />
+    <link rel="stylesheet" type="text/css" href="assets/navbar-assets/style/superfish.css" />
+    <link rel="stylesheet" type="text/css" href="assets/navbar-assets/style/navbar-base.css" />
+    <link rel="stylesheet" type="text/css" href="assets/navbar-assets/style/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="assets/navbar-assets/style/retina.css" />
+    <link rel="stylesheet" type="text/css" href="assets/navbar-assets/style/font-awesome/css/all.css" />
+
     <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <style>
+        .slider-text {
+            bottom: 40%;
+        }
+    </style>
 
   
 </head>
 
 <body>
+    <div class="template-header">
+        <div class="template-header-top">
+            <div class="template-main template-clear-fix">
+
+                <div class="template-header-top-menu template-clear-fix">
+                    <div class="template-header-top-logo">
+                        <img src="assets/img/zerosec-h-logo.png" alt="Our-logo" width="200" />
+                    </div>
+                    <!-- Desktop Web Menu -->
+                    <nav class="template-component-menu-default" style="margin-left: 50px">
+                        <ul class="sf-menu template-clear-fix">
+                            <!-- Home Menu -->
+                            <li class="sf-mega-enable-0">
+                                <a href="./index.html"><span class="template-icon-menu" style="font-size:xx-large;"><i
+                                            class="fas fa-home"></i></span><span
+                                        style="margin: 10%; margin-left: -10%; font-weight:bold;">Home</span></a>
+                            </li>
+
+                            <!-- About Menu -->
+                            <li class="sf-mega-enable-1">
+                                <a href="about.html"><span class="template-icon-menu" style="font-size:xx-large;"><i
+                                            class="fas fa-users"></i></span></span><span
+                                        style="margin: 10%; font-weight:bold;">About</span></a>
+                                <div class="sf-mega template-layout-100 template-clear-fix" id="cusDropDown"
+                                    style="width: 25%; margin-right: 25%; text-align: center;">
+                                    <div class="template-layout-column-left text-center h6" style="font-weight: 900;">
+                                        <ul>
+                                            <li><a href=" about.html#about">Who Are We?</a>
+                                            </li>
+
+                                            <li><a href="about.html#story">Our Story</a></li>
+                                            <li><a href="about.html#team">Our Team</a></li>
+                                            <li><a href="about.html#infrastructure">Our Infrastructure</a></li>
+                                            <li><a href="about.html#social-responsibility">Social Responsibility</a>
+                                            </li>
+                                            <li><a href="about.html#partners">Our Partners</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <!-- The Three Verticals Menu -->
+                            <li class="sf-mega-enable-1">
+                                <a href="/services.html"><span class="template-icon-menu" style="font-size:xx-large;"><i
+                                            class="fa fa-cog"></i></span><span
+                                        style="margin: 10%; font-weight:bold;">Services</span></a>
+                                <div class="sf-mega template-layout-33x33x33 template-clear-fix">
+                                    <div class="template-layout-column-left text-left " style="font-weight: 900;">
+                                        <span class="sf-mega-header">DATA SOLUTION</span>
+                                        <hr>
+                                        <ul>
+                                            <li><a href="services.html#content-moderation">Content Moderation</a></li>
+                                            <li><a href="services.html#data-annotation">Data Annotation</a></li>
+                                            <li><a href="services.html#data-extraction">Data Extraction</a></li>
+                                            <li><a href="services.html#bespoke-data-solutions">Bespoke Data Process
+                                                    Outsourcing</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="template-layout-column-center  text-left" style="font-weight: 900;">
+                                        <span class="sf-mega-header">FRAUD DETECTION</span>
+                                        <hr>
+                                        <ul>
+                                            <li><a href="services.html#market-research">Brand Protection Services</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+
+
+                                    <div class="template-layout-column-center  text-left" style="font-weight: 900;">
+                                        <span class="sf-mega-header">BUSINESS SOLUTION</span>
+                                        <hr>
+                                        <ul>
+                                            <li><a href="services.html#market-research">Market Research</a></li>
+                                            <li><a href="services.html#digital-marketing">Digital Marketing</a></li>
+                                            <li><a href="services.html#business-advisory">Business Advisory</a></li>
+                                            <li><a href="services.html#virtual-assistant">Virtual Assistant</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="template-layout-column-right  text-left " style="font-weight: 900;">
+                                        <span class="sf-mega-header">LEGAL SOLUTION</span>
+                                        <hr>
+                                        <ul>
+                                            <li><a href="services.html#legal-contract-management">Contract
+                                                    Management</a>
+                                            </li>
+                                            <li><a href="services.html#legal-legal-transcription">Legal
+                                                    Transcription</a></li>
+                                            <li><a href="services.html#legal-due-diligence">Due Diligence</a></li>
+                                            <li><a href="services.html#legal-trademark-search">Trademark Search
+                                                    Report</a></li>
+                                            <li><a href="services.html#legal-legal-secretarial">Legal Secretarial
+                                                    Service</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <!-- Story -->
+                            <li class="sf-mega-enable-1">
+                                <a href="./stories.html"><span class="template-icon-menu" style="font-size:xx-large;"><i
+                                            class="fas fa-handshake"></i></span><span
+                                        style="margin: 10%; font-weight:bold;;">Impact</span></a>
+                            </li>
+
+                            <!-- Contact Menu -->
+                            <li class="sf-mega-enable-1">
+                                <a href="./contact.html"><span class="template-icon-menu" style="font-size:xx-large;"><i
+                                            class="fas fa-book"></i></span><span
+                                        style="margin: 10%; font-weight:bold;">Contact</span></a>
+                            </li>
+
+                        </ul>
+                    </nav>
+                    <!-- Mobile -->
+                    <nav class="template-component-menu-responsive" style="margin-left:-30px;">
+                        <ul class="template-clear-fix">
+                            <li>
+                                <a href="#">Menu<span></span></a>
+                                <ul>
+                                    <!-- Home Menu -->
+                                    <li>
+                                        <a href="index.html">Home</a>
+                                    </li>
+
+                                    <!-- About Menu -->
+                                    <li>
+                                        <a href="#">About<span></span></a>
+                                        <ul>
+                                            <li><a href="about.html#about">Who Are We?</a></li>
+
+                                            <li><a href="about.html#story">Our Story</a></li>
+                                            <li><a href="about.html#team">Our Team</a></li>
+                                            <li><a href="about.html#infrastructure">Our Infrastructure</a></li>
+                                            <li><a href="about.html#social-responsibility">Social Responsibility</a>
+                                            </li>
+                                            <li><a href="about.html#partners">Our Partners</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <!-- Services Menu -->
+                                    <li>
+                                        <a href="#">Services<span></span></a>
+                                        <ul>
+
+                                            <!-- DATA PROCESS OUTSOURCING -->
+                                             <div class="template-header">
+        <div class="template-header-top">
+            <div class="template-main template-clear-fix">
+
+                <div class="template-header-top-menu template-clear-fix">
+                    <div class="template-header-top-logo">
+                        <img src="assets/img/zerosec-h-logo.png" alt="Our-logo" width="200" />
+                    </div>
+                    <!-- Desktop Web Menu -->
+                    <nav class="template-component-menu-default" style="margin-left: 50px">
+                        <ul class="sf-menu template-clear-fix">
+                            <!-- Home Menu -->
+                            <li class="sf-mega-enable-0">
+                                <a href="./index.html"><span class="template-icon-menu" style="font-size:xx-large;"><i
+                                            class="fas fa-home"></i></span><span
+                                        style="margin: 10%; margin-left: -10%; font-weight:bold;">Home</span></a>
+                            </li>
+
+                            <!-- About Menu -->
+                            <li class="sf-mega-enable-1">
+                                <a href="about.html"><span class="template-icon-menu" style="font-size:xx-large;"><i
+                                            class="fas fa-users"></i></span></span><span
+                                        style="margin: 10%; font-weight:bold;">About</span></a>
+                                <div class="sf-mega template-layout-100 template-clear-fix" id="cusDropDown"
+                                    style="width: 25%; margin-right: 25%; text-align: center;">
+                                    <div class="template-layout-column-left text-center h6" style="font-weight: 900;">
+                                        <ul>
+                                            <li><a href=" about.html#about">Who Are We?</a>
+                                            </li>
+
+                                            <li><a href="about.html#story">Our Story</a></li>
+                                            <li><a href="about.html#team">Our Team</a></li>
+                                            <li><a href="about.html#infrastructure">Our Infrastructure</a></li>
+                                            <li><a href="about.html#social-responsibility">Social Responsibility</a>
+                                            </li>
+                                            <li><a href="about.html#partners">Our Partners</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <!-- The Three Verticals Menu -->
+                            <li class="sf-mega-enable-1">
+                                <a href="/services.html"><span class="template-icon-menu" style="font-size:xx-large;"><i
+                                            class="fa fa-cog"></i></span><span
+                                        style="margin: 10%; font-weight:bold;">Services</span></a>
+                                <div class="sf-mega template-layout-33x33x33 template-clear-fix">
+                                    <div class="template-layout-column-left text-left " style="font-weight: 900;">
+                                        <span class="sf-mega-header">DATA SOLUTION</span>
+                                        <hr>
+                                        <ul>
+                                            <li><a href="services.html#content-moderation">Content Moderation</a></li>
+                                            <li><a href="services.html#data-annotation">Data Annotation</a></li>
+                                            <li><a href="services.html#data-extraction">Data Extraction</a></li>
+                                            <li><a href="services.html#bespoke-data-solutions">Bespoke Data Process
+                                                    Outsourcing</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="template-layout-column-center  text-left" style="font-weight: 900;">
+                                        <span class="sf-mega-header">FRAUD DETECTION</span>
+                                        <hr>
+                                        <ul>
+                                            <li><a href="services.html#market-research">Brand Protection Services</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+
+
+                                    <div class="template-layout-column-center  text-left" style="font-weight: 900;">
+                                        <span class="sf-mega-header">BUSINESS SOLUTION</span>
+                                        <hr>
+                                        <ul>
+                                            <li><a href="services.html#market-research">Market Research</a></li>
+                                            <li><a href="services.html#digital-marketing">Digital Marketing</a></li>
+                                            <li><a href="services.html#business-advisory">Business Advisory</a></li>
+                                            <li><a href="services.html#virtual-assistant">Virtual Assistant</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="template-layout-column-right  text-left " style="font-weight: 900;">
+                                        <span class="sf-mega-header">LEGAL SOLUTION</span>
+                                        <hr>
+                                        <ul>
+                                            <li><a href="services.html#legal-contract-management">Contract
+                                                    Management</a>
+                                            </li>
+                                            <li><a href="services.html#legal-legal-transcription">Legal
+                                                    Transcription</a></li>
+                                            <li><a href="services.html#legal-due-diligence">Due Diligence</a></li>
+                                            <li><a href="services.html#legal-trademark-search">Trademark Search
+                                                    Report</a></li>
+                                            <li><a href="services.html#legal-legal-secretarial">Legal Secretarial
+                                                    Service</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <!-- Story -->
+                            <li class="sf-mega-enable-1">
+                                <a href="./stories.html"><span class="template-icon-menu" style="font-size:xx-large;"><i
+                                            class="fas fa-handshake"></i></span><span
+                                        style="margin: 10%; font-weight:bold;;">Impact</span></a>
+                            </li>
+
+                            <!-- Contact Menu -->
+                            <li class="sf-mega-enable-1">
+                                <a href="./contact.html"><span class="template-icon-menu" style="font-size:xx-large;"><i
+                                            class="fas fa-book"></i></span><span
+                                        style="margin: 10%; font-weight:bold;">Contact</span></a>
+                            </li>
+
+                        </ul>
+                    </nav>
+                    <!-- Mobile -->
+                    <nav class="template-component-menu-responsive" style="margin-left:-30px;">
+                        <ul class="template-clear-fix">
+                            <li>
+                                <a href="#">Menu<span></span></a>
+                                <ul>
+                                    <!-- Home Menu -->
+                                    <li>
+                                        <a href="index.html">Home</a>
+                                    </li>
+
+                                    <!-- About Menu -->
+                                    <li>
+                                        <a href="#">About<span></span></a>
+                                        <ul>
+                                            <li><a href="about.html#about">Who Are We?</a></li>
+
+                                            <li><a href="about.html#story">Our Story</a></li>
+                                            <li><a href="about.html#team">Our Team</a></li>
+                                            <li><a href="about.html#infrastructure">Our Infrastructure</a></li>
+                                            <li><a href="about.html#social-responsibility">Social Responsibility</a>
+                                            </li>
+                                            <li><a href="about.html#partners">Our Partners</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <!-- Services Menu -->
+                                    <li>
+                                        <a href="#">Services<span></span></a>
+                                        <ul>
+
+                                            <!-- DATA PROCESS OUTSOURCING -->
+                                            <li>
+                                                <a href="#">DATA SOLUTION<span></span></a>
+                                                <ul>
+                                                    <li><a href="services.html#content-moderation">Content
+                                                            Moderation</a></li>
+                                                    <li><a href="services.html#data-annotation">Data Annotation</a></li>
+                                                    <li><a href="services.html#data-extraction">Data Extraction</a></li>
+                                                    <li><a href="services.html#bespoke-data-solutions">Bespoke Data
+                                                            Process Outsourcing</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">FRAUD DETECTION<span></span></a>
+                                                <ul>
+                                                    <li><a href="services.html#content-moderation">Brand Protection Services</a></li>
+                                                </ul>
+                                            </li>
+
+                                            <!-- BUSINESS PROCESS OUTSOURCING -->
+                                            <li>
+                                                <a href="#">BUSINESS SOLUTION<span></span></a>
+                                                <ul>
+                                                    <li><a href="services.html#market-research">Market Research</a></li>
+                                                    <li><a href="services.html#digital-marketing">Digital
+                                                            Marketing</a></li>
+                                                    <li><a href="services.html#business-advisory">Business Advisory</a>
+                                                    </li>
+                                                    <li><a href="services.html#virtual-assistant">Virtual Assistant</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+                                            <!-- LEGAL PROCESS OUTSOURCING -->
+                                            <li>
+                                                <a href="#">LEGAL SOLUTION<span></span></a>
+                                                <ul>
+                                                    <li><a href="services.html#legal-contract-management">Contract
+                                                            Management</a>
+                                                    </li>
+                                                    <li><a href="services.html#legal-legal-transcription">Legal
+                                                            Transcription</a>
+                                                    </li>
+                                                    <li><a href="services.html#legal-due-diligence">Due Diligence</a>
+                                                    </li>
+                                                    <li><a href="services.html#legal-trademark-search">Trademark Search
+                                                            Report</a></li>
+                                                    <li><a href="services.html#legal-legal-secretarial">Legal
+                                                            Secretarial
+                                                            Service</a></li>
+                                                </ul>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+
+                                    <!-- Story -->
+                                    <li>
+                                        <a href="./stories.html">Impact Stories</a>
+                                    </li>
+
+                                    <!-- Contact Menu -->
+                                    <li>
+                                        <a href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+                                            <!-- BUSINESS PROCESS OUTSOURCING -->
+                                            <li>
+                                                <a href="#">BUSINESS SOLUTION<span></span></a>
+                                                <ul>
+                                                    <li><a href="services.html#market-research">Market Research</a></li>
+                                                    <li><a href="services.html#digital-marketing">Digital
+                                                            Marketing</a></li>
+                                                    <li><a href="services.html#business-advisory">Business Advisory</a>
+                                                    </li>
+                                                    <li><a href="services.html#virtual-assistant">Virtual Assistant</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+                                            <!-- LEGAL PROCESS OUTSOURCING -->
+                                            <li>
+                                                <a href="#">LEGAL SOLUTION<span></span></a>
+                                                <ul>
+                                                    <li><a href="services.html#legal-contract-management">Contract
+                                                            Management</a>
+                                                    </li>
+                                                    <li><a href="services.html#legal-legal-transcription">Legal
+                                                            Transcription</a>
+                                                    </li>
+                                                    <li><a href="services.html#legal-due-diligence">Due Diligence</a>
+                                                    </li>
+                                                    <li><a href="services.html#legal-trademark-search">Trademark Search
+                                                            Report</a></li>
+                                                    <li><a href="services.html#legal-legal-secretarial">Legal
+                                                            Secretarial
+                                                            Service</a></li>
+                                                </ul>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+
+                                    <!-- Story -->
+                                    <li>
+                                        <a href="./stories.html">Impact Stories</a>
+                                    </li>
+
+                                    <!-- Contact Menu -->
+                                    <li>
+                                        <a href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+    </div>
     <div>
         <header class="p-3 display-4 text-center">Terms of Services</header>
     </div>
@@ -164,7 +611,78 @@
             </div>
         </div>
     </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-9 text-center">
+                    <div class="footer-site-logo mb-2">
+                        <img src="assets/img/zerosec-h-logo.png" style="height:125px;" alt="" class="img-fluid">
+                    </div>
+                    <ul class="list-unstyled nav-links mb-3">
+                        <li><a href="index.html" style="text-decoration:none ;">Home</a></li>
+                        <li><a href="about.html" style="text-decoration:none ;">About</a></li>
+                        <li><a href="services.html" style="text-decoration:none ;">Services</a></li>
+                        <li><a href="contact.html" style="text-decoration:none ;">Contact</a></li>
+                    </ul>
+                    <div class="social mb-3">
+                        <ul class="list-unstyled">
+
+                            <a href="https://www.linkedin.com/company/zerosec-solutions/" target="_blank"
+                                class="linkedin btn"><i class="icofont-linkedin"></i></a>
+                            <a href="https://www.instagram.com/zerosec_solutions/" target="_blank"
+                                class="instagram btn"><i class="icofont-instagram"></i></a>
+                            <a href="https://twitter.com/ZerosecLtd" target="_blank" class="instagram btn"><i
+                                    class="icofont-twitter"></i></a>
+                        </ul>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="container-fluid">
+                            <a href="./terms.html"  style="text-decoration:none ;"
+                                class=" text-opacity-75"> Terms&nbsp;&nbsp;
+                                |</a>
+                            <a href="./privacy.html" style="text-decoration:none ;"
+                                class=" text-opacity-75">&nbsp;&nbsp;Privacy
+                                Policy</a>
+                        </div>
+                        <div class="copyright">
+                            <p class="mb-0"><small>&copy; Zerosec All Rights Reserved.</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+    <!--New script src-->
+    <script src="assets/js/number-counting-animation.js"></script>
+
+    <a href="#" class="back-to-top"><i class="icofont-home"></i></a>
+    <!-- <div id="lazy"></div> -->
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/plugins/plugins.js"></script>
+
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+
+    <!-- Navbar Assets -->
+    <script type="text/javascript" src="assets/navbar-assets/script/superfish.min.js"></script>
+    <script type="text/javascript" src="assets/navbar-assets/script/jquery.actual.min.js"></script>
+    <script type="text/javascript" src="assets/navbar-assets/script/jquery.template.component.js"></script>
+    <script type="text/javascript" src="assets/navbar-assets/script/public.js"></script>
+
+
     <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
