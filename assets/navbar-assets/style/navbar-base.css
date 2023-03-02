@@ -1224,7 +1224,7 @@ input[type="text"]:focus,
 .template-layout-33x33x33 > .template-layout-column-left,
 .template-layout-33x33x33 > .template-layout-column-right,
 .template-layout-33x33x33 > .template-layout-column-center {
-  width: 31.25%;
+  width: 22%;
 }
 
 .template-layout-33x33x33.template-layout-margin-reset
@@ -8521,7 +8521,7 @@ body.template-page-maintenance-mode {
     transform: translateY(1px) translateX(-1px) rotateZ(10deg);
   }
 }
-</style > <style > .mtssectionproblems {
+.mtssectionproblems {
   height: 100vh;
   display: flex;
 }
@@ -8573,9 +8573,9 @@ body.template-page-maintenance-mode {
   text-decoration: none;
 }
 
-.mtssectionproblems .problemphone p {
+.mtssectionproblems .problemphone p{
   font-size: 16px;
-  color: #aaa;
+  color: #aaaaaa;
 }
 
 .mtssectionproblems .mts2-footer__soc-icons {
